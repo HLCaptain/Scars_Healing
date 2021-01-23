@@ -1,0 +1,5 @@
+<map id="Entity" name="Entity">
+<area shape="rect" id="node1" title="An alive Entity can be a Player or an Enemy (for now). It has HP, a Name and basic attributes,..." alt="" coords="76,5,196,215"/>
+<area shape="rect" id="node2" href="$class_enemy.html" title="Enemy can attack a Player without the Player damaging it, every Enemy will have a Level,..." alt="" coords="5,292,120,428"/>
+<area shape="rect" id="node3" href="$class_player.html" title="Player has Gold and a Storage in which it can hold some Item. The Player will be able to spend Gold i..." alt="" coords="144,263,277,457"/>
+</map>

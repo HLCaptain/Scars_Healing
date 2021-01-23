@@ -1,0 +1,4 @@
+<map id="Storage::remove" name="Storage::remove">
+<area shape="rect" id="node1" title="Removes an Item from the Storage according to its index." alt="" coords="147,5,263,32"/>
+<area shape="rect" id="node2" href="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4" title="Healing with an Item." alt="" coords="5,5,99,32"/>
+</map>

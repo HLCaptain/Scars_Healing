@@ -1,0 +1,70 @@
+.TH "Enemy" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Enemy \- \fBEnemy\fP can attack a \fBPlayer\fP without the \fBPlayer\fP damaging it, every \fBEnemy\fP will have a Level, and will have a chance to drop an \fBItem\fP if it dies according to its Level\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Enemy\&.h>\fP
+.PP
+Inherits \fBEntity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEnemy\fP (const char *Name, double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)"
+.br
+.RI "Constructor\&. "
+.ti -1c
+.RI "\fBEnemy\fP (double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "virtual \fB~Enemy\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "void \fBattackPlayer\fP (\fBPlayer\fP &PLYR, \fBItem\fP WS=\fBItem\fP())"
+.br
+.RI "Attack \fBPlayer\fP without taking Damage from it\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoEntity\fP (\fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)"
+.br
+.RI "Displays the info of an \fBEnemy\fP, dynamically controlable with an \fBInfoPreset\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBEnemy\fP can attack a \fBPlayer\fP without the \fBPlayer\fP damaging it, every \fBEnemy\fP will have a Level, and will have a chance to drop an \fBItem\fP if it dies according to its Level\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Enemy::Enemy (const char * Name, double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP)"
+
+.PP
+Constructor\&. 
+.SS "Enemy::Enemy (double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP)"
+
+.PP
+Default Constructor\&. 
+.SS "Enemy::~Enemy ()\fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Enemy::attackPlayer (\fBPlayer\fP & PLYR, \fBItem\fP WS = \fC\fBItem\fP()\fP)"
+
+.PP
+Attack \fBPlayer\fP without taking Damage from it\&. 
+.SS "std::ostream & Enemy::getInfoEntity (\fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)\fC [virtual]\fP"
+
+.PP
+Displays the info of an \fBEnemy\fP, dynamically controlable with an \fBInfoPreset\fP\&. 
+.PP
+Implements \fBEntity\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

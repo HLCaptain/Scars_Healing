@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structgtest__lite_1_1_test" kind="struct" language="C++" prot="public">
+    <compoundname>gtest_lite::Test</compoundname>
+    <includes refid="gtest__lite_8h" local="no">gtest_lite.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a6da678d43b72b9e2bff1c99e1d3c48f5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gtest_lite::Test::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <briefdescription>
+<para>tesztek számlálója </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="199" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="199" bodyend="-1"/>
+        <referencedby refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" compoundref="gtest__lite_8h" startline="216" endline="225">begin</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a5a879233c2aa110626668c06140f6e71" compoundref="gtest__lite_8h" startline="263" endline="268">~Test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gtest_lite::Test::failed</definition>
+        <argsstring></argsstring>
+        <name>failed</name>
+        <briefdescription>
+<para>hibás tesztek </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="200" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="200" bodyend="-1"/>
+        <referencedby refid="structgtest__lite_1_1_test_1aadbfd0f53c56d975f793602996631195" compoundref="gtest__lite_8h" startline="244" endline="244">fail</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a0bca03315e5963f7fdfffd92d2daed6a" compoundref="gtest__lite_8h" startline="247" endline="260">expect</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a5a879233c2aa110626668c06140f6e71" compoundref="gtest__lite_8h" startline="263" endline="268">~Test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a91d9c63794d2b9b49e0c48d897208560" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gtest_lite::Test::ablocks</definition>
+        <argsstring></argsstring>
+        <name>ablocks</name>
+        <briefdescription>
+<para>allokált blokkok száma </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="201" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="201" bodyend="-1"/>
+        <referencedby refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" compoundref="gtest__lite_8h" startline="216" endline="225">begin</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" compoundref="gtest__lite_8h" startline="227" endline="242">end</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gtest_lite::Test::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>éppen futó teszt státusza. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="202" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="202" bodyend="-1"/>
+        <referencedby refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" compoundref="gtest__lite_8h" startline="216" endline="225">begin</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" compoundref="gtest__lite_8h" startline="227" endline="242">end</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a0bca03315e5963f7fdfffd92d2daed6a" compoundref="gtest__lite_8h" startline="247" endline="260">expect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a1145ceb335a60a808b7b4d5d1624b2a5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gtest_lite::Test::tmp</definition>
+        <argsstring></argsstring>
+        <name>tmp</name>
+        <briefdescription>
+<para>temp a kivételkezeléshez; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="203" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1a8d495a42580e3ae337f9c4982136b700" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gtest_lite::Test::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>éppen futó teszt neve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="204" column="17" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="204" bodyend="-1"/>
+        <referencedby refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" compoundref="gtest__lite_8h" startline="216" endline="225">begin</referencedby>
+        <referencedby refid="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" compoundref="gtest__lite_8h" startline="227" endline="242">end</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structgtest__lite_1_1_test_1af4784302d78bb004bcb20b7f75ec06c3" prot="public" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream gtest_lite::Test::null</definition>
+        <argsstring></argsstring>
+        <name>null</name>
+        <briefdescription>
+<para>nyelő, ha nem kell kiírni semmit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="205" column="18" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a532aa4c5e33e41ce8139b9c9098aa6f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgtest__lite_1_1_test" kindref="compound">Test</ref> &amp;</type>
+        <definition>static Test&amp; gtest_lite::Test::getTest</definition>
+        <argsstring>()</argsstring>
+        <name>getTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>&lt; egyedüli (singleton) példány</para>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="206" column="17" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="206" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a99fb3f2338e4e0512beb6e19c5409078" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gtest_lite::Test::Test</definition>
+        <argsstring>()</argsstring>
+        <name>Test</name>
+        <briefdescription>
+<para>singleton minta miatt </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="211" column="5" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1aad083ed9e389aeac2d526460ac301c7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gtest_lite::Test::Test</definition>
+        <argsstring>(const Test &amp;)</argsstring>
+        <name>Test</name>
+        <param>
+          <type>const <ref refid="structgtest__lite_1_1_test" kindref="compound">Test</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="212" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a35faf2d45ab88d096f0eb25ee5b80b13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gtest_lite::Test::operator=</definition>
+        <argsstring>(const Test &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structgtest__lite_1_1_test" kindref="compound">Test</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="213" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gtest_lite::Test::begin</definition>
+        <argsstring>(const char *n)</argsstring>
+        <name>begin</name>
+        <param>
+          <type>const char *</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Teszt kezdete. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="216" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="216" bodyend="225"/>
+        <references refid="structgtest__lite_1_1_test_1a91d9c63794d2b9b49e0c48d897208560" compoundref="gtest__lite_8h" startline="201">ablocks</references>
+        <references refid="structgtest__lite_1_1_test_1a8d495a42580e3ae337f9c4982136b700" compoundref="gtest__lite_8h" startline="204">name</references>
+        <references refid="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" compoundref="gtest__lite_8h" startline="202">status</references>
+        <references refid="structgtest__lite_1_1_test_1a6da678d43b72b9e2bff1c99e1d3c48f5" compoundref="gtest__lite_8h" startline="199">sum</references>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; gtest_lite::Test::end</definition>
+        <argsstring>(bool memchk=false)</argsstring>
+        <name>end</name>
+        <param>
+          <type>bool</type>
+          <declname>memchk</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Teszt vége. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="227" column="18" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="227" bodyend="242"/>
+        <references refid="structgtest__lite_1_1_test_1a91d9c63794d2b9b49e0c48d897208560" compoundref="gtest__lite_8h" startline="201">ablocks</references>
+        <references refid="structgtest__lite_1_1_test_1a8d495a42580e3ae337f9c4982136b700" compoundref="gtest__lite_8h" startline="204">name</references>
+        <references refid="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" compoundref="gtest__lite_8h" startline="202">status</references>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1aadbfd0f53c56d975f793602996631195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gtest_lite::Test::fail</definition>
+        <argsstring>()</argsstring>
+        <name>fail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="244" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="244" bodyend="244"/>
+        <references refid="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" compoundref="gtest__lite_8h" startline="200">failed</references>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a0bca03315e5963f7fdfffd92d2daed6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; gtest_lite::Test::expect</definition>
+        <argsstring>(bool st, const char *file, int line, const char *expr, bool pr=false)</argsstring>
+        <name>expect</name>
+        <param>
+          <type>bool</type>
+          <declname>st</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>expr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>pr</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Eredményt adminisztráló tagfüggvény True a jó eset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="247" column="18" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="247" bodyend="260"/>
+        <references refid="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" compoundref="gtest__lite_8h" startline="200">failed</references>
+        <references refid="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" compoundref="gtest__lite_8h" startline="202">status</references>
+        <referencedby refid="namespacegtest__lite_1a73d2ede1d983327aea4fdd5b1d2709ce" compoundref="gtest__lite_8h" startline="277" endline="282">gtest_lite::EXPECT_</referencedby>
+        <referencedby refid="namespacegtest__lite_1aea477921e4c26d2a2806bc3011066270" compoundref="gtest__lite_8h" startline="307" endline="312">gtest_lite::EXPECTSTR</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structgtest__lite_1_1_test_1a5a879233c2aa110626668c06140f6e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gtest_lite::Test::~Test</definition>
+        <argsstring>()</argsstring>
+        <name>~Test</name>
+        <briefdescription>
+<para>Destruktor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="263" column="5" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="263" bodyend="268"/>
+        <references refid="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" compoundref="gtest__lite_8h" startline="200">failed</references>
+        <references refid="structgtest__lite_1_1_test_1a6da678d43b72b9e2bff1c99e1d3c48f5" compoundref="gtest__lite_8h" startline="199">sum</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tesztek állapotát tároló osztály. Egyetlen egy statikus példány keletkezik, aminek a destruktora a futás végén hívódik meg. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gtest_lite::Test</label>
+        <link refid="structgtest__lite_1_1_test"/>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" line="198" column="11" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/gtest_lite.h" bodystart="198" bodyend="269"/>
+    <listofallmembers>
+      <member refid="structgtest__lite_1_1_test_1a91d9c63794d2b9b49e0c48d897208560" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>ablocks</name></member>
+      <member refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>begin</name></member>
+      <member refid="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>end</name></member>
+      <member refid="structgtest__lite_1_1_test_1a0bca03315e5963f7fdfffd92d2daed6a" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>expect</name></member>
+      <member refid="structgtest__lite_1_1_test_1aadbfd0f53c56d975f793602996631195" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>fail</name></member>
+      <member refid="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>failed</name></member>
+      <member refid="structgtest__lite_1_1_test_1a532aa4c5e33e41ce8139b9c9098aa6f2" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>getTest</name></member>
+      <member refid="structgtest__lite_1_1_test_1a8d495a42580e3ae337f9c4982136b700" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>name</name></member>
+      <member refid="structgtest__lite_1_1_test_1af4784302d78bb004bcb20b7f75ec06c3" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>null</name></member>
+      <member refid="structgtest__lite_1_1_test_1a35faf2d45ab88d096f0eb25ee5b80b13" prot="private" virt="non-virtual"><scope>gtest_lite::Test</scope><name>operator=</name></member>
+      <member refid="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>status</name></member>
+      <member refid="structgtest__lite_1_1_test_1a6da678d43b72b9e2bff1c99e1d3c48f5" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>sum</name></member>
+      <member refid="structgtest__lite_1_1_test_1a99fb3f2338e4e0512beb6e19c5409078" prot="private" virt="non-virtual"><scope>gtest_lite::Test</scope><name>Test</name></member>
+      <member refid="structgtest__lite_1_1_test_1aad083ed9e389aeac2d526460ac301c7a" prot="private" virt="non-virtual"><scope>gtest_lite::Test</scope><name>Test</name></member>
+      <member refid="structgtest__lite_1_1_test_1a1145ceb335a60a808b7b4d5d1624b2a5" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>tmp</name></member>
+      <member refid="structgtest__lite_1_1_test_1a5a879233c2aa110626668c06140f6e71" prot="public" virt="non-virtual"><scope>gtest_lite::Test</scope><name>~Test</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

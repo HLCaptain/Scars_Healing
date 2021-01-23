@@ -1,0 +1,12 @@
+digraph "Entity"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Entity\n||+ Entity()\l+ Entity()\l+ ~Entity()\l+ getName()\l+ getBaseDMG()\l+ getBaseDEF()\l+ getHP()\l+ getMaxHP()\l+ setHP()\l+ getInfoEntity()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="An alive Entity can be a Player or an Enemy (for now). It has HP, a Name and basic attributes,..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node2 [label="{Enemy\n||+ Enemy()\l+ Enemy()\l+ ~Enemy()\l+ attackPlayer()\l+ getInfoEntity()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_enemy.html",tooltip="Enemy can attack a Player without the Player damaging it, every Enemy will have a Level,..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{Player\n||+ Player()\l+ Player()\l+ ~Player()\l+ getInfoEntity()\l+ getGold()\l+ getStorageType()\l+ attackEnemy()\l+ attackEnemy()\l+ Heal()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html",tooltip="Player has Gold and a Storage in which it can hold some Item. The Player will be able to spend Gold i..."];
+}

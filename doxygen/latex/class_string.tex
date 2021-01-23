@@ -1,0 +1,189 @@
+\hypertarget{class_string}{}\doxysection{String Class Reference}
+\label{class_string}\index{String@{String}}
+
+
+Seperate \mbox{\hyperlink{class_string}{String}} class, because S\+TL are not allowed...  
+
+
+
+
+{\ttfamily \#include $<$String.\+h$>$}
+
+
+
+Collaboration diagram for String\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{class_string__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_string_ab3670848acd0e55af89fef90eb999515}{String}} (\mbox{\hyperlink{class_string}{String}} const \&str)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string_a512d598db6771bb7e68fd2202cce3759}{String}} (const char $\ast$str=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em Default Constructor from const char$\ast$. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string_ae1331c360e8986b4e7f0a511e8e32ff0}{String}} (const char c)
+\begin{DoxyCompactList}\small\item\em Constructor from char. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_string_ac73850e459f183bdd3c172e506be2a32}{$\sim$\+String}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_string_a9bd764caa857cd20c6d9c720f737982b}{get\+Str}} ()
+\begin{DoxyCompactList}\small\item\em Return the content of the \mbox{\hyperlink{class_string}{String}}. \end{DoxyCompactList}\item 
+const size\+\_\+t \mbox{\hyperlink{class_string_a35af3e58b56420acea77f34d7bf54949}{get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Return the length of the \mbox{\hyperlink{class_string}{String}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \& \mbox{\hyperlink{class_string_a803e6112834d4c0cdb0da6c6a4000e6e}{operator=}} (const \mbox{\hyperlink{class_string}{String}} \&rhs\+\_\+s)
+\begin{DoxyCompactList}\small\item\em Assign the \mbox{\hyperlink{class_string}{String}}\textquotesingle{}s data to the \mbox{\hyperlink{class_string}{String}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \& \mbox{\hyperlink{class_string_ad17f4142f2b6d19ed5a9e6024bff53bd}{operator=}} (const char $\ast$rhs\+\_\+s)
+\begin{DoxyCompactList}\small\item\em Assign const char$\ast$\textquotesingle{}s data to the \mbox{\hyperlink{class_string}{String}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \& \mbox{\hyperlink{class_string_ac203e7c52e04bb86f62f9dd75527b361}{operator+=}} (const \mbox{\hyperlink{class_string}{String}} \&rhs\+\_\+s)
+\begin{DoxyCompactList}\small\item\em Adding \mbox{\hyperlink{class_string}{String}} to the original. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_string_a28a020f061e5f25317af47488bfb7de8}{operator+}} (const \mbox{\hyperlink{class_string}{String}} \&rhs\+\_\+s) const
+\begin{DoxyCompactList}\small\item\em Adding 2 Strings together (returns constant) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_string_abb187e5ab66fe29c42aed4845b55dd76}{operator+}} (char rhs\+\_\+c) const
+\begin{DoxyCompactList}\small\item\em Adding a char to the \mbox{\hyperlink{class_string}{String}} (returns constant) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Seperate \mbox{\hyperlink{class_string}{String}} class, because S\+TL are not allowed... 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_string_ab3670848acd0e55af89fef90eb999515}\label{class_string_ab3670848acd0e55af89fef90eb999515}} 
+\index{String@{String}!String@{String}}
+\index{String@{String}!String@{String}}
+\doxysubsubsection{\texorpdfstring{String()}{String()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily String\+::\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_string}{String}} const \&}]{str }\end{DoxyParamCaption})}
+
+
+
+Copy Constructor. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_string_ab3670848acd0e55af89fef90eb999515_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_string_a512d598db6771bb7e68fd2202cce3759}\label{class_string_a512d598db6771bb7e68fd2202cce3759}} 
+\index{String@{String}!String@{String}}
+\index{String@{String}!String@{String}}
+\doxysubsubsection{\texorpdfstring{String()}{String()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily String\+::\+String (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor from const char$\ast$. 
+
+\mbox{\Hypertarget{class_string_ae1331c360e8986b4e7f0a511e8e32ff0}\label{class_string_ae1331c360e8986b4e7f0a511e8e32ff0}} 
+\index{String@{String}!String@{String}}
+\index{String@{String}!String@{String}}
+\doxysubsubsection{\texorpdfstring{String()}{String()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily String\+::\+String (\begin{DoxyParamCaption}\item[{const char}]{c }\end{DoxyParamCaption})}
+
+
+
+Constructor from char. 
+
+\mbox{\Hypertarget{class_string_ac73850e459f183bdd3c172e506be2a32}\label{class_string_ac73850e459f183bdd3c172e506be2a32}} 
+\index{String@{String}!````~String@{$\sim$String}}
+\index{````~String@{$\sim$String}!String@{String}}
+\doxysubsubsection{\texorpdfstring{$\sim$String()}{~String()}}
+{\footnotesize\ttfamily virtual String\+::$\sim$\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_string_a35af3e58b56420acea77f34d7bf54949}\label{class_string_a35af3e58b56420acea77f34d7bf54949}} 
+\index{String@{String}!getSize@{getSize}}
+\index{getSize@{getSize}!String@{String}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily const size\+\_\+t String\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the length of the \mbox{\hyperlink{class_string}{String}}. 
+
+\mbox{\Hypertarget{class_string_a9bd764caa857cd20c6d9c720f737982b}\label{class_string_a9bd764caa857cd20c6d9c720f737982b}} 
+\index{String@{String}!getStr@{getStr}}
+\index{getStr@{getStr}!String@{String}}
+\doxysubsubsection{\texorpdfstring{getStr()}{getStr()}}
+{\footnotesize\ttfamily const char$\ast$ String\+::get\+Str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the content of the \mbox{\hyperlink{class_string}{String}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_string_a9bd764caa857cd20c6d9c720f737982b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_string_abb187e5ab66fe29c42aed4845b55dd76}\label{class_string_abb187e5ab66fe29c42aed4845b55dd76}} 
+\index{String@{String}!operator+@{operator+}}
+\index{operator+@{operator+}!String@{String}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} String\+::operator+ (\begin{DoxyParamCaption}\item[{char}]{rhs\+\_\+c }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adding a char to the \mbox{\hyperlink{class_string}{String}} (returns constant) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_string_abb187e5ab66fe29c42aed4845b55dd76_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_string_a28a020f061e5f25317af47488bfb7de8}\label{class_string_a28a020f061e5f25317af47488bfb7de8}} 
+\index{String@{String}!operator+@{operator+}}
+\index{operator+@{operator+}!String@{String}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} String\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_string}{String}} \&}]{rhs\+\_\+s }\end{DoxyParamCaption}) const}
+
+
+
+Adding 2 Strings together (returns constant) 
+
+\mbox{\Hypertarget{class_string_ac203e7c52e04bb86f62f9dd75527b361}\label{class_string_ac203e7c52e04bb86f62f9dd75527b361}} 
+\index{String@{String}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!String@{String}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}}\& String\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_string}{String}} \&}]{rhs\+\_\+s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adding \mbox{\hyperlink{class_string}{String}} to the original. 
+
+\mbox{\Hypertarget{class_string_ad17f4142f2b6d19ed5a9e6024bff53bd}\label{class_string_ad17f4142f2b6d19ed5a9e6024bff53bd}} 
+\index{String@{String}!operator=@{operator=}}
+\index{operator=@{operator=}!String@{String}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} \& String\+::operator= (\begin{DoxyParamCaption}\item[{const char $\ast$}]{rhs\+\_\+s }\end{DoxyParamCaption})}
+
+
+
+Assign const char$\ast$\textquotesingle{}s data to the \mbox{\hyperlink{class_string}{String}}. 
+
+\mbox{\Hypertarget{class_string_a803e6112834d4c0cdb0da6c6a4000e6e}\label{class_string_a803e6112834d4c0cdb0da6c6a4000e6e}} 
+\index{String@{String}!operator=@{operator=}}
+\index{operator=@{operator=}!String@{String}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} \& String\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_string}{String}} \&}]{rhs\+\_\+s }\end{DoxyParamCaption})}
+
+
+
+Assign the \mbox{\hyperlink{class_string}{String}}\textquotesingle{}s data to the \mbox{\hyperlink{class_string}{String}}. 
+

@@ -1,0 +1,8 @@
+digraph "_Is_Types&lt; F, T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{_Is_Types\< F, T \>\n|+ convertable\l|+ f()\l+ f()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Segédsablon típuskonverzió futás közbeni ellenőrzésere."];
+}

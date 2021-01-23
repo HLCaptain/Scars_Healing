@@ -1,0 +1,4 @@
+<map id="Item::getType" name="Item::getType">
+<area shape="rect" id="node1" title="Gets Type of Item." alt="" coords="224,5,325,32"/>
+<area shape="rect" id="node2" href="$class_attribute_check.html#a7c88051e4c2202b4a1c0147643cd7d13" title="Checks if the type of an Item is something." alt="" coords="5,5,176,32"/>
+</map>

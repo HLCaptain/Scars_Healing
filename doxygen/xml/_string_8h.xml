@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_string_8h" kind="file" language="C++">
+    <compoundname>String.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="memtrace_8h" local="yes">memtrace.h</includes>
+    <includedby refid="_item_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h</includedby>
+    <includedby refid="_info_preset_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h</includedby>
+    <includedby refid="_player_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</includedby>
+    <includedby refid="_enemy_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</includedby>
+    <includedby refid="_storage_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</includedby>
+    <includedby refid="_entity_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h</includedby>
+    <includedby refid="memtrace_8cpp" local="no">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/memtrace.cpp</includedby>
+    <includedby refid="_player_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.cpp</includedby>
+    <includedby refid="_string_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h</label>
+        <link refid="_string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/IniGame.h</label>
+        <link refid="_ini_game_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</label>
+        <link refid="test_8h_source"/>
+      </node>
+      <node id="10">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h</label>
+        <link refid="_string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_string" prot="public">String</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_string_8h_1a508bb7af1f4acc4618a4a3094e33348f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, String &amp;str)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Writes out <ref refid="class_string" kindref="compound">String</ref> to outputstream. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="54" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="35" bodyend="38" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" declline="54" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_string_8h_1aea8ed420ad5e70828bc42b0fb9b49366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, String &amp;s0)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>s0</declname>
+        </param>
+        <briefdescription>
+<para>Reads in <ref refid="class_string" kindref="compound">String</ref> from inputstream. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads in <ref refid="class_string" kindref="compound">String</ref> from inputstream. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="57" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="76" bodyend="97" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STRING_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRING_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;memtrace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_string" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_string" kindref="compound">String</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>pData;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string_1ab3670848acd0e55af89fef90eb999515" kindref="member">String</ref>(<ref refid="class_string" kindref="compound">String</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string_1ab3670848acd0e55af89fef90eb999515" kindref="member">String</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string_1ab3670848acd0e55af89fef90eb999515" kindref="member">String</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="class_string_1ac73850e459f183bdd3c172e506be2a32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_string_1ac73850e459f183bdd3c172e506be2a32" kindref="member">~String</ref>()<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>pData;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" kindref="member">getStr</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pData;<sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_string_1a35af3e58b56420acea77f34d7bf54949" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_string_1a35af3e58b56420acea77f34d7bf54949" kindref="member">getSize</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>len;<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_string_1a803e6112834d4c0cdb0da6c6a4000e6e" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/>rhs_s);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_string_1a803e6112834d4c0cdb0da6c6a4000e6e" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>rhs_s);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_string_1ac203e7c52e04bb86f62f9dd75527b361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_string_1ac203e7c52e04bb86f62f9dd75527b361" kindref="member">operator+=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/>rhs_s)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>+<sp/>rhs_s;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_string_1a28a020f061e5f25317af47488bfb7de8" kindref="member">operator+</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/>rhs_s)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_string_1abb187e5ab66fe29c42aed4845b55dd76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_string_1abb187e5ab66fe29c42aed4845b55dd76" kindref="member">operator+</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>rhs_c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_string_1ab3670848acd0e55af89fef90eb999515" kindref="member">String</ref>(rhs_c);<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">std::ostream&amp;<sp/>operator&lt;&lt;(std::ostream&amp;<sp/>os,<sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">std::istream&amp;<sp/>operator&gt;&gt;(std::istream&amp;<sp/>is,<sp/><ref refid="class_string" kindref="compound">String</ref>&amp;<sp/>s0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//STRING_H</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_info_preset" kind="class" language="C++" prot="public">
+    <compoundname>InfoPreset</compoundname>
+    <includes refid="_info_preset_8h" local="no">InfoPreset.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_info_preset_1a8fdf619c93328c53745a4ccd7f4e597c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Displays Name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="10" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1ab2355ce2cff1842dc602a8d904ec1260" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::HP</definition>
+        <argsstring></argsstring>
+        <name>HP</name>
+        <briefdescription>
+<para>Displays HP of an <ref refid="class_entity" kindref="compound">Entity</ref> or Healing for a Potion. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="13" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a025eabd8a82c08cf2205d4a0d33b786e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::BaseDMG</definition>
+        <argsstring></argsstring>
+        <name>BaseDMG</name>
+        <briefdescription>
+<para>Displays BonusDMG and BonusDMGM of a Weapon/Shield or BaseDMG for an <ref refid="class_entity" kindref="compound">Entity</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="16" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a1a5007890be8e68407976f3663877467" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::BaseDEF</definition>
+        <argsstring></argsstring>
+        <name>BaseDEF</name>
+        <briefdescription>
+<para>Displays BonusDEF and BonusDEFM of a Weapon/Shield or BaseDEF for an <ref refid="class_entity" kindref="compound">Entity</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="19" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1af864623ebddc2a4f0f6d6f4261089a0b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::DisplayNum</definition>
+        <argsstring></argsstring>
+        <name>DisplayNum</name>
+        <briefdescription>
+<para>Displays a given number, like the index of an <ref refid="class_enemy" kindref="compound">Enemy</ref> before its Name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="22" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" compoundref="_item_8cpp" startline="36" endline="66">Item::getInfoItems</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a8f1c781b970aa96f382d7a5a270e92ef" prot="public" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String InfoPreset::Pre</definition>
+        <argsstring></argsstring>
+        <name>Pre</name>
+        <briefdescription>
+<para>A <ref refid="class_string" kindref="compound">String</ref>, which is displayed before everything, it can give some context. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="25" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1af45947fdce5a5c71067d0650b4bbd227" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::Gold</definition>
+        <argsstring></argsstring>
+        <name>Gold</name>
+        <briefdescription>
+<para>Displays the <ref refid="class_player" kindref="compound">Player</ref>&apos;s Gold. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="28" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a2107bb800b5b099c4534e9de2f1dbef5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::Storage</definition>
+        <argsstring></argsstring>
+        <name>Storage</name>
+        <briefdescription>
+<para>Displays the <ref refid="class_player" kindref="compound">Player</ref>&apos;s <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="31" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a1423f40f6d4922f7d349d4c102b060dc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InfoPreset::Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+<para>Displays the <ref refid="class_player" kindref="compound">Player</ref>&apos;s <ref refid="class_storage" kindref="compound">Storage</ref>&apos;s Items. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="34" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_info_preset_1a217ca1776e1a6ea23b9acc5ce49ecd13" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t InfoPreset::Num</definition>
+        <argsstring></argsstring>
+        <name>Num</name>
+        <briefdescription>
+<para>If DisplayNum is TRUE, then it displays this Number. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="37" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" compoundref="_item_8cpp" startline="36" endline="66">Item::getInfoItems</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_info_preset_1a15661cde89177f3d34f3c1f593b454a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InfoPreset::InfoPreset</definition>
+        <argsstring>(const char *cPre=&quot;&quot;, bool Name=true, bool HP=true, bool BaseDMG=true, bool BaseDEF=true, bool DisplayNum=false, bool Gold=true, bool Storage=true, bool Items=true, const size_t &amp;dNum=0)</argsstring>
+        <name>InfoPreset</name>
+        <param>
+          <type>const char *</type>
+          <declname>cPre</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Name</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>HP</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>BaseDMG</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>BaseDEF</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>DisplayNum</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Gold</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Storage</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Items</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>dNum</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="40" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_info_preset_1afd90ebdcdf221e067efb00e38b47c51f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual InfoPreset::~InfoPreset</definition>
+        <argsstring>()</argsstring>
+        <name>~InfoPreset</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="43" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A preset tool for displaying dynamic information about anything. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>String</label>
+        <link refid="class_string"/>
+      </node>
+      <node id="1">
+        <label>InfoPreset</label>
+        <link refid="class_info_preset"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+Pre</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" line="7" column="17" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/InfoPreset.h" bodystart="7" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_info_preset_1a1a5007890be8e68407976f3663877467" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>BaseDEF</name></member>
+      <member refid="class_info_preset_1a025eabd8a82c08cf2205d4a0d33b786e" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>BaseDMG</name></member>
+      <member refid="class_info_preset_1af864623ebddc2a4f0f6d6f4261089a0b" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>DisplayNum</name></member>
+      <member refid="class_info_preset_1af45947fdce5a5c71067d0650b4bbd227" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Gold</name></member>
+      <member refid="class_info_preset_1ab2355ce2cff1842dc602a8d904ec1260" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>HP</name></member>
+      <member refid="class_info_preset_1a15661cde89177f3d34f3c1f593b454a3" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>InfoPreset</name></member>
+      <member refid="class_info_preset_1a1423f40f6d4922f7d349d4c102b060dc" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Items</name></member>
+      <member refid="class_info_preset_1a8fdf619c93328c53745a4ccd7f4e597c" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Name</name></member>
+      <member refid="class_info_preset_1a217ca1776e1a6ea23b9acc5ce49ecd13" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Num</name></member>
+      <member refid="class_info_preset_1a8f1c781b970aa96f382d7a5a270e92ef" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Pre</name></member>
+      <member refid="class_info_preset_1a2107bb800b5b099c4534e9de2f1dbef5" prot="public" virt="non-virtual"><scope>InfoPreset</scope><name>Storage</name></member>
+      <member refid="class_info_preset_1afd90ebdcdf221e067efb00e38b47c51f" prot="public" virt="virtual"><scope>InfoPreset</scope><name>~InfoPreset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

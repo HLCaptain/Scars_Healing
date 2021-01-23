@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_weapon_shield_8txt" kind="file" language="C++">
+    <compoundname>WeaponShield.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_weapon_shield_8txt_1af5692382d97b90877260f9c0da34dad5" prot="public" static="no" mutable="no">
+        <type>Sword Of Blaise This epic sword lets you change the</type>
+        <definition>Sword Of Blaise This epic sword lets you change the world</definition>
+        <argsstring></argsstring>
+        <name>world</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" line="2" column="37" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_weapon_shield_8txt_1a6394fabedcfb564c42801ba2c231e209" prot="public" static="no" mutable="no">
+        <type>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing</type>
+        <definition>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" line="8" column="43" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_weapon_shield_8txt_1a5f497e92da2817ec5a4f147ca6beee09" prot="public" static="no" mutable="no">
+        <type>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo</type>
+        <definition>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo mobile</definition>
+        <argsstring></argsstring>
+        <name>mobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" line="8" column="85" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_weapon_shield_8txt_1a296b436c72bc99d0434e2f0a8533e49c" prot="public" static="no" mutable="no">
+        <type>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo that you suffer from much less damage Suffering of The Past This Weapon has incredible devastating power in strong hands Shield of The Immortal Soul A</type>
+        <definition>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo that you suffer from much less damage Suffering of The Past This Weapon has incredible devastating power in strong hands Shield of The Immortal Soul A shield</definition>
+        <argsstring></argsstring>
+        <name>shield</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" line="20" column="3" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_weapon_shield_8txt_1a257108c11d6cd66d979d5cf36a655d7a" prot="public" static="no" mutable="no">
+        <type>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo that you suffer from much less damage Suffering of The Past This Weapon has incredible devastating power in strong hands Shield of The Immortal Soul A which defends you soul huh Sounds</type>
+        <definition>Sword Of Blaise This epic sword lets you change the but you have to let it guide your way Winston s Blade This Blade may not be the best in dealing but its compact size makes you soo that you suffer from much less damage Suffering of The Past This Weapon has incredible devastating power in strong hands Shield of The Immortal Soul A which defends you soul huh Sounds nice</definition>
+        <argsstring></argsstring>
+        <name>nice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" line="20" column="44" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Sword<sp/>Of<sp/>Blaise</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">This<sp/>epic<sp/>sword<sp/>lets<sp/>you<sp/>change<sp/>the<sp/>world,<sp/>but<sp/>you<sp/>have<sp/>to<sp/>let<sp/>it<sp/>guide<sp/>your<sp/>way.</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">50</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">1.5</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">10</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">1.2</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">Winston</highlight><highlight class="stringliteral">&apos;s<sp/>Blade</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">This<sp/>Blade<sp/>may<sp/>not<sp/>be<sp/>the<sp/>best<sp/>in<sp/>dealing<sp/>damage,<sp/>but<sp/>its<sp/>compact<sp/>size<sp/>makes<sp/>you<sp/>soo<sp/>mobile,<sp/>that<sp/>you<sp/>suffer<sp/>from<sp/>much<sp/>less<sp/>damage.</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">25</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">1.6</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">20</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">1.5</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">Suffering<sp/>of<sp/>The<sp/>Past</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">This<sp/>Weapon<sp/>has<sp/>incredible<sp/>devastating<sp/>power<sp/>in<sp/>strong<sp/>hands.</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">100</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">1</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">10</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">-2</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">Shield<sp/>of<sp/>The<sp/>Immortal<sp/>Soul</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">A<sp/>shield,<sp/>which<sp/>defends<sp/>you<sp/>soul<sp/>huh?<sp/>Sounds<sp/>nice,<sp/>until<sp/>you<sp/>really<sp/>get<sp/>to<sp/>know<sp/>it.</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">20</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">1</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">100</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral">0.5</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/WeaponShield.txt"/>
+  </compounddef>
+</doxygen>

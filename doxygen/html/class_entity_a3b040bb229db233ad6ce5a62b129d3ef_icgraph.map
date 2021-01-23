@@ -1,0 +1,6 @@
+<map id="Entity::setHP" name="Entity::setHP">
+<area shape="rect" id="node1" title="Sets Entity&#39;s HP." alt="" coords="197,56,297,83"/>
+<area shape="rect" id="node2" href="$class_player.html#ae30e579efad256523585a947932bcf7f" title="Attack an Enemy." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node3" href="$class_enemy.html#a558ca434ca4938c167580db520d2a7d1" title="Attack Player without taking Damage from it." alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node4" href="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4" title="Healing with an Item." alt="" coords="31,107,124,133"/>
+</map>

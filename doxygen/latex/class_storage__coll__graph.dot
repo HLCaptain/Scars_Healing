@@ -1,0 +1,12 @@
+digraph "Storage"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Storage\n|+ MaxSize\l|+ Storage()\l+ Storage()\l+ ~Storage()\l+ getInfo()\l+ getInfoItems()\l+ getInfoItems()\l+ getInfoItemsAll()\l+ getInfoItemsAll()\l+ getInfoItemsUse()\l+ getInfoItemsUse()\l+ getName()\l+ getDescription()\l+ getItems()\l+ add()\l+ remove()\l+ clear()\l+ getMaxSize()\l+ getSize()\l+ setMaxSize()\l+ isThereUpgrade()\l+ operator[]()\l+ operator[]()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A Storage is able to store Items, but to a limited extent (MaxSize). Also has a Name and a Descriptio..."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +Name\n+Desc" ,arrowhead="odiamond"];
+  Node2 [label="{String\n||+ String()\l+ String()\l+ String()\l+ ~String()\l+ getStr()\l+ getSize()\l+ operator=()\l+ operator=()\l+ operator+=()\l+ operator+()\l+ operator+()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_string.html",tooltip="Seperate String class, because STL are not allowed..."];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +Items" ,arrowhead="odiamond"];
+  Node3 [label="{GenericArray\< Item \>\n||+ GenericArray()\l+ GenericArray()\l+ ~GenericArray()\l+ add()\l+ remove()\l+ clear()\l+ operator[]()\l+ operator[]()\l+ getSize()\l+ getPredNum()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_generic_array.html",tooltip=" "];
+}

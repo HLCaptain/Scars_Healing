@@ -1,0 +1,31 @@
+digraph "GenericArray::getSize"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="GenericArray::getSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get Size of the Array."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Storage::add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#aa88b5b4b101807e0629c2b2af6476dcf",tooltip="Adds an Item to the Storage."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Storage::getInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#aae68a74faf3e272b8ec8d036fe35f52a",tooltip="Writes out the Storage's info to the console."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Storage::getInfoItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#a296636efc5aad4d35a4ed26bf62a95f5",tooltip="Writes out the Item's infos in the Storage to the console."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Storage::getInfoItemsAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#ae1a84ea6d2f1d50e96c04a8c327fe8ab",tooltip="Writes out the Item's infos in the Storage to the console."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="Player::getInfoEntity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#a8eb7206d12e28c347a785530ab1ecf71",tooltip="Writes out the Player's info to an output."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Storage::getInfoItemsUse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#a1c4126bb115b13af833f66a49ca19c67",tooltip="Writes out the Item's infos in the Storage to the console."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="GenericArray\< Item\l \>::getPredNum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_generic_array.html#a8b589d0f85f42ff2a0067fc463d3d7df",tooltip="Get Number of specific Items in the Array."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Storage::getSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#aa035fcad7dee4519f3d2e33559723b76",tooltip="Gets number of Items in the of Storage."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Storage::isThereUpgrade",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#add8650b4ab6b8e85d393a2f5a6e60b57",tooltip="Returns if there are upgrades in the inventory."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Storage::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#a0210115c208c5cfd5d52e66423f3d723",tooltip="Removes an Item from the Storage according to its index."];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Player::Heal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4",tooltip="Healing with an Item."];
+}

@@ -1,0 +1,7 @@
+<map id="Entity::getBaseDMG" name="Entity::getBaseDMG">
+<area shape="rect" id="node1" title="Gets Entity&#39;s Base Damage." alt="" coords="197,81,340,108"/>
+<area shape="rect" id="node2" href="$class_player.html#ae30e579efad256523585a947932bcf7f" title="Attack an Enemy." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node3" href="$class_enemy.html#a558ca434ca4938c167580db520d2a7d1" title="Attack Player without taking Damage from it." alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node4" href="$class_player.html#a8eb7206d12e28c347a785530ab1ecf71" title="Writes out the Player&#39;s info to an output." alt="" coords="8,107,147,133"/>
+<area shape="rect" id="node5" href="$class_enemy.html#a5e801697dc4608bc549ad08f3c584127" title="Displays the info of an Enemy, dynamically controlable with an InfoPreset." alt="" coords="6,157,149,184"/>
+</map>

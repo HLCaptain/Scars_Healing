@@ -1,0 +1,345 @@
+\hypertarget{class_item}{}\doxysection{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+
+
+An \mbox{\hyperlink{class_item}{Item}} can be stored in a storage and also has a type. Depending on the type, an \mbox{\hyperlink{class_item}{Item}} can heal the player or damage an enemy, etc.  
+
+
+
+
+{\ttfamily \#include $<$Item.\+h$>$}
+
+
+
+Collaboration diagram for Item\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_item__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_item_a923f7c918c68bf7c3cb209ed36b27bf6}{Item}} (const Item\+Type \mbox{\hyperlink{class_item_a3edbb83631f06482d730c40274303cff}{Type}}=Item\+Type\+::\+Weapon\+Shield, const char $\ast$\mbox{\hyperlink{class_item_a6e207ac9149f817300e4768364121a1a}{Name}}=\char`\"{}Dis\+Item\char`\"{}, const char $\ast$\mbox{\hyperlink{class_item_a032f02ca3ec9363ef64bec0f30602a6b}{Desc}}=\char`\"{}This is an Item.\char`\"{}, const double \&\mbox{\hyperlink{class_item_ad1940a1ea5e360d5b33ee56b4a7dba5f}{Bonus\+D\+MG}}=0, const double \&\mbox{\hyperlink{class_item_ac194138629f961fdd7bf0f29cf134ef5}{Bonus\+D\+M\+GM}}=1, const double \&\mbox{\hyperlink{class_item_ad388c129ab403ade13ce29805b9681be}{Bonus\+D\+EF}}=0, const double \&\mbox{\hyperlink{class_item_a06ae954fed310fd7c8f8c65949705c4f}{Bonus\+D\+E\+FM}}=1, const double \&\mbox{\hyperlink{class_item_ada814105fc6f052430099c7360894677}{Heal}}=0)
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_item_a11663c84075b78c3ae5e30fdfcd7c458}{$\sim$\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+virtual std\+::ostream \& \mbox{\hyperlink{class_item_a4caaf2b256d1ad62f407e279681ccee9}{get\+Info\+Items}} (\mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s info to an output. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_item_a32fb1297deede82e47cf3f6409cdbf92}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets Name. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_item_a0c339e14321d3aaf6d651891d1a97c6d}{get\+Desc}} ()
+\begin{DoxyCompactList}\small\item\em Gets Description. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a9ed44cf1cdb50cbc39ed41d081337729}{get\+Bonus\+D\+MG}} ()
+\begin{DoxyCompactList}\small\item\em Gets Additive Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a6931ae5d9be963413fd6e4d018eb2138}{get\+Bonus\+D\+M\+GM}} ()
+\begin{DoxyCompactList}\small\item\em Gets Multiplied Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a3f52d268bd88e1d81c1b85c5c6e105e6}{get\+Bonus\+D\+EF}} ()
+\begin{DoxyCompactList}\small\item\em Gets Additive Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a08c71af1bcade0be8bb4b64d8b1617d0}{get\+Bonus\+D\+E\+FM}} ()
+\begin{DoxyCompactList}\small\item\em Gets Multiplied Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a6ef1028da0417aed6a81e050642b2a31}{get\+Heal}} ()
+\begin{DoxyCompactList}\small\item\em Gets Healing of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+Item\+Type \mbox{\hyperlink{class_item_afaaef88ed00da21815eb04565994054b}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Gets Type of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+Use\+Cases \mbox{\hyperlink{class_item_a62464320466289a8fe2943ca5c68fa35}{use\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Use an \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Item\+Type \mbox{\hyperlink{class_item_a3edbb83631f06482d730c40274303cff}{Type}}
+\begin{DoxyCompactList}\small\item\em Type of the \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_item_a6e207ac9149f817300e4768364121a1a}{Name}}
+\begin{DoxyCompactList}\small\item\em Name of the \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_item_a032f02ca3ec9363ef64bec0f30602a6b}{Desc}}
+\begin{DoxyCompactList}\small\item\em Description of the \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_ad1940a1ea5e360d5b33ee56b4a7dba5f}{Bonus\+D\+MG}}
+\begin{DoxyCompactList}\small\item\em Additive Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_ac194138629f961fdd7bf0f29cf134ef5}{Bonus\+D\+M\+GM}}
+\begin{DoxyCompactList}\small\item\em Multiplied Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_ad388c129ab403ade13ce29805b9681be}{Bonus\+D\+EF}}
+\begin{DoxyCompactList}\small\item\em Additive Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_a06ae954fed310fd7c8f8c65949705c4f}{Bonus\+D\+E\+FM}}
+\begin{DoxyCompactList}\small\item\em Multiplied Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_item_ada814105fc6f052430099c7360894677}{Heal}}
+\begin{DoxyCompactList}\small\item\em Healing of \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An \mbox{\hyperlink{class_item}{Item}} can be stored in a storage and also has a type. Depending on the type, an \mbox{\hyperlink{class_item}{Item}} can heal the player or damage an enemy, etc. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_item_a923f7c918c68bf7c3cb209ed36b27bf6}\label{class_item_a923f7c918c68bf7c3cb209ed36b27bf6}} 
+\index{Item@{Item}!Item@{Item}}
+\index{Item@{Item}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Item()}{Item()}}
+{\footnotesize\ttfamily Item\+::\+Item (\begin{DoxyParamCaption}\item[{const Item\+Type}]{Type = {\ttfamily ItemType\+:\+:WeaponShield},  }\item[{const char $\ast$}]{Name = {\ttfamily \char`\"{}DisItem\char`\"{}},  }\item[{const char $\ast$}]{Desc = {\ttfamily \char`\"{}This~is~an~Item.\char`\"{}},  }\item[{const double \&}]{Bonus\+D\+MG = {\ttfamily 0},  }\item[{const double \&}]{Bonus\+D\+M\+GM = {\ttfamily 1},  }\item[{const double \&}]{Bonus\+D\+EF = {\ttfamily 0},  }\item[{const double \&}]{Bonus\+D\+E\+FM = {\ttfamily 1},  }\item[{const double \&}]{Heal = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_item_a11663c84075b78c3ae5e30fdfcd7c458}\label{class_item_a11663c84075b78c3ae5e30fdfcd7c458}} 
+\index{Item@{Item}!````~Item@{$\sim$Item}}
+\index{````~Item@{$\sim$Item}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{$\sim$Item()}{~Item()}}
+{\footnotesize\ttfamily Item\+::$\sim$\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_item_a3f52d268bd88e1d81c1b85c5c6e105e6}\label{class_item_a3f52d268bd88e1d81c1b85c5c6e105e6}} 
+\index{Item@{Item}!getBonusDEF@{getBonusDEF}}
+\index{getBonusDEF@{getBonusDEF}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getBonusDEF()}{getBonusDEF()}}
+{\footnotesize\ttfamily double Item\+::get\+Bonus\+D\+EF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Additive Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_item_a3f52d268bd88e1d81c1b85c5c6e105e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a08c71af1bcade0be8bb4b64d8b1617d0}\label{class_item_a08c71af1bcade0be8bb4b64d8b1617d0}} 
+\index{Item@{Item}!getBonusDEFM@{getBonusDEFM}}
+\index{getBonusDEFM@{getBonusDEFM}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getBonusDEFM()}{getBonusDEFM()}}
+{\footnotesize\ttfamily double Item\+::get\+Bonus\+D\+E\+FM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Multiplied Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_item_a08c71af1bcade0be8bb4b64d8b1617d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a9ed44cf1cdb50cbc39ed41d081337729}\label{class_item_a9ed44cf1cdb50cbc39ed41d081337729}} 
+\index{Item@{Item}!getBonusDMG@{getBonusDMG}}
+\index{getBonusDMG@{getBonusDMG}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getBonusDMG()}{getBonusDMG()}}
+{\footnotesize\ttfamily double Item\+::get\+Bonus\+D\+MG (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Additive Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_item_a9ed44cf1cdb50cbc39ed41d081337729_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a6931ae5d9be963413fd6e4d018eb2138}\label{class_item_a6931ae5d9be963413fd6e4d018eb2138}} 
+\index{Item@{Item}!getBonusDMGM@{getBonusDMGM}}
+\index{getBonusDMGM@{getBonusDMGM}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getBonusDMGM()}{getBonusDMGM()}}
+{\footnotesize\ttfamily double Item\+::get\+Bonus\+D\+M\+GM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Multiplied Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_item_a6931ae5d9be963413fd6e4d018eb2138_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a0c339e14321d3aaf6d651891d1a97c6d}\label{class_item_a0c339e14321d3aaf6d651891d1a97c6d}} 
+\index{Item@{Item}!getDesc@{getDesc}}
+\index{getDesc@{getDesc}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getDesc()}{getDesc()}}
+{\footnotesize\ttfamily const char $\ast$ Item\+::get\+Desc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Description. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{class_item_a0c339e14321d3aaf6d651891d1a97c6d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a6ef1028da0417aed6a81e050642b2a31}\label{class_item_a6ef1028da0417aed6a81e050642b2a31}} 
+\index{Item@{Item}!getHeal@{getHeal}}
+\index{getHeal@{getHeal}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getHeal()}{getHeal()}}
+{\footnotesize\ttfamily double Item\+::get\+Heal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Healing of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_a4caaf2b256d1ad62f407e279681ccee9}\label{class_item_a4caaf2b256d1ad62f407e279681ccee9}} 
+\index{Item@{Item}!getInfoItems@{getInfoItems}}
+\index{getInfoItems@{getInfoItems}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getInfoItems()}{getInfoItems()}}
+{\footnotesize\ttfamily std\+::ostream \& Item\+::get\+Info\+Items (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s info to an output. 
+
+\mbox{\Hypertarget{class_item_a32fb1297deede82e47cf3f6409cdbf92}\label{class_item_a32fb1297deede82e47cf3f6409cdbf92}} 
+\index{Item@{Item}!getName@{getName}}
+\index{getName@{getName}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const char $\ast$ Item\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Name. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_item_a32fb1297deede82e47cf3f6409cdbf92_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_item_a32fb1297deede82e47cf3f6409cdbf92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_afaaef88ed00da21815eb04565994054b}\label{class_item_afaaef88ed00da21815eb04565994054b}} 
+\index{Item@{Item}!getType@{getType}}
+\index{getType@{getType}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily Item\+Type Item\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets Type of \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_item_afaaef88ed00da21815eb04565994054b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_item_a62464320466289a8fe2943ca5c68fa35}\label{class_item_a62464320466289a8fe2943ca5c68fa35}} 
+\index{Item@{Item}!useItem@{useItem}}
+\index{useItem@{useItem}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{useItem()}{useItem()}}
+{\footnotesize\ttfamily Use\+Cases Item\+::use\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Use an \mbox{\hyperlink{class_item}{Item}}. 
+
+Use a Weapon/\+Shield
+
+Use a Healing Potion
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_item_ad388c129ab403ade13ce29805b9681be}\label{class_item_ad388c129ab403ade13ce29805b9681be}} 
+\index{Item@{Item}!BonusDEF@{BonusDEF}}
+\index{BonusDEF@{BonusDEF}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{BonusDEF}{BonusDEF}}
+{\footnotesize\ttfamily double Item\+::\+Bonus\+D\+EF\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Additive Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_a06ae954fed310fd7c8f8c65949705c4f}\label{class_item_a06ae954fed310fd7c8f8c65949705c4f}} 
+\index{Item@{Item}!BonusDEFM@{BonusDEFM}}
+\index{BonusDEFM@{BonusDEFM}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{BonusDEFM}{BonusDEFM}}
+{\footnotesize\ttfamily double Item\+::\+Bonus\+D\+E\+FM\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Multiplied Bonus Defense of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_ad1940a1ea5e360d5b33ee56b4a7dba5f}\label{class_item_ad1940a1ea5e360d5b33ee56b4a7dba5f}} 
+\index{Item@{Item}!BonusDMG@{BonusDMG}}
+\index{BonusDMG@{BonusDMG}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{BonusDMG}{BonusDMG}}
+{\footnotesize\ttfamily double Item\+::\+Bonus\+D\+MG\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Additive Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_ac194138629f961fdd7bf0f29cf134ef5}\label{class_item_ac194138629f961fdd7bf0f29cf134ef5}} 
+\index{Item@{Item}!BonusDMGM@{BonusDMGM}}
+\index{BonusDMGM@{BonusDMGM}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{BonusDMGM}{BonusDMGM}}
+{\footnotesize\ttfamily double Item\+::\+Bonus\+D\+M\+GM\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Multiplied Bonus Damage of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_a032f02ca3ec9363ef64bec0f30602a6b}\label{class_item_a032f02ca3ec9363ef64bec0f30602a6b}} 
+\index{Item@{Item}!Desc@{Desc}}
+\index{Desc@{Desc}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Desc}{Desc}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} Item\+::\+Desc\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Description of the \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_ada814105fc6f052430099c7360894677}\label{class_item_ada814105fc6f052430099c7360894677}} 
+\index{Item@{Item}!Heal@{Heal}}
+\index{Heal@{Heal}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Heal}{Heal}}
+{\footnotesize\ttfamily double Item\+::\+Heal\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Healing of \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_a6e207ac9149f817300e4768364121a1a}\label{class_item_a6e207ac9149f817300e4768364121a1a}} 
+\index{Item@{Item}!Name@{Name}}
+\index{Name@{Name}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} Item\+::\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Name of the \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_item_a3edbb83631f06482d730c40274303cff}\label{class_item_a3edbb83631f06482d730c40274303cff}} 
+\index{Item@{Item}!Type@{Type}}
+\index{Type@{Type}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily Item\+Type Item\+::\+Type\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Type of the \mbox{\hyperlink{class_item}{Item}}. 
+

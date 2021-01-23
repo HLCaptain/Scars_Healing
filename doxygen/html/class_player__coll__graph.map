@@ -1,0 +1,4 @@
+<map id="Player" name="Player">
+<area shape="rect" id="node1" title="Player has Gold and a Storage in which it can hold some Item. The Player will be able to spend Gold i..." alt="" coords="5,263,139,457"/>
+<area shape="rect" id="node2" href="$class_entity.html" title="An alive Entity can be a Player or an Enemy (for now). It has HP, a Name and basic attributes,..." alt="" coords="12,5,132,215"/>
+</map>

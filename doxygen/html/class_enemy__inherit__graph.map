@@ -1,0 +1,4 @@
+<map id="Enemy" name="Enemy">
+<area shape="rect" id="node1" title="Enemy can attack a Player without the Player damaging it, every Enemy will have a Level,..." alt="" coords="8,263,123,399"/>
+<area shape="rect" id="node2" href="$class_entity.html" title="An alive Entity can be a Player or an Enemy (for now). It has HP, a Name and basic attributes,..." alt="" coords="5,5,125,215"/>
+</map>

@@ -1,0 +1,114 @@
+.TH "String" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+String \- Seperate \fBString\fP class, because STL are not allowed\&.\&.\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <String\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBString\fP (\fBString\fP const &str)"
+.br
+.RI "Copy Constructor\&. "
+.ti -1c
+.RI "\fBString\fP (const char *str='')"
+.br
+.RI "Default Constructor from const char*\&. "
+.ti -1c
+.RI "\fBString\fP (const char c)"
+.br
+.RI "Constructor from char\&. "
+.ti -1c
+.RI "virtual \fB~String\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "const char * \fBgetStr\fP ()"
+.br
+.RI "Return the content of the \fBString\fP\&. "
+.ti -1c
+.RI "const size_t \fBgetSize\fP ()"
+.br
+.RI "Return the length of the \fBString\fP\&. "
+.ti -1c
+.RI "\fBString\fP & \fBoperator=\fP (const \fBString\fP &rhs_s)"
+.br
+.RI "Assign the \fBString\fP's data to the \fBString\fP\&. "
+.ti -1c
+.RI "\fBString\fP & \fBoperator=\fP (const char *rhs_s)"
+.br
+.RI "Assign const char*'s data to the \fBString\fP\&. "
+.ti -1c
+.RI "\fBString\fP & \fBoperator+=\fP (const \fBString\fP &rhs_s)"
+.br
+.RI "Adding \fBString\fP to the original\&. "
+.ti -1c
+.RI "\fBString\fP \fBoperator+\fP (const \fBString\fP &rhs_s) const"
+.br
+.RI "Adding 2 Strings together (returns constant) "
+.ti -1c
+.RI "\fBString\fP \fBoperator+\fP (char rhs_c) const"
+.br
+.RI "Adding a char to the \fBString\fP (returns constant) "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Seperate \fBString\fP class, because STL are not allowed\&.\&.\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "String::String (\fBString\fP const & str)"
+
+.PP
+Copy Constructor\&. 
+.SS "String::String (const char * str = \fC''\fP)"
+
+.PP
+Default Constructor from const char*\&. 
+.SS "String::String (const char c)"
+
+.PP
+Constructor from char\&. 
+.SS "virtual String::~String ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "const size_t String::getSize ()\fC [inline]\fP"
+
+.PP
+Return the length of the \fBString\fP\&. 
+.SS "const char* String::getStr ()\fC [inline]\fP"
+
+.PP
+Return the content of the \fBString\fP\&. 
+.SS "\fBString\fP String::operator+ (char rhs_c) const\fC [inline]\fP"
+
+.PP
+Adding a char to the \fBString\fP (returns constant) 
+.SS "\fBString\fP String::operator+ (const \fBString\fP & rhs_s) const"
+
+.PP
+Adding 2 Strings together (returns constant) 
+.SS "\fBString\fP& String::operator+= (const \fBString\fP & rhs_s)\fC [inline]\fP"
+
+.PP
+Adding \fBString\fP to the original\&. 
+.SS "\fBString\fP & String::operator= (const char * rhs_s)"
+
+.PP
+Assign const char*'s data to the \fBString\fP\&. 
+.SS "\fBString\fP & String::operator= (const \fBString\fP & rhs_s)"
+
+.PP
+Assign the \fBString\fP's data to the \fBString\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

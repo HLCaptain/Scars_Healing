@@ -1,0 +1,11 @@
+<map id="Enemy::attackPlayer" name="Enemy::attackPlayer">
+<area shape="rect" id="node1" title="Attack Player without taking Damage from it." alt="" coords="5,157,149,184"/>
+<area shape="rect" id="node2" href="$class_entity.html#a181a9ed8c2f4b8cbf2c1799808840b98" title="Gets Entity&#39;s Base Defense." alt="" coords="201,5,340,32"/>
+<area shape="rect" id="node3" href="$class_entity.html#ae28f385cd28512190092c60f4ef03e4b" title="Gets Entity&#39;s Base Damage." alt="" coords="199,56,342,83"/>
+<area shape="rect" id="node4" href="$class_item.html#a3f52d268bd88e1d81c1b85c5c6e105e6" title="Gets Additive Bonus Defense of Item." alt="" coords="203,107,339,133"/>
+<area shape="rect" id="node5" href="$class_item.html#a08c71af1bcade0be8bb4b64d8b1617d0" title="Gets Multiplied Bonus Defense of Item." alt="" coords="197,157,344,184"/>
+<area shape="rect" id="node6" href="$class_entity.html#a2e1e28a69df4f3e85056fd00425373c1" title="Gets Entity&#39;s HP." alt="" coords="221,208,321,235"/>
+<area shape="rect" id="node7" href="$class_entity.html#a915cd93caa3a2730a58c74c404e0df6d" title="Gets Entity&#39;s name." alt="" coords="213,259,329,285"/>
+<area shape="rect" id="node9" href="$class_entity.html#a3b040bb229db233ad6ce5a62b129d3ef" title="Sets Entity&#39;s HP." alt="" coords="221,309,321,336"/>
+<area shape="rect" id="node8" href="$class_string.html#a9bd764caa857cd20c6d9c720f737982b" title="Return the content of the String." alt="" coords="392,259,491,285"/>
+</map>

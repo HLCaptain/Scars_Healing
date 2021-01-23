@@ -1,0 +1,4 @@
+<map id="Storage::getInfoItemsAll" name="Storage::getInfoItemsAll">
+<area shape="rect" id="node1" title="Writes out the Item&#39;s infos in the Storage to the console." alt="" coords="192,5,352,32"/>
+<area shape="rect" id="node2" href="$class_player.html#a8eb7206d12e28c347a785530ab1ecf71" title="Writes out the Player&#39;s info to an output." alt="" coords="5,5,144,32"/>
+</map>

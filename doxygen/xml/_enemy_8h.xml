@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_enemy_8h" kind="file" language="C++">
+    <compoundname>Enemy.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="_string_8h" local="yes">String.h</includes>
+    <includes refid="_storage_8h" local="yes">Storage.h</includes>
+    <includes refid="_entity_8h" local="yes">Entity.h</includes>
+    <includes refid="_info_preset_8h" local="yes">InfoPreset.h</includes>
+    <includedby refid="_player_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</includedby>
+    <includedby refid="_actions_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</includedby>
+    <includedby refid="_actions_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp</includedby>
+    <includedby refid="_enemy_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.cpp</includedby>
+    <includedby refid="test_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</includedby>
+    <includedby refid="_player_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</label>
+        <link refid="_enemy_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</label>
+        <link refid="test_8h_source"/>
+      </node>
+      <node id="2">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</label>
+        <link refid="_enemy_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_enemy" prot="public">Enemy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ENEMY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ENEMY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Storage.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Entity.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InfoPreset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player" kindref="compound">Player</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_enemy" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_entity" kindref="compound">Entity</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//something<sp/>soon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//maybe<sp/>an<sp/>holds<sp/>an<sp/>item<sp/>to<sp/>drop<sp/>it,<sp/>or<sp/>drop<sp/>his<sp/>gold</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//or<sp/>level</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_enemy_1adad43d4a0ebebce8596095db9bedaec2" kindref="member">Enemy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>Name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP<sp/>=<sp/>100,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP<sp/>=<sp/>100,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG<sp/>=<sp/>5,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF<sp/>=<sp/>5);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_enemy_1adad43d4a0ebebce8596095db9bedaec2" kindref="member">Enemy</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP<sp/>=<sp/>100,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP<sp/>=<sp/>100,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG<sp/>=<sp/>5,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF<sp/>=<sp/>5);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_enemy_1ac0eec4755e28c02688065f9657150ac3" kindref="member">~Enemy</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" kindref="member">attackPlayer</ref>(<ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>PLYR,<sp/><ref refid="class_item" kindref="compound">Item</ref><sp/>WS<sp/>=<sp/><ref refid="class_item" kindref="compound">Item</ref>());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" kindref="member">getInfoEntity</ref>(<ref refid="class_info_preset" kindref="compound">InfoPreset</ref><sp/>Preset<sp/>=<sp/><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>(),<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//ENEMY_H</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h"/>
+  </compounddef>
+</doxygen>

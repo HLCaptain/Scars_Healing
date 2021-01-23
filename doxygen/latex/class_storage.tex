@@ -1,0 +1,487 @@
+\hypertarget{class_storage}{}\doxysection{Storage Class Reference}
+\label{class_storage}\index{Storage@{Storage}}
+
+
+A \mbox{\hyperlink{class_storage}{Storage}} is able to store Items, but to a limited extent (Max\+Size). Also has a Name and a Description.  
+
+
+
+
+{\ttfamily \#include $<$Storage.\+h$>$}
+
+
+
+Collaboration diagram for Storage\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_storage__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_storage_aad9c6969ee1edca7354c1d8e76507d42}{Storage}} (const char $\ast$\mbox{\hyperlink{class_storage_adb5195a95fc11a1fddfe26caa55ce4ff}{Name}}=\char`\"{}Bak\+Pak\char`\"{}, const char $\ast$\mbox{\hyperlink{class_storage_ac0325f33b558b68c2cad576400af6123}{Desc}}=\char`\"{}This is a Bak\+Pak.\char`\"{}, size\+\_\+t \mbox{\hyperlink{class_storage_a5400df0c34fc5f41fc05249ffdf963bb}{Max\+Size}}=5)
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_storage_ab705a5ad6f3445ab7408ee453a4bb8af}{Storage}} (const \mbox{\hyperlink{class_storage}{Storage}} \&S)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_storage_a73cf30f0a34250396f9eabee7dc5c93d}{$\sim$\+Storage}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_storage_aae68a74faf3e272b8ec8d036fe35f52a}{get\+Info}} (std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_storage}{Storage}}\textquotesingle{}s info to the console. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_storage_a296636efc5aad4d35a4ed26bf62a95f5}{get\+Info\+Items}} (\mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_storage_a93ea60aa174ac901a12d1fbe1303c504}{get\+Info\+Items}} (const Item\+Type \&Type, \mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_storage_ae1a84ea6d2f1d50e96c04a8c327fe8ab}{get\+Info\+Items\+All}} (std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_storage_a6c945ac28473df5be400f8678c78265c}{get\+Info\+Items\+All}} (const Item\+Type \&Type, std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+virtual std\+::ostream \& \mbox{\hyperlink{class_storage_a1c4126bb115b13af833f66a49ca19c67}{get\+Info\+Items\+Use}} (std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+virtual std\+::ostream \& \mbox{\hyperlink{class_storage_a70832690e89cdd9109f0e7f0c31affc2}{get\+Info\+Items\+Use}} (const Item\+Type \&Type, std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_storage_a3aa4b83a48ac183c3249ca0cbff8a33a}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets Name. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_storage_a093724577dea913ff7a12c1fda138b4f}{get\+Description}} ()
+\begin{DoxyCompactList}\small\item\em Gets Description. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ \mbox{\hyperlink{class_item}{Item}} $>$ \mbox{\hyperlink{class_storage_a67dd2a43e056ef6532a280f5afb1ff98}{get\+Items}} () const
+\begin{DoxyCompactList}\small\item\em Gets the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s array, though cannot modify it. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_storage_aa88b5b4b101807e0629c2b2af6476dcf}{add}} (const \mbox{\hyperlink{class_item}{Item}} \&Element)
+\begin{DoxyCompactList}\small\item\em Adds an \mbox{\hyperlink{class_item}{Item}} to the \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_storage_a0210115c208c5cfd5d52e66423f3d723}{remove}} (const size\+\_\+t \&Index)
+\begin{DoxyCompactList}\small\item\em Removes an \mbox{\hyperlink{class_item}{Item}} from the \mbox{\hyperlink{class_storage}{Storage}} according to its index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_storage_a90311302b713775e503a253ab4aab3e8}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears the \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_storage_a6801311f9f0065f834a4027cb2160fb5}{get\+Max\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Gets size of \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_storage_aa035fcad7dee4519f3d2e33559723b76}{get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Gets number of Items in the of \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_storage_a07574bf9ed133033e1e46314369d0f2e}{set\+Max\+Size}} (const size\+\_\+t \&SizeC)
+\begin{DoxyCompactList}\small\item\em Sets size of \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_storage_add8650b4ab6b8e85d393a2f5a6e60b57}{is\+There\+Upgrade}} ()
+\begin{DoxyCompactList}\small\item\em Returns if there are upgrades in the inventory. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_item}{Item}} \& \mbox{\hyperlink{class_storage_a860d80caf14d9ad06412b5200ffa6f58}{operator\mbox{[}$\,$\mbox{]}}} (size\+\_\+t Index) const
+\begin{DoxyCompactList}\small\item\em Accessing an \mbox{\hyperlink{class_item}{Item}} as constant. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_item}{Item}} \& \mbox{\hyperlink{class_storage_a996ba6da437a448f325fa09064a4db2c}{operator\mbox{[}$\,$\mbox{]}}} (size\+\_\+t Index)
+\begin{DoxyCompactList}\small\item\em Accessing an \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_storage_adb5195a95fc11a1fddfe26caa55ce4ff}{Name}}
+\begin{DoxyCompactList}\small\item\em Name of the \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_string}{String}} \mbox{\hyperlink{class_storage_ac0325f33b558b68c2cad576400af6123}{Desc}}
+\begin{DoxyCompactList}\small\item\em Description of the \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_storage_a5400df0c34fc5f41fc05249ffdf963bb}{Max\+Size}}
+\begin{DoxyCompactList}\small\item\em Size of \mbox{\hyperlink{class_storage}{Storage}}, how many \mbox{\hyperlink{class_item}{Item}} it can hold. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ \mbox{\hyperlink{class_item}{Item}} $>$ \mbox{\hyperlink{class_storage_a7e1b096af8d1c2ceb09343c84b3a20fb}{Items}}
+\begin{DoxyCompactList}\small\item\em Items in the \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{class_storage}{Storage}} is able to store Items, but to a limited extent (Max\+Size). Also has a Name and a Description. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_storage_aad9c6969ee1edca7354c1d8e76507d42}\label{class_storage_aad9c6969ee1edca7354c1d8e76507d42}} 
+\index{Storage@{Storage}!Storage@{Storage}}
+\index{Storage@{Storage}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{Storage()}{Storage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Storage\+::\+Storage (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Name = {\ttfamily \char`\"{}BakPak\char`\"{}},  }\item[{const char $\ast$}]{Desc = {\ttfamily \char`\"{}This~is~a~BakPak.\char`\"{}},  }\item[{size\+\_\+t}]{Max\+Size = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_storage_ab705a5ad6f3445ab7408ee453a4bb8af}\label{class_storage_ab705a5ad6f3445ab7408ee453a4bb8af}} 
+\index{Storage@{Storage}!Storage@{Storage}}
+\index{Storage@{Storage}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{Storage()}{Storage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Storage\+::\+Storage (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_storage}{Storage}} \&}]{S }\end{DoxyParamCaption})}
+
+
+
+Copy Constructor. 
+
+\mbox{\Hypertarget{class_storage_a73cf30f0a34250396f9eabee7dc5c93d}\label{class_storage_a73cf30f0a34250396f9eabee7dc5c93d}} 
+\index{Storage@{Storage}!````~Storage@{$\sim$Storage}}
+\index{````~Storage@{$\sim$Storage}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{$\sim$Storage()}{~Storage()}}
+{\footnotesize\ttfamily Storage\+::$\sim$\+Storage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_storage_aa88b5b4b101807e0629c2b2af6476dcf}\label{class_storage_aa88b5b4b101807e0629c2b2af6476dcf}} 
+\index{Storage@{Storage}!add@{add}}
+\index{add@{add}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Storage\+::add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_item}{Item}} \&}]{Element }\end{DoxyParamCaption})}
+
+
+
+Adds an \mbox{\hyperlink{class_item}{Item}} to the \mbox{\hyperlink{class_storage}{Storage}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_storage_aa88b5b4b101807e0629c2b2af6476dcf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a90311302b713775e503a253ab4aab3e8}\label{class_storage_a90311302b713775e503a253ab4aab3e8}} 
+\index{Storage@{Storage}!clear@{clear}}
+\index{clear@{clear}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Storage\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the \mbox{\hyperlink{class_storage}{Storage}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_storage_a90311302b713775e503a253ab4aab3e8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a093724577dea913ff7a12c1fda138b4f}\label{class_storage_a093724577dea913ff7a12c1fda138b4f}} 
+\index{Storage@{Storage}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily const char $\ast$ Storage\+::get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Description. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_storage_a093724577dea913ff7a12c1fda138b4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_aae68a74faf3e272b8ec8d036fe35f52a}\label{class_storage_aae68a74faf3e272b8ec8d036fe35f52a}} 
+\index{Storage@{Storage}!getInfo@{getInfo}}
+\index{getInfo@{getInfo}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfo()}{getInfo()}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+Writes out the \mbox{\hyperlink{class_storage}{Storage}}\textquotesingle{}s info to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_storage_aae68a74faf3e272b8ec8d036fe35f52a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a93ea60aa174ac901a12d1fbe1303c504}\label{class_storage_a93ea60aa174ac901a12d1fbe1303c504}} 
+\index{Storage@{Storage}!getInfoItems@{getInfoItems}}
+\index{getInfoItems@{getInfoItems}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItems()}{getInfoItems()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items (\begin{DoxyParamCaption}\item[{const Item\+Type \&}]{Type,  }\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_storage_a93ea60aa174ac901a12d1fbe1303c504_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a296636efc5aad4d35a4ed26bf62a95f5}\label{class_storage_a296636efc5aad4d35a4ed26bf62a95f5}} 
+\index{Storage@{Storage}!getInfoItems@{getInfoItems}}
+\index{getInfoItems@{getInfoItems}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItems()}{getInfoItems()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_storage_a296636efc5aad4d35a4ed26bf62a95f5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a6c945ac28473df5be400f8678c78265c}\label{class_storage_a6c945ac28473df5be400f8678c78265c}} 
+\index{Storage@{Storage}!getInfoItemsAll@{getInfoItemsAll}}
+\index{getInfoItemsAll@{getInfoItemsAll}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItemsAll()}{getInfoItemsAll()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items\+All (\begin{DoxyParamCaption}\item[{const Item\+Type \&}]{Type,  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{class_storage_a6c945ac28473df5be400f8678c78265c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_ae1a84ea6d2f1d50e96c04a8c327fe8ab}\label{class_storage_ae1a84ea6d2f1d50e96c04a8c327fe8ab}} 
+\index{Storage@{Storage}!getInfoItemsAll@{getInfoItemsAll}}
+\index{getInfoItemsAll@{getInfoItemsAll}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItemsAll()}{getInfoItemsAll()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items\+All (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{class_storage_ae1a84ea6d2f1d50e96c04a8c327fe8ab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_storage_ae1a84ea6d2f1d50e96c04a8c327fe8ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a70832690e89cdd9109f0e7f0c31affc2}\label{class_storage_a70832690e89cdd9109f0e7f0c31affc2}} 
+\index{Storage@{Storage}!getInfoItemsUse@{getInfoItemsUse}}
+\index{getInfoItemsUse@{getInfoItemsUse}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItemsUse()}{getInfoItemsUse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items\+Use (\begin{DoxyParamCaption}\item[{const Item\+Type \&}]{Type,  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Writes out a specific \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_storage_a70832690e89cdd9109f0e7f0c31affc2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a1c4126bb115b13af833f66a49ca19c67}\label{class_storage_a1c4126bb115b13af833f66a49ca19c67}} 
+\index{Storage@{Storage}!getInfoItemsUse@{getInfoItemsUse}}
+\index{getInfoItemsUse@{getInfoItemsUse}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getInfoItemsUse()}{getInfoItemsUse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Storage\+::get\+Info\+Items\+Use (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Writes out the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s infos in the \mbox{\hyperlink{class_storage}{Storage}} to the console. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_storage_a1c4126bb115b13af833f66a49ca19c67_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a67dd2a43e056ef6532a280f5afb1ff98}\label{class_storage_a67dd2a43e056ef6532a280f5afb1ff98}} 
+\index{Storage@{Storage}!getItems@{getItems}}
+\index{getItems@{getItems}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getItems()}{getItems()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ \mbox{\hyperlink{class_item}{Item}} $>$ Storage\+::get\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the \mbox{\hyperlink{class_item}{Item}}\textquotesingle{}s array, though cannot modify it. 
+
+\mbox{\Hypertarget{class_storage_a6801311f9f0065f834a4027cb2160fb5}\label{class_storage_a6801311f9f0065f834a4027cb2160fb5}} 
+\index{Storage@{Storage}!getMaxSize@{getMaxSize}}
+\index{getMaxSize@{getMaxSize}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getMaxSize()}{getMaxSize()}}
+{\footnotesize\ttfamily size\+\_\+t Storage\+::get\+Max\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets size of \mbox{\hyperlink{class_storage}{Storage}}. 
+
+\mbox{\Hypertarget{class_storage_a3aa4b83a48ac183c3249ca0cbff8a33a}\label{class_storage_a3aa4b83a48ac183c3249ca0cbff8a33a}} 
+\index{Storage@{Storage}!getName@{getName}}
+\index{getName@{getName}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const char $\ast$ Storage\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Name. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_storage_a3aa4b83a48ac183c3249ca0cbff8a33a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{class_storage_a3aa4b83a48ac183c3249ca0cbff8a33a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_aa035fcad7dee4519f3d2e33559723b76}\label{class_storage_aa035fcad7dee4519f3d2e33559723b76}} 
+\index{Storage@{Storage}!getSize@{getSize}}
+\index{getSize@{getSize}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily size\+\_\+t Storage\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets number of Items in the of \mbox{\hyperlink{class_storage}{Storage}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_storage_aa035fcad7dee4519f3d2e33559723b76_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_add8650b4ab6b8e85d393a2f5a6e60b57}\label{class_storage_add8650b4ab6b8e85d393a2f5a6e60b57}} 
+\index{Storage@{Storage}!isThereUpgrade@{isThereUpgrade}}
+\index{isThereUpgrade@{isThereUpgrade}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{isThereUpgrade()}{isThereUpgrade()}}
+{\footnotesize\ttfamily bool Storage\+::is\+There\+Upgrade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns if there are upgrades in the inventory. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_storage_add8650b4ab6b8e85d393a2f5a6e60b57_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a996ba6da437a448f325fa09064a4db2c}\label{class_storage_a996ba6da437a448f325fa09064a4db2c}} 
+\index{Storage@{Storage}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_item}{Item}}\& Storage\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Accessing an \mbox{\hyperlink{class_item}{Item}}. 
+
+\mbox{\Hypertarget{class_storage_a860d80caf14d9ad06412b5200ffa6f58}\label{class_storage_a860d80caf14d9ad06412b5200ffa6f58}} 
+\index{Storage@{Storage}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_item}{Item}}\& Storage\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Accessing an \mbox{\hyperlink{class_item}{Item}} as constant. 
+
+\mbox{\Hypertarget{class_storage_a0210115c208c5cfd5d52e66423f3d723}\label{class_storage_a0210115c208c5cfd5d52e66423f3d723}} 
+\index{Storage@{Storage}!remove@{remove}}
+\index{remove@{remove}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Storage\+::remove (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{Index }\end{DoxyParamCaption})}
+
+
+
+Removes an \mbox{\hyperlink{class_item}{Item}} from the \mbox{\hyperlink{class_storage}{Storage}} according to its index. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{class_storage_a0210115c208c5cfd5d52e66423f3d723_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{class_storage_a0210115c208c5cfd5d52e66423f3d723_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_storage_a07574bf9ed133033e1e46314369d0f2e}\label{class_storage_a07574bf9ed133033e1e46314369d0f2e}} 
+\index{Storage@{Storage}!setMaxSize@{setMaxSize}}
+\index{setMaxSize@{setMaxSize}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{setMaxSize()}{setMaxSize()}}
+{\footnotesize\ttfamily void Storage\+::set\+Max\+Size (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{SizeC }\end{DoxyParamCaption})}
+
+
+
+Sets size of \mbox{\hyperlink{class_storage}{Storage}}. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_storage_ac0325f33b558b68c2cad576400af6123}\label{class_storage_ac0325f33b558b68c2cad576400af6123}} 
+\index{Storage@{Storage}!Desc@{Desc}}
+\index{Desc@{Desc}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{Desc}{Desc}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} Storage\+::\+Desc}
+
+
+
+Description of the \mbox{\hyperlink{class_storage}{Storage}}. 
+
+\mbox{\Hypertarget{class_storage_a7e1b096af8d1c2ceb09343c84b3a20fb}\label{class_storage_a7e1b096af8d1c2ceb09343c84b3a20fb}} 
+\index{Storage@{Storage}!Items@{Items}}
+\index{Items@{Items}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{Items}{Items}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$\mbox{\hyperlink{class_item}{Item}}$>$ Storage\+::\+Items}
+
+
+
+Items in the \mbox{\hyperlink{class_storage}{Storage}}. 
+
+\mbox{\Hypertarget{class_storage_a5400df0c34fc5f41fc05249ffdf963bb}\label{class_storage_a5400df0c34fc5f41fc05249ffdf963bb}} 
+\index{Storage@{Storage}!MaxSize@{MaxSize}}
+\index{MaxSize@{MaxSize}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{MaxSize}{MaxSize}}
+{\footnotesize\ttfamily size\+\_\+t Storage\+::\+Max\+Size}
+
+
+
+Size of \mbox{\hyperlink{class_storage}{Storage}}, how many \mbox{\hyperlink{class_item}{Item}} it can hold. 
+
+\mbox{\Hypertarget{class_storage_adb5195a95fc11a1fddfe26caa55ce4ff}\label{class_storage_adb5195a95fc11a1fddfe26caa55ce4ff}} 
+\index{Storage@{Storage}!Name@{Name}}
+\index{Name@{Name}!Storage@{Storage}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_string}{String}} Storage\+::\+Name}
+
+
+
+Name of the \mbox{\hyperlink{class_storage}{Storage}}. 
+

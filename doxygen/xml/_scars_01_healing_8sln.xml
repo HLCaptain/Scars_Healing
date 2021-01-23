@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_scars_01_healing_8sln" kind="file" language="C++">
+    <compoundname>Scars Healing.sln</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline></codeline>
+<codeline><highlight class="normal">Microsoft<sp/>Visual<sp/>Studio<sp/>Solution<sp/>File,<sp/>Format<sp/>Version<sp/>12.00</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>Visual<sp/>Studio<sp/>Version<sp/>16</highlight></codeline>
+<codeline><highlight class="normal">VisualStudioVersion<sp/>=<sp/>16.0.29201.188</highlight></codeline>
+<codeline><highlight class="normal">MinimumVisualStudioVersion<sp/>=<sp/>10.0.40219.1</highlight></codeline>
+<codeline><highlight class="normal">Project(&quot;{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}&quot;)<sp/>=<sp/>&quot;Adventure_Time&quot;,<sp/>&quot;Adventure_Time.vcxproj&quot;,<sp/>&quot;{3ED3A93D-7F62-40A3-888F-61478B84F8B1}&quot;</highlight></codeline>
+<codeline><highlight class="normal">EndProject</highlight></codeline>
+<codeline><highlight class="normal">Global</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>GlobalSection(SolutionConfigurationPlatforms)<sp/>=<sp/>preSolution</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug|x64<sp/>=<sp/>Debug|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug|x86<sp/>=<sp/>Debug|x86</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Release|x64<sp/>=<sp/>Release|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Release|x86<sp/>=<sp/>Release|x86</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EndGlobalSection</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>GlobalSection(ProjectConfigurationPlatforms)<sp/>=<sp/>postSolution</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Debug|x64.ActiveCfg<sp/>=<sp/>Debug|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Debug|x64.Build.0<sp/>=<sp/>Debug|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Debug|x86.ActiveCfg<sp/>=<sp/>Debug|Win32</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Debug|x86.Build.0<sp/>=<sp/>Debug|Win32</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Release|x64.ActiveCfg<sp/>=<sp/>Release|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Release|x64.Build.0<sp/>=<sp/>Release|x64</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Release|x86.ActiveCfg<sp/>=<sp/>Release|Win32</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3ED3A93D-7F62-40A3-888F-61478B84F8B1}.Release|x86.Build.0<sp/>=<sp/>Release|Win32</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EndGlobalSection</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>GlobalSection(SolutionProperties)<sp/>=<sp/>preSolution</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HideSolutionNode<sp/>=<sp/>FALSE</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EndGlobalSection</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>GlobalSection(ExtensibilityGlobals)<sp/>=<sp/>postSolution</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SolutionGuid<sp/>=<sp/>{4E44412F-CF93-42E5-9916-A984AF509629}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EndGlobalSection</highlight></codeline>
+<codeline><highlight class="normal">EndGlobal</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Scars Healing.sln"/>
+  </compounddef>
+</doxygen>

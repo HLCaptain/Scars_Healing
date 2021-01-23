@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_item" kind="class" language="C++" prot="public">
+    <compoundname>Item</compoundname>
+    <includes refid="_item_8h" local="no">Item.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_item_1a3edbb83631f06482d730c40274303cff" prot="protected" static="no" mutable="no">
+        <type>ItemType</type>
+        <definition>ItemType Item::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Type of the <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="18" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_item_1afaaef88ed00da21815eb04565994054b" compoundref="_item_8cpp" startline="33" endline="33">getType</referencedby>
+        <referencedby refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" compoundref="_item_8cpp" startline="36" endline="66">getInfoItems</referencedby>
+        <referencedby refid="class_item_1a62464320466289a8fe2943ca5c68fa35" compoundref="_item_8cpp" startline="69" endline="142">useItem</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1a6e207ac9149f817300e4768364121a1a" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String Item::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Name of the <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="21" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" compoundref="_item_8cpp" startline="12" endline="12">getName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String Item::Desc</definition>
+        <argsstring></argsstring>
+        <name>Desc</name>
+        <briefdescription>
+<para>Description of the <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="24" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" compoundref="_item_8cpp" startline="15" endline="15">getDesc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Item::BonusDMG</definition>
+        <argsstring></argsstring>
+        <name>BonusDMG</name>
+        <briefdescription>
+<para>Additive Bonus Damage of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="27" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" compoundref="_item_8cpp" startline="18" endline="18">getBonusDMG</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1ac194138629f961fdd7bf0f29cf134ef5" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Item::BonusDMGM</definition>
+        <argsstring></argsstring>
+        <name>BonusDMGM</name>
+        <briefdescription>
+<para>Multiplied Bonus Damage of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="30" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" compoundref="_item_8cpp" startline="21" endline="21">getBonusDMGM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1ad388c129ab403ade13ce29805b9681be" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Item::BonusDEF</definition>
+        <argsstring></argsstring>
+        <name>BonusDEF</name>
+        <briefdescription>
+<para>Additive Bonus Defense of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="33" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" compoundref="_item_8cpp" startline="24" endline="24">getBonusDEF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1a06ae954fed310fd7c8f8c65949705c4f" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Item::BonusDEFM</definition>
+        <argsstring></argsstring>
+        <name>BonusDEFM</name>
+        <briefdescription>
+<para>Multiplied Bonus Defense of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="36" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" compoundref="_item_8cpp" startline="27" endline="27">getBonusDEFM</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_item_1ada814105fc6f052430099c7360894677" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Item::Heal</definition>
+        <argsstring></argsstring>
+        <name>Heal</name>
+        <briefdescription>
+<para>Healing of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="39" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_item_1a6ef1028da0417aed6a81e050642b2a31" compoundref="_item_8cpp" startline="30" endline="30">getHeal</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_1a923f7c918c68bf7c3cb209ed36b27bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Item::Item</definition>
+        <argsstring>(const ItemType Type=ItemType::WeaponShield, const char *Name=&quot;DisItem&quot;, const char *Desc=&quot;This is an Item.&quot;, const double &amp;BonusDMG=0, const double &amp;BonusDMGM=1, const double &amp;BonusDEF=0, const double &amp;BonusDEFM=1, const double &amp;Heal=0)</argsstring>
+        <name>Item</name>
+        <param>
+          <type>const ItemType</type>
+          <declname>Type</declname>
+          <defval>ItemType::WeaponShield</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>Name</declname>
+          <defval>&quot;DisItem&quot;</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>Desc</declname>
+          <defval>&quot;This is an Item.&quot;</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>BonusDMG</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>BonusDMGM</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>BonusDEF</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>BonusDEFM</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>Heal</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="42" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Item::~Item</definition>
+        <argsstring>()</argsstring>
+        <name>~Item</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="45" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a4caaf2b256d1ad62f407e279681ccee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Item::getInfoItems</definition>
+        <argsstring>(InfoPreset Preset=InfoPreset(), std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItems</name>
+        <param>
+          <type><ref refid="class_info_preset" kindref="compound">InfoPreset</ref></type>
+          <declname>Preset</declname>
+          <defval><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>()</defval>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out the <ref refid="class_item" kindref="compound">Item</ref>&apos;s info to an output. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="48" column="22" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="36" bodyend="66"/>
+        <references refid="class_info_preset_1af864623ebddc2a4f0f6d6f4261089a0b" compoundref="_info_preset_8h" startline="22">InfoPreset::DisplayNum</references>
+        <references refid="class_info_preset_1a217ca1776e1a6ea23b9acc5ce49ecd13" compoundref="_info_preset_8h" startline="37">InfoPreset::Num</references>
+        <references refid="class_item_1a3edbb83631f06482d730c40274303cff" compoundref="_item_8h" startline="18">Type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a32fb1297deede82e47cf3f6409cdbf92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Item::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Gets Name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="51" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="12" bodyend="12"/>
+        <references refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" compoundref="_string_8h" startline="28" endline="28">String::getStr</references>
+        <references refid="class_item_1a6e207ac9149f817300e4768364121a1a" compoundref="_item_8h" startline="21">Name</references>
+        <referencedby refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" compoundref="_player_8cpp" startline="76" endline="88">Player::attackEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Item::getDesc</definition>
+        <argsstring>()</argsstring>
+        <name>getDesc</name>
+        <briefdescription>
+<para>Gets Description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="54" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="15" bodyend="15"/>
+        <references refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" compoundref="_item_8h" startline="24">Desc</references>
+        <references refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" compoundref="_string_8h" startline="28" endline="28">String::getStr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Item::getBonusDMG</definition>
+        <argsstring>()</argsstring>
+        <name>getBonusDMG</name>
+        <briefdescription>
+<para>Gets Additive Bonus Damage of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="57" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="18" bodyend="18"/>
+        <references refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" compoundref="_item_8h" startline="27">BonusDMG</references>
+        <referencedby refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" compoundref="_player_8cpp" startline="76" endline="88">Player::attackEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a6931ae5d9be963413fd6e4d018eb2138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Item::getBonusDMGM</definition>
+        <argsstring>()</argsstring>
+        <name>getBonusDMGM</name>
+        <briefdescription>
+<para>Gets Multiplied Bonus Damage of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="60" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="21" bodyend="21"/>
+        <references refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" compoundref="_item_8h" startline="30">BonusDMGM</references>
+        <referencedby refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" compoundref="_player_8cpp" startline="76" endline="88">Player::attackEnemy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Item::getBonusDEF</definition>
+        <argsstring>()</argsstring>
+        <name>getBonusDEF</name>
+        <briefdescription>
+<para>Gets Additive Bonus Defense of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="63" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="24" bodyend="24"/>
+        <references refid="class_item_1ad388c129ab403ade13ce29805b9681be" compoundref="_item_8h" startline="33">BonusDEF</references>
+        <referencedby refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" compoundref="_player_8cpp" startline="76" endline="88">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Item::getBonusDEFM</definition>
+        <argsstring>()</argsstring>
+        <name>getBonusDEFM</name>
+        <briefdescription>
+<para>Gets Multiplied Bonus Defense of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="66" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="27" bodyend="27"/>
+        <references refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" compoundref="_item_8h" startline="36">BonusDEFM</references>
+        <referencedby refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" compoundref="_player_8cpp" startline="76" endline="88">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a6ef1028da0417aed6a81e050642b2a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Item::getHeal</definition>
+        <argsstring>()</argsstring>
+        <name>getHeal</name>
+        <briefdescription>
+<para>Gets Healing of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="69" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="30" bodyend="30"/>
+        <references refid="class_item_1ada814105fc6f052430099c7360894677" compoundref="_item_8h" startline="39">Heal</references>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1afaaef88ed00da21815eb04565994054b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ItemType</type>
+        <definition>ItemType Item::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+<para>Gets Type of <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="72" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="33" bodyend="33"/>
+        <references refid="class_item_1a3edbb83631f06482d730c40274303cff" compoundref="_item_8h" startline="18">Type</references>
+        <referencedby refid="class_attribute_check_1a7c88051e4c2202b4a1c0147643cd7d13" compoundref="_item_8h" startline="93" endline="95">AttributeCheck&lt; C &gt;::operator()</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_item_1a62464320466289a8fe2943ca5c68fa35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UseCases</type>
+        <definition>UseCases Item::useItem</definition>
+        <argsstring>()</argsstring>
+        <name>useItem</name>
+        <briefdescription>
+<para>Use an <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Use a Weapon/Shield</para>
+<para>Use a Healing Potion</para>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="75" column="10" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp" bodystart="69" bodyend="142"/>
+        <references refid="class_item_1a3edbb83631f06482d730c40274303cff" compoundref="_item_8h" startline="18">Type</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An <ref refid="class_item" kindref="compound">Item</ref> can be stored in a storage and also has a type. Depending on the type, an <ref refid="class_item" kindref="compound">Item</ref> can heal the player or damage an enemy, etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>String</label>
+        <link refid="class_string"/>
+      </node>
+      <node id="1">
+        <label>Item</label>
+        <link refid="class_item"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>#Desc</edgelabel>
+          <edgelabel>#Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="15" column="11" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="15" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_item_1ad388c129ab403ade13ce29805b9681be" prot="protected" virt="non-virtual"><scope>Item</scope><name>BonusDEF</name></member>
+      <member refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" prot="protected" virt="non-virtual"><scope>Item</scope><name>BonusDEFM</name></member>
+      <member refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" prot="protected" virt="non-virtual"><scope>Item</scope><name>BonusDMG</name></member>
+      <member refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" prot="protected" virt="non-virtual"><scope>Item</scope><name>BonusDMGM</name></member>
+      <member refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" prot="protected" virt="non-virtual"><scope>Item</scope><name>Desc</name></member>
+      <member refid="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" prot="public" virt="non-virtual"><scope>Item</scope><name>getBonusDEF</name></member>
+      <member refid="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" prot="public" virt="non-virtual"><scope>Item</scope><name>getBonusDEFM</name></member>
+      <member refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" prot="public" virt="non-virtual"><scope>Item</scope><name>getBonusDMG</name></member>
+      <member refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" prot="public" virt="non-virtual"><scope>Item</scope><name>getBonusDMGM</name></member>
+      <member refid="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" prot="public" virt="non-virtual"><scope>Item</scope><name>getDesc</name></member>
+      <member refid="class_item_1a6ef1028da0417aed6a81e050642b2a31" prot="public" virt="non-virtual"><scope>Item</scope><name>getHeal</name></member>
+      <member refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" prot="public" virt="virtual"><scope>Item</scope><name>getInfoItems</name></member>
+      <member refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" prot="public" virt="non-virtual"><scope>Item</scope><name>getName</name></member>
+      <member refid="class_item_1afaaef88ed00da21815eb04565994054b" prot="public" virt="non-virtual"><scope>Item</scope><name>getType</name></member>
+      <member refid="class_item_1ada814105fc6f052430099c7360894677" prot="protected" virt="non-virtual"><scope>Item</scope><name>Heal</name></member>
+      <member refid="class_item_1a923f7c918c68bf7c3cb209ed36b27bf6" prot="public" virt="non-virtual"><scope>Item</scope><name>Item</name></member>
+      <member refid="class_item_1a6e207ac9149f817300e4768364121a1a" prot="protected" virt="non-virtual"><scope>Item</scope><name>Name</name></member>
+      <member refid="class_item_1a3edbb83631f06482d730c40274303cff" prot="protected" virt="non-virtual"><scope>Item</scope><name>Type</name></member>
+      <member refid="class_item_1a62464320466289a8fe2943ca5c68fa35" prot="public" virt="non-virtual"><scope>Item</scope><name>useItem</name></member>
+      <member refid="class_item_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" virt="virtual"><scope>Item</scope><name>~Item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

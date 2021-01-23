@@ -1,0 +1,4 @@
+<map id="GenericArray::clear" name="GenericArray::clear">
+<area shape="rect" id="node1" title="Clears (deletes and then reallocate) the Array." alt="" coords="156,5,291,32"/>
+<area shape="rect" id="node2" href="$class_storage.html#a90311302b713775e503a253ab4aab3e8" title="Clears the Storage." alt="" coords="5,5,108,32"/>
+</map>

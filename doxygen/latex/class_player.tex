@@ -1,0 +1,203 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+\mbox{\hyperlink{class_player}{Player}} has Gold and a \mbox{\hyperlink{class_storage}{Storage}} in which it can hold some \mbox{\hyperlink{class_item}{Item}}. The \mbox{\hyperlink{class_player}{Player}} will be able to spend Gold in the Shop.  
+
+
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+
+
+Inheritance diagram for Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_acaf77ea9f608f917ddecdde6d62bf00e}{Player}} (const char $\ast$Name, double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5, size\+\_\+t Gold=0, \mbox{\hyperlink{class_storage}{Storage}} Storage\+Type=\mbox{\hyperlink{class_storage}{Storage}}())
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_player_aedaca1bc7ae6603e24716a23a2f40eb6}{Player}} (double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5, size\+\_\+t Gold=0)
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_player_a749d2c00e1fe0f5c2746f7505a58c062}{$\sim$\+Player}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_player_a8eb7206d12e28c347a785530ab1ecf71}{get\+Info\+Entity}} (\mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Writes out the \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s info to an output. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_player_ae75067ad3412686357d94ee1dd8d45b8}{get\+Gold}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s amount of Gold. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_storage}{Storage}} \& \mbox{\hyperlink{class_player_af5869694206295777e8f6c104c9165cb}{get\+Storage\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s type of \mbox{\hyperlink{class_storage}{Storage}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_ae30e579efad256523585a947932bcf7f}{attack\+Enemy}} (\mbox{\hyperlink{class_enemy}{Enemy}} \&e)
+\begin{DoxyCompactList}\small\item\em Attack an \mbox{\hyperlink{class_enemy}{Enemy}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a45b5020492d5e97efc1b5ff6bc2d1b26}{attack\+Enemy}} (\mbox{\hyperlink{class_enemy}{Enemy}} \&e, \mbox{\hyperlink{class_item}{Item}} \&WS)
+\begin{DoxyCompactList}\small\item\em Attack an \mbox{\hyperlink{class_enemy}{Enemy}} with a Weapon/\+Shield. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_abcb7d3223f85a71cc8c69dee6f87f3e4}{Heal}} (const size\+\_\+t Index)
+\begin{DoxyCompactList}\small\item\em Healing with an \mbox{\hyperlink{class_item}{Item}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_player}{Player}} has Gold and a \mbox{\hyperlink{class_storage}{Storage}} in which it can hold some \mbox{\hyperlink{class_item}{Item}}. The \mbox{\hyperlink{class_player}{Player}} will be able to spend Gold in the Shop. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_player_acaf77ea9f608f917ddecdde6d62bf00e}\label{class_player_acaf77ea9f608f917ddecdde6d62bf00e}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Name,  }\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5},  }\item[{size\+\_\+t}]{Gold = {\ttfamily 0},  }\item[{\mbox{\hyperlink{class_storage}{Storage}}}]{Storage\+Type = {\ttfamily \mbox{\hyperlink{class_storage}{Storage}}()} }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+\mbox{\Hypertarget{class_player_aedaca1bc7ae6603e24716a23a2f40eb6}\label{class_player_aedaca1bc7ae6603e24716a23a2f40eb6}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5},  }\item[{size\+\_\+t}]{Gold = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_player_a749d2c00e1fe0f5c2746f7505a58c062}\label{class_player_a749d2c00e1fe0f5c2746f7505a58c062}} 
+\index{Player@{Player}!````~Player@{$\sim$Player}}
+\index{````~Player@{$\sim$Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{$\sim$Player()}{~Player()}}
+{\footnotesize\ttfamily Player\+::$\sim$\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_ae30e579efad256523585a947932bcf7f}\label{class_player_ae30e579efad256523585a947932bcf7f}} 
+\index{Player@{Player}!attackEnemy@{attackEnemy}}
+\index{attackEnemy@{attackEnemy}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{attackEnemy()}{attackEnemy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player\+::attack\+Enemy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_enemy}{Enemy}} \&}]{e }\end{DoxyParamCaption})}
+
+
+
+Attack an \mbox{\hyperlink{class_enemy}{Enemy}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_ae30e579efad256523585a947932bcf7f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_a45b5020492d5e97efc1b5ff6bc2d1b26}\label{class_player_a45b5020492d5e97efc1b5ff6bc2d1b26}} 
+\index{Player@{Player}!attackEnemy@{attackEnemy}}
+\index{attackEnemy@{attackEnemy}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{attackEnemy()}{attackEnemy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player\+::attack\+Enemy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_enemy}{Enemy}} \&}]{e,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{WS }\end{DoxyParamCaption})}
+
+
+
+Attack an \mbox{\hyperlink{class_enemy}{Enemy}} with a Weapon/\+Shield. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_a45b5020492d5e97efc1b5ff6bc2d1b26_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_ae75067ad3412686357d94ee1dd8d45b8}\label{class_player_ae75067ad3412686357d94ee1dd8d45b8}} 
+\index{Player@{Player}!getGold@{getGold}}
+\index{getGold@{getGold}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getGold()}{getGold()}}
+{\footnotesize\ttfamily size\+\_\+t Player\+::get\+Gold (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s amount of Gold. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_player_ae75067ad3412686357d94ee1dd8d45b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_a8eb7206d12e28c347a785530ab1ecf71}\label{class_player_a8eb7206d12e28c347a785530ab1ecf71}} 
+\index{Player@{Player}!getInfoEntity@{getInfoEntity}}
+\index{getInfoEntity@{getInfoEntity}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getInfoEntity()}{getInfoEntity()}}
+{\footnotesize\ttfamily std\+::ostream \& Player\+::get\+Info\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Writes out the \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s info to an output. 
+
+
+
+Implements \mbox{\hyperlink{class_entity_a671db0d3b9087d5dded740dece3f46d5}{Entity}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_a8eb7206d12e28c347a785530ab1ecf71_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_af5869694206295777e8f6c104c9165cb}\label{class_player_af5869694206295777e8f6c104c9165cb}} 
+\index{Player@{Player}!getStorageType@{getStorageType}}
+\index{getStorageType@{getStorageType}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getStorageType()}{getStorageType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_storage}{Storage}} \& Player\+::get\+Storage\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s type of \mbox{\hyperlink{class_storage}{Storage}}. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_player_af5869694206295777e8f6c104c9165cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_player_abcb7d3223f85a71cc8c69dee6f87f3e4}\label{class_player_abcb7d3223f85a71cc8c69dee6f87f3e4}} 
+\index{Player@{Player}!Heal@{Heal}}
+\index{Heal@{Heal}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Heal()}{Heal()}}
+{\footnotesize\ttfamily void Player\+::\+Heal (\begin{DoxyParamCaption}\item[{const size\+\_\+t}]{Index }\end{DoxyParamCaption})}
+
+
+
+Healing with an \mbox{\hyperlink{class_item}{Item}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_player_abcb7d3223f85a71cc8c69dee6f87f3e4_cgraph}
+\end{center}
+\end{figure}

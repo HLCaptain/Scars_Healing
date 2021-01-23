@@ -1,0 +1,110 @@
+.TH "GenericArray< C >" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GenericArray< C > \- This \fBGenericArray\fP can store any type of things dynamically\&. Maybe I will do a static version as well\&. Or just implement it with a bool\&. Time will tell\&.\&.\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GenericArray\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGenericArray\fP ()"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "\fBGenericArray\fP (const \fBGenericArray\fP< C > &GA)"
+.br
+.RI "Copy Constructor\&. "
+.ti -1c
+.RI "virtual \fB~GenericArray\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "void \fBadd\fP (const C &Element)"
+.br
+.RI "Adding an Element to the Array\&. "
+.ti -1c
+.RI "void \fBremove\fP (const size_t &Index)"
+.br
+.RI "Removes an Element from the Array\&. "
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.RI "Clears (deletes and then reallocate) the Array\&. "
+.ti -1c
+.RI "C & \fBoperator[]\fP (size_t Index) const"
+.br
+.RI "Accessing Data as constant\&. "
+.ti -1c
+.RI "C & \fBoperator[]\fP (size_t Index)"
+.br
+.RI "Accessing Data\&. "
+.ti -1c
+.RI "const size_t & \fBgetSize\fP ()"
+.br
+.RI "Get Size of the Array\&. "
+.ti -1c
+.RI "template<class Pred > size_t \fBgetPredNum\fP (Pred pred)"
+.br
+.RI "Get Number of specific Items in the Array\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<class C>
+.br
+class GenericArray< C >"
+This \fBGenericArray\fP can store any type of things dynamically\&. Maybe I will do a static version as well\&. Or just implement it with a bool\&. Time will tell\&.\&.\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<class C > \fBGenericArray\fP< C >::\fBGenericArray\fP ()\fC [inline]\fP"
+
+.PP
+Default Constructor\&. 
+.SS "template<class C > \fBGenericArray\fP< C >::\fBGenericArray\fP (const \fBGenericArray\fP< C > & GA)\fC [inline]\fP"
+
+.PP
+Copy Constructor\&. 
+.SS "template<class C > virtual \fBGenericArray\fP< C >::~\fBGenericArray\fP ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "template<class C > void \fBGenericArray\fP< C >::add (const C & Element)\fC [inline]\fP"
+
+.PP
+Adding an Element to the Array\&. 
+.SS "template<class C > void \fBGenericArray\fP< C >::clear ()\fC [inline]\fP"
+
+.PP
+Clears (deletes and then reallocate) the Array\&. 
+.SS "template<class C > template<class Pred > size_t \fBGenericArray\fP< C >::getPredNum (Pred pred)\fC [inline]\fP"
+
+.PP
+Get Number of specific Items in the Array\&. 
+.SS "template<class C > const size_t& \fBGenericArray\fP< C >::getSize ()\fC [inline]\fP"
+
+.PP
+Get Size of the Array\&. 
+.SS "template<class C > C& \fBGenericArray\fP< C >::operator[] (size_t Index)\fC [inline]\fP"
+
+.PP
+Accessing Data\&. 
+.SS "template<class C > C& \fBGenericArray\fP< C >::operator[] (size_t Index) const\fC [inline]\fP"
+
+.PP
+Accessing Data as constant\&. 
+.SS "template<class C > void \fBGenericArray\fP< C >::remove (const size_t & Index)\fC [inline]\fP"
+
+.PP
+Removes an Element from the Array\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

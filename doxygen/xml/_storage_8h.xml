@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_storage_8h" kind="file" language="C++">
+    <compoundname>Storage.h</compoundname>
+    <includes refid="_string_8h" local="yes">String.h</includes>
+    <includes refid="_item_8h" local="yes">Item.h</includes>
+    <includes refid="_generic_array_8h" local="yes">GenericArray.h</includes>
+    <includedby refid="_enemy_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</includedby>
+    <includedby refid="_player_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</includedby>
+    <includedby refid="test_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</includedby>
+    <includedby refid="_storage_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</label>
+        <link refid="_storage_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</label>
+        <link refid="test_8h_source"/>
+      </node>
+      <node id="3">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</label>
+        <link refid="_storage_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_storage" prot="public">Storage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STORAGE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORAGE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Item.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GenericArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_storage" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_storage" kindref="compound">Storage</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" kindref="member">Name</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_storage_1ac0325f33b558b68c2cad576400af6123" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_storage_1ac0325f33b558b68c2cad576400af6123" kindref="member">Desc</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" kindref="member">MaxSize</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Item&gt;</ref><sp/><ref refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" kindref="member">Items</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_storage_1aad9c6969ee1edca7354c1d8e76507d42" kindref="member">Storage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" kindref="member">Name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;BakPak&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_storage_1ac0325f33b558b68c2cad576400af6123" kindref="member">Desc</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>is<sp/>a<sp/>BakPak.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" kindref="member">MaxSize</ref><sp/>=<sp/>5);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_storage_1aad9c6969ee1edca7354c1d8e76507d42" kindref="member">Storage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_storage" kindref="compound">Storage</ref>&amp;<sp/>S);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a73cf30f0a34250396f9eabee7dc5c93d" kindref="member">~Storage</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" kindref="member">getInfo</ref>(std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" kindref="member">getInfoItems</ref>(<ref refid="class_info_preset" kindref="compound">InfoPreset</ref><sp/>Preset<sp/>=<sp/><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>(),<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" kindref="member">getInfoItems</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ItemType&amp;<sp/>Type,<sp/><ref refid="class_info_preset" kindref="compound">InfoPreset</ref><sp/>Preset<sp/>=<sp/><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>(),<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" kindref="member">getInfoItemsAll</ref>(std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" kindref="member">getInfoItemsAll</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ItemType&amp;<sp/>Type,<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" kindref="member">getInfoItemsUse</ref>(std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" kindref="member">getInfoItemsUse</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ItemType&amp;<sp/>Type,<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" kindref="member">getName</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_storage_1a093724577dea913ff7a12c1fda138b4f" kindref="member">getDescription</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Item&gt;</ref><sp/><ref refid="class_storage_1a67dd2a43e056ef6532a280f5afb1ff98" kindref="member">getItems</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" kindref="member">add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/>Element);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" kindref="member">remove</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>Index);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a90311302b713775e503a253ab4aab3e8" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a6801311f9f0065f834a4027cb2160fb5" kindref="member">getMaxSize</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" kindref="member">getSize</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a07574bf9ed133033e1e46314369d0f2e" kindref="member">setMaxSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>SizeC);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" kindref="member">isThereUpgrade</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/><ref refid="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" kindref="member">Items</ref>[Index];<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_storage_1a996ba6da437a448f325fa09064a4db2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/><ref refid="class_storage_1a996ba6da437a448f325fa09064a4db2c" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Index)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" kindref="member">Items</ref>[Index];<sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//STORAGE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h"/>
+  </compounddef>
+</doxygen>

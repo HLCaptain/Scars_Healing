@@ -1,0 +1,92 @@
+.TH "Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp" 3 "Sat May 2 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'Actions\&.h'\fP
+.br
+\fC#include <typeinfo>\fP
+.br
+\fC#include 'Item\&.h'\fP
+.br
+\fC#include 'Enemy\&.h'\fP
+.br
+\fC#include 'Player\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "size_t \fBgetWSNum\fP (\fBPlayer\fP &PLYR, \fBActionEnums\fP &ActionState)"
+.br
+.RI "Gets the number of the Weapon/Shield, the \fBPlayer\fP has chosen\&. "
+.ti -1c
+.RI "\fBActionEnums\fP \fBattackSeq\fP (\fBPlayer\fP &PLYR, \fBGenericArray\fP< \fBEnemy\fP > &Enemies, \fBItem\fP &CWS)"
+.br
+.RI "\fBPlayer\fP Chooses an enemy to attack, \fBEnemy\fP and \fBPlayer\fP can die\&. "
+.ti -1c
+.RI "\fBActionEnums\fP \fBdecideSeq\fP (\fBPlayer\fP &PLYR, const size_t &EnemyNum)"
+.br
+.RI "Decide the Action you want to make\&. "
+.ti -1c
+.RI "\fBActionEnums\fP \fBitemSeq\fP (\fBPlayer\fP &PLYR)"
+.br
+.RI "Selection of an \fBItem\fP from the inventory\&. "
+.ti -1c
+.RI "void \fBactionSeq\fP (\fBPlayer\fP &PLYR, \fBGenericArray\fP< \fBEnemy\fP > &Enemies)"
+.br
+.RI "Statemachine of an Action\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBInfoPreset\fP \fBEnemyAttackBasic\fP ('Attack ', 1, 0, 0, 0, 1, 0, 0, 0)"
+.br
+.RI "Global Variables\&. "
+.ti -1c
+.RI "\fBInfoPreset\fP \fBEnemyAttack\fP ('Attack ', 1, 1, 1, 1, 1, 0, 0, 0)"
+.br
+.ti -1c
+.RI "\fBStorage\fP \fBWorld\fP ('World', 'World storage', 20)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void actionSeq (\fBPlayer\fP & PLYR, \fBGenericArray\fP< \fBEnemy\fP > & Enemies)"
+
+.PP
+Statemachine of an Action\&. 
+.SS "\fBActionEnums\fP attackSeq (\fBPlayer\fP & PLYR, \fBGenericArray\fP< \fBEnemy\fP > & Enemies, \fBItem\fP & CWS)"
+
+.PP
+\fBPlayer\fP Chooses an enemy to attack, \fBEnemy\fP and \fBPlayer\fP can die\&. 
+.SS "\fBActionEnums\fP decideSeq (\fBPlayer\fP & PLYR, const size_t & EnemyNum)"
+
+.PP
+Decide the Action you want to make\&. 
+.SS "size_t getWSNum (\fBPlayer\fP & PLYR, \fBActionEnums\fP & ActionState)"
+
+.PP
+Gets the number of the Weapon/Shield, the \fBPlayer\fP has chosen\&. Deletes an element from an Array\&. 
+.SS "\fBActionEnums\fP itemSeq (\fBPlayer\fP & PLYR)"
+
+.PP
+Selection of an \fBItem\fP from the inventory\&. 
+.SH "Variable Documentation"
+.PP 
+.SS "\fBInfoPreset\fP EnemyAttack('Attack ', 1, 1, 1, 1, 1, 0, 0, 0)"
+
+.SS "\fBInfoPreset\fP EnemyAttackBasic('Attack ', 1, 0, 0, 0, 1, 0, 0, 0)"
+
+.PP
+Global Variables\&. 
+.SS "\fBStorage\fP World('World', 'World storage', 20)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

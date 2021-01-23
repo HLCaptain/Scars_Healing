@@ -1,0 +1,240 @@
+.TH "Storage" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Storage \- A \fBStorage\fP is able to store Items, but to a limited extent (MaxSize)\&. Also has a Name and a Description\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Storage\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStorage\fP (const char *\fBName\fP='BakPak', const char *\fBDesc\fP='This is a BakPak\&.', size_t \fBMaxSize\fP=5)"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "\fBStorage\fP (const \fBStorage\fP &S)"
+.br
+.RI "Copy Constructor\&. "
+.ti -1c
+.RI "virtual \fB~Storage\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfo\fP (std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBStorage\fP's info to the console\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoItems\fP (\fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoItems\fP (const ItemType &Type, \fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)"
+.br
+.RI "Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoItemsAll\fP (std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoItemsAll\fP (const ItemType &Type, std::ostream &os=std::cout)"
+.br
+.RI "Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "virtual std::ostream & \fBgetInfoItemsUse\fP (std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "virtual std::ostream & \fBgetInfoItemsUse\fP (const ItemType &Type, std::ostream &os=std::cout)"
+.br
+.RI "Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. "
+.ti -1c
+.RI "const char * \fBgetName\fP ()"
+.br
+.RI "Gets Name\&. "
+.ti -1c
+.RI "const char * \fBgetDescription\fP ()"
+.br
+.RI "Gets Description\&. "
+.ti -1c
+.RI "\fBGenericArray\fP< \fBItem\fP > \fBgetItems\fP () const"
+.br
+.RI "Gets the \fBItem\fP's array, though cannot modify it\&. "
+.ti -1c
+.RI "void \fBadd\fP (const \fBItem\fP &Element)"
+.br
+.RI "Adds an \fBItem\fP to the \fBStorage\fP\&. "
+.ti -1c
+.RI "void \fBremove\fP (const size_t &Index)"
+.br
+.RI "Removes an \fBItem\fP from the \fBStorage\fP according to its index\&. "
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.RI "Clears the \fBStorage\fP\&. "
+.ti -1c
+.RI "size_t \fBgetMaxSize\fP ()"
+.br
+.RI "Gets size of \fBStorage\fP\&. "
+.ti -1c
+.RI "size_t \fBgetSize\fP ()"
+.br
+.RI "Gets number of Items in the of \fBStorage\fP\&. "
+.ti -1c
+.RI "void \fBsetMaxSize\fP (const size_t &SizeC)"
+.br
+.RI "Sets size of \fBStorage\fP\&. "
+.ti -1c
+.RI "bool \fBisThereUpgrade\fP ()"
+.br
+.RI "Returns if there are upgrades in the inventory\&. "
+.ti -1c
+.RI "\fBItem\fP & \fBoperator[]\fP (size_t Index) const"
+.br
+.RI "Accessing an \fBItem\fP as constant\&. "
+.ti -1c
+.RI "\fBItem\fP & \fBoperator[]\fP (size_t Index)"
+.br
+.RI "Accessing an \fBItem\fP\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBString\fP \fBName\fP"
+.br
+.RI "Name of the \fBStorage\fP\&. "
+.ti -1c
+.RI "\fBString\fP \fBDesc\fP"
+.br
+.RI "Description of the \fBStorage\fP\&. "
+.ti -1c
+.RI "size_t \fBMaxSize\fP"
+.br
+.RI "Size of \fBStorage\fP, how many \fBItem\fP it can hold\&. "
+.ti -1c
+.RI "\fBGenericArray\fP< \fBItem\fP > \fBItems\fP"
+.br
+.RI "Items in the \fBStorage\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A \fBStorage\fP is able to store Items, but to a limited extent (MaxSize)\&. Also has a Name and a Description\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Storage::Storage (const char * Name = \fC'BakPak'\fP, const char * Desc = \fC'This is a BakPak\&.'\fP, size_t MaxSize = \fC5\fP)"
+
+.PP
+Default Constructor\&. 
+.SS "Storage::Storage (const \fBStorage\fP & S)"
+
+.PP
+Copy Constructor\&. 
+.SS "Storage::~Storage ()\fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Storage::add (const \fBItem\fP & Element)"
+
+.PP
+Adds an \fBItem\fP to the \fBStorage\fP\&. 
+.SS "void Storage::clear ()"
+
+.PP
+Clears the \fBStorage\fP\&. 
+.SS "const char * Storage::getDescription ()"
+
+.PP
+Gets Description\&. 
+.SS "std::ostream & Storage::getInfo (std::ostream & os = \fCstd::cout\fP)"
+
+.PP
+Writes out the \fBStorage\fP's info to the console\&. 
+.SS "std::ostream & Storage::getInfoItems (const ItemType & Type, \fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)"
+
+.PP
+Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "std::ostream & Storage::getInfoItems (\fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)"
+
+.PP
+Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "std::ostream & Storage::getInfoItemsAll (const ItemType & Type, std::ostream & os = \fCstd::cout\fP)"
+
+.PP
+Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "std::ostream & Storage::getInfoItemsAll (std::ostream & os = \fCstd::cout\fP)"
+
+.PP
+Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "std::ostream & Storage::getInfoItemsUse (const ItemType & Type, std::ostream & os = \fCstd::cout\fP)\fC [virtual]\fP"
+
+.PP
+Writes out a specific \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "std::ostream & Storage::getInfoItemsUse (std::ostream & os = \fCstd::cout\fP)\fC [virtual]\fP"
+
+.PP
+Writes out the \fBItem\fP's infos in the \fBStorage\fP to the console\&. 
+.SS "\fBGenericArray\fP< \fBItem\fP > Storage::getItems () const"
+
+.PP
+Gets the \fBItem\fP's array, though cannot modify it\&. 
+.SS "size_t Storage::getMaxSize ()"
+
+.PP
+Gets size of \fBStorage\fP\&. 
+.SS "const char * Storage::getName ()"
+
+.PP
+Gets Name\&. 
+.SS "size_t Storage::getSize ()"
+
+.PP
+Gets number of Items in the of \fBStorage\fP\&. 
+.SS "bool Storage::isThereUpgrade ()"
+
+.PP
+Returns if there are upgrades in the inventory\&. 
+.SS "\fBItem\fP& Storage::operator[] (size_t Index)\fC [inline]\fP"
+
+.PP
+Accessing an \fBItem\fP\&. 
+.SS "\fBItem\fP& Storage::operator[] (size_t Index) const\fC [inline]\fP"
+
+.PP
+Accessing an \fBItem\fP as constant\&. 
+.SS "void Storage::remove (const size_t & Index)"
+
+.PP
+Removes an \fBItem\fP from the \fBStorage\fP according to its index\&. 
+.SS "void Storage::setMaxSize (const size_t & SizeC)"
+
+.PP
+Sets size of \fBStorage\fP\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBString\fP Storage::Desc"
+
+.PP
+Description of the \fBStorage\fP\&. 
+.SS "\fBGenericArray\fP<\fBItem\fP> Storage::Items"
+
+.PP
+Items in the \fBStorage\fP\&. 
+.SS "size_t Storage::MaxSize"
+
+.PP
+Size of \fBStorage\fP, how many \fBItem\fP it can hold\&. 
+.SS "\fBString\fP Storage::Name"
+
+.PP
+Name of the \fBStorage\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

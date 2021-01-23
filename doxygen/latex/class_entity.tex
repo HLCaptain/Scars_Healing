@@ -1,0 +1,223 @@
+\hypertarget{class_entity}{}\doxysection{Entity Class Reference}
+\label{class_entity}\index{Entity@{Entity}}
+
+
+An alive \mbox{\hyperlink{class_entity}{Entity}} can be a \mbox{\hyperlink{class_player}{Player}} or an \mbox{\hyperlink{class_enemy}{Enemy}} (for now). It has HP, a Name and basic attributes, like Base\+D\+MG and Base\+D\+EF.  
+
+
+
+
+{\ttfamily \#include $<$Entity.\+h$>$}
+
+
+
+Inheritance diagram for Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_entity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_entity_a6d52a805244eb3cb2c8552298187bc8a}{Entity}} (const char $\ast$Name, double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_entity_a3aa9ae80607ca4a4f1506afc28ae0a5f}{Entity}} (double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5)
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}{$\sim$\+Entity}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_entity_a915cd93caa3a2730a58c74c404e0df6d}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_entity_ae28f385cd28512190092c60f4ef03e4b}{get\+Base\+D\+MG}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Base Damage. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_entity_a181a9ed8c2f4b8cbf2c1799808840b98}{get\+Base\+D\+EF}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Base Defense. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_entity_a2e1e28a69df4f3e85056fd00425373c1}{get\+HP}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s HP. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_entity_a29a6b9846b3059a41c81858a744d6c33}{get\+Max\+HP}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Max\+HP. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_entity_a3b040bb229db233ad6ce5a62b129d3ef}{set\+HP}} (const double hp)
+\begin{DoxyCompactList}\small\item\em Sets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s HP. \end{DoxyCompactList}\item 
+virtual std\+::ostream \& \mbox{\hyperlink{class_entity_a671db0d3b9087d5dded740dece3f46d5}{get\+Info\+Entity}} (\mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)=0
+\begin{DoxyCompactList}\small\item\em Displays the info of an \mbox{\hyperlink{class_entity}{Entity}}, dynamically controlable with an \mbox{\hyperlink{class_info_preset}{Info\+Preset}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An alive \mbox{\hyperlink{class_entity}{Entity}} can be a \mbox{\hyperlink{class_player}{Player}} or an \mbox{\hyperlink{class_enemy}{Enemy}} (for now). It has HP, a Name and basic attributes, like Base\+D\+MG and Base\+D\+EF. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_entity_a6d52a805244eb3cb2c8552298187bc8a}\label{class_entity_a6d52a805244eb3cb2c8552298187bc8a}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Name,  }\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+\mbox{\Hypertarget{class_entity_a3aa9ae80607ca4a4f1506afc28ae0a5f}\label{class_entity_a3aa9ae80607ca4a4f1506afc28ae0a5f}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}\label{class_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}} 
+\index{Entity@{Entity}!````~Entity@{$\sim$Entity}}
+\index{````~Entity@{$\sim$Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{$\sim$Entity()}{~Entity()}}
+{\footnotesize\ttfamily Entity\+::$\sim$\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_entity_a181a9ed8c2f4b8cbf2c1799808840b98}\label{class_entity_a181a9ed8c2f4b8cbf2c1799808840b98}} 
+\index{Entity@{Entity}!getBaseDEF@{getBaseDEF}}
+\index{getBaseDEF@{getBaseDEF}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getBaseDEF()}{getBaseDEF()}}
+{\footnotesize\ttfamily double Entity\+::get\+Base\+D\+EF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Base Defense. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_entity_a181a9ed8c2f4b8cbf2c1799808840b98_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_entity_ae28f385cd28512190092c60f4ef03e4b}\label{class_entity_ae28f385cd28512190092c60f4ef03e4b}} 
+\index{Entity@{Entity}!getBaseDMG@{getBaseDMG}}
+\index{getBaseDMG@{getBaseDMG}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getBaseDMG()}{getBaseDMG()}}
+{\footnotesize\ttfamily double Entity\+::get\+Base\+D\+MG (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Base Damage. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_entity_ae28f385cd28512190092c60f4ef03e4b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_entity_a2e1e28a69df4f3e85056fd00425373c1}\label{class_entity_a2e1e28a69df4f3e85056fd00425373c1}} 
+\index{Entity@{Entity}!getHP@{getHP}}
+\index{getHP@{getHP}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getHP()}{getHP()}}
+{\footnotesize\ttfamily double Entity\+::get\+HP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s HP. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_entity_a2e1e28a69df4f3e85056fd00425373c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_entity_a671db0d3b9087d5dded740dece3f46d5}\label{class_entity_a671db0d3b9087d5dded740dece3f46d5}} 
+\index{Entity@{Entity}!getInfoEntity@{getInfoEntity}}
+\index{getInfoEntity@{getInfoEntity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getInfoEntity()}{getInfoEntity()}}
+{\footnotesize\ttfamily virtual std\+::ostream\& Entity\+::get\+Info\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Displays the info of an \mbox{\hyperlink{class_entity}{Entity}}, dynamically controlable with an \mbox{\hyperlink{class_info_preset}{Info\+Preset}}. 
+
+
+
+Implemented in \mbox{\hyperlink{class_enemy_a5e801697dc4608bc549ad08f3c584127}{Enemy}}, and \mbox{\hyperlink{class_player_a8eb7206d12e28c347a785530ab1ecf71}{Player}}.
+
+\mbox{\Hypertarget{class_entity_a29a6b9846b3059a41c81858a744d6c33}\label{class_entity_a29a6b9846b3059a41c81858a744d6c33}} 
+\index{Entity@{Entity}!getMaxHP@{getMaxHP}}
+\index{getMaxHP@{getMaxHP}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getMaxHP()}{getMaxHP()}}
+{\footnotesize\ttfamily double Entity\+::get\+Max\+HP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s Max\+HP. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{class_entity_a29a6b9846b3059a41c81858a744d6c33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_entity_a915cd93caa3a2730a58c74c404e0df6d}\label{class_entity_a915cd93caa3a2730a58c74c404e0df6d}} 
+\index{Entity@{Entity}!getName@{getName}}
+\index{getName@{getName}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const char $\ast$ Entity\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s name. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{class_entity_a915cd93caa3a2730a58c74c404e0df6d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_entity_a915cd93caa3a2730a58c74c404e0df6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_entity_a3b040bb229db233ad6ce5a62b129d3ef}\label{class_entity_a3b040bb229db233ad6ce5a62b129d3ef}} 
+\index{Entity@{Entity}!setHP@{setHP}}
+\index{setHP@{setHP}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{setHP()}{setHP()}}
+{\footnotesize\ttfamily void Entity\+::set\+HP (\begin{DoxyParamCaption}\item[{const double}]{hp }\end{DoxyParamCaption})}
+
+
+
+Sets \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s HP. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_entity_a3b040bb229db233ad6ce5a62b129d3ef_icgraph}
+\end{center}
+\end{figure}

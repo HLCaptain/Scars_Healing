@@ -1,0 +1,387 @@
+\begin{theindex}
+
+  \item {\_Is\_Types$<$ F, T $>$}, \hyperpage{13}
+    \subitem {convertable}, \hyperpage{14}
+    \subitem {f}, \hyperpage{14}
+  \item {$\sim$Enemy}
+    \subitem {Enemy}, \hyperpage{19}
+  \item {$\sim$Entity}
+    \subitem {Entity}, \hyperpage{24}
+  \item {$\sim$GenericArray}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{30}
+  \item {$\sim$InfoPreset}
+    \subitem {InfoPreset}, \hyperpage{35}
+  \item {$\sim$Item}
+    \subitem {Item}, \hyperpage{40}
+  \item {$\sim$Player}
+    \subitem {Player}, \hyperpage{48}
+  \item {$\sim$Storage}
+    \subitem {Storage}, \hyperpage{55}
+  \item {$\sim$String}
+    \subitem {String}, \hyperpage{65}
+  \item {$\sim$Test}
+    \subitem {gtest\_lite::Test}, \hyperpage{69}
+
+  \indexspace
+
+  \item {ablocks}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+  \item {add}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{30}
+    \subitem {Storage}, \hyperpage{55}
+  \item {almostEQ}
+    \subitem {gtest\_lite}, \hyperpage{8}
+  \item {attackEnemy}
+    \subitem {Player}, \hyperpage{49}
+  \item {attackPlayer}
+    \subitem {Enemy}, \hyperpage{19}
+  \item {AttributeCheck}
+    \subitem {AttributeCheck$<$ C $>$}, \hyperpage{15}
+  \item {AttributeCheck$<$ C $>$}, \hyperpage{15}
+    \subitem {AttributeCheck}, \hyperpage{15}
+    \subitem {operator()}, \hyperpage{16}
+
+  \indexspace
+
+  \item {BaseDEF}
+    \subitem {InfoPreset}, \hyperpage{36}
+  \item {BaseDMG}
+    \subitem {InfoPreset}, \hyperpage{36}
+  \item {begin}
+    \subitem {gtest\_lite::Test}, \hyperpage{69}
+  \item {BonusDEF}
+    \subitem {Item}, \hyperpage{44}
+  \item {BonusDEFM}
+    \subitem {Item}, \hyperpage{44}
+  \item {BonusDMG}
+    \subitem {Item}, \hyperpage{44}
+  \item {BonusDMGM}
+    \subitem {Item}, \hyperpage{44}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{31}
+    \subitem {Storage}, \hyperpage{56}
+  \item {convertable}
+    \subitem {\_Is\_Types$<$ F, T $>$}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Desc}
+    \subitem {Item}, \hyperpage{45}
+    \subitem {Storage}, \hyperpage{63}
+  \item {DisplayNum}
+    \subitem {InfoPreset}, \hyperpage{36}
+
+  \indexspace
+
+  \item {end}
+    \subitem {gtest\_lite::Test}, \hyperpage{69}
+  \item {Enemy}, \hyperpage{16}
+    \subitem {$\sim$Enemy}, \hyperpage{19}
+    \subitem {attackPlayer}, \hyperpage{19}
+    \subitem {Enemy}, \hyperpage{19}
+    \subitem {getInfoEntity}, \hyperpage{20}
+  \item {Entity}, \hyperpage{21}
+    \subitem {$\sim$Entity}, \hyperpage{24}
+    \subitem {Entity}, \hyperpage{24}
+    \subitem {getBaseDEF}, \hyperpage{24}
+    \subitem {getBaseDMG}, \hyperpage{25}
+    \subitem {getHP}, \hyperpage{25}
+    \subitem {getInfoEntity}, \hyperpage{26}
+    \subitem {getMaxHP}, \hyperpage{26}
+    \subitem {getName}, \hyperpage{27}
+    \subitem {setHP}, \hyperpage{28}
+  \item {eq}
+    \subitem {gtest\_lite}, \hyperpage{8}
+  \item {eqstr}
+    \subitem {gtest\_lite}, \hyperpage{8}
+  \item {expect}
+    \subitem {gtest\_lite::Test}, \hyperpage{70}
+  \item {EXPECT\_}
+    \subitem {gtest\_lite}, \hyperpage{8, 9}
+  \item {EXPECTSTR}
+    \subitem {gtest\_lite}, \hyperpage{9}
+
+  \indexspace
+
+  \item {f}
+    \subitem {\_Is\_Types$<$ F, T $>$}, \hyperpage{14}
+  \item {fail}
+    \subitem {gtest\_lite::Test}, \hyperpage{70}
+  \item {failed}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+
+  \indexspace
+
+  \item {ge}
+    \subitem {gtest\_lite}, \hyperpage{10}
+  \item {GenericArray}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{30}
+  \item {GenericArray$<$ C $>$}, \hyperpage{29}
+    \subitem {$\sim$GenericArray}, \hyperpage{30}
+    \subitem {add}, \hyperpage{30}
+    \subitem {clear}, \hyperpage{31}
+    \subitem {GenericArray}, \hyperpage{30}
+    \subitem {getPredNum}, \hyperpage{31}
+    \subitem {getSize}, \hyperpage{31}
+    \subitem {operator[]}, \hyperpage{32}
+    \subitem {remove}, \hyperpage{32}
+  \item {getBaseDEF}
+    \subitem {Entity}, \hyperpage{24}
+  \item {getBaseDMG}
+    \subitem {Entity}, \hyperpage{25}
+  \item {getBonusDEF}
+    \subitem {Item}, \hyperpage{40}
+  \item {getBonusDEFM}
+    \subitem {Item}, \hyperpage{40}
+  \item {getBonusDMG}
+    \subitem {Item}, \hyperpage{41}
+  \item {getBonusDMGM}
+    \subitem {Item}, \hyperpage{41}
+  \item {getDesc}
+    \subitem {Item}, \hyperpage{42}
+  \item {getDescription}
+    \subitem {Storage}, \hyperpage{56}
+  \item {getGold}
+    \subitem {Player}, \hyperpage{50}
+  \item {getHeal}
+    \subitem {Item}, \hyperpage{42}
+  \item {getHP}
+    \subitem {Entity}, \hyperpage{25}
+  \item {getInfo}
+    \subitem {Storage}, \hyperpage{57}
+  \item {getInfoEntity}
+    \subitem {Enemy}, \hyperpage{20}
+    \subitem {Entity}, \hyperpage{26}
+    \subitem {Player}, \hyperpage{50}
+  \item {getInfoItems}
+    \subitem {Item}, \hyperpage{42}
+    \subitem {Storage}, \hyperpage{57, 58}
+  \item {getInfoItemsAll}
+    \subitem {Storage}, \hyperpage{58}
+  \item {getInfoItemsUse}
+    \subitem {Storage}, \hyperpage{59}
+  \item {getItems}
+    \subitem {Storage}, \hyperpage{60}
+  \item {getMaxHP}
+    \subitem {Entity}, \hyperpage{26}
+  \item {getMaxSize}
+    \subitem {Storage}, \hyperpage{60}
+  \item {getName}
+    \subitem {Entity}, \hyperpage{27}
+    \subitem {Item}, \hyperpage{43}
+    \subitem {Storage}, \hyperpage{60}
+  \item {getPredNum}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{31}
+  \item {getSize}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{31}
+    \subitem {Storage}, \hyperpage{61}
+    \subitem {String}, \hyperpage{66}
+  \item {getStorageType}
+    \subitem {Player}, \hyperpage{51}
+  \item {getStr}
+    \subitem {String}, \hyperpage{66}
+  \item {getTest}
+    \subitem {gtest\_lite::Test}, \hyperpage{70}
+  \item {getType}
+    \subitem {Item}, \hyperpage{43}
+  \item {Gold}
+    \subitem {InfoPreset}, \hyperpage{36}
+  \item {gt}
+    \subitem {gtest\_lite}, \hyperpage{10}
+  \item {gtest\_lite}, \hyperpage{7}
+    \subitem {almostEQ}, \hyperpage{8}
+    \subitem {eq}, \hyperpage{8}
+    \subitem {eqstr}, \hyperpage{8}
+    \subitem {EXPECT\_}, \hyperpage{8, 9}
+    \subitem {EXPECTSTR}, \hyperpage{9}
+    \subitem {ge}, \hyperpage{10}
+    \subitem {gt}, \hyperpage{10}
+    \subitem {le}, \hyperpage{10}
+    \subitem {lt}, \hyperpage{10}
+    \subitem {ne}, \hyperpage{10}
+    \subitem {nestr}, \hyperpage{11}
+  \item {gtest\_lite::Test}, \hyperpage{68}
+    \subitem {$\sim$Test}, \hyperpage{69}
+    \subitem {ablocks}, \hyperpage{71}
+    \subitem {begin}, \hyperpage{69}
+    \subitem {end}, \hyperpage{69}
+    \subitem {expect}, \hyperpage{70}
+    \subitem {fail}, \hyperpage{70}
+    \subitem {failed}, \hyperpage{71}
+    \subitem {getTest}, \hyperpage{70}
+    \subitem {name}, \hyperpage{71}
+    \subitem {null}, \hyperpage{71}
+    \subitem {status}, \hyperpage{71}
+    \subitem {sum}, \hyperpage{71}
+    \subitem {tmp}, \hyperpage{71}
+
+  \indexspace
+
+  \item {Heal}
+    \subitem {Item}, \hyperpage{45}
+    \subitem {Player}, \hyperpage{52}
+  \item {HP}
+    \subitem {InfoPreset}, \hyperpage{36}
+
+  \indexspace
+
+  \item {InfoPreset}, \hyperpage{33}
+    \subitem {$\sim$InfoPreset}, \hyperpage{35}
+    \subitem {BaseDEF}, \hyperpage{36}
+    \subitem {BaseDMG}, \hyperpage{36}
+    \subitem {DisplayNum}, \hyperpage{36}
+    \subitem {Gold}, \hyperpage{36}
+    \subitem {HP}, \hyperpage{36}
+    \subitem {InfoPreset}, \hyperpage{35}
+    \subitem {Items}, \hyperpage{36}
+    \subitem {Name}, \hyperpage{37}
+    \subitem {Num}, \hyperpage{37}
+    \subitem {Pre}, \hyperpage{37}
+    \subitem {Storage}, \hyperpage{37}
+  \item {isThereUpgrade}
+    \subitem {Storage}, \hyperpage{61}
+  \item {Item}, \hyperpage{38}
+    \subitem {$\sim$Item}, \hyperpage{40}
+    \subitem {BonusDEF}, \hyperpage{44}
+    \subitem {BonusDEFM}, \hyperpage{44}
+    \subitem {BonusDMG}, \hyperpage{44}
+    \subitem {BonusDMGM}, \hyperpage{44}
+    \subitem {Desc}, \hyperpage{45}
+    \subitem {getBonusDEF}, \hyperpage{40}
+    \subitem {getBonusDEFM}, \hyperpage{40}
+    \subitem {getBonusDMG}, \hyperpage{41}
+    \subitem {getBonusDMGM}, \hyperpage{41}
+    \subitem {getDesc}, \hyperpage{42}
+    \subitem {getHeal}, \hyperpage{42}
+    \subitem {getInfoItems}, \hyperpage{42}
+    \subitem {getName}, \hyperpage{43}
+    \subitem {getType}, \hyperpage{43}
+    \subitem {Heal}, \hyperpage{45}
+    \subitem {Item}, \hyperpage{40}
+    \subitem {Name}, \hyperpage{45}
+    \subitem {Type}, \hyperpage{45}
+    \subitem {useItem}, \hyperpage{44}
+  \item {Items}
+    \subitem {InfoPreset}, \hyperpage{36}
+    \subitem {Storage}, \hyperpage{63}
+
+  \indexspace
+
+  \item {le}
+    \subitem {gtest\_lite}, \hyperpage{10}
+  \item {lt}
+    \subitem {gtest\_lite}, \hyperpage{10}
+
+  \indexspace
+
+  \item {MaxSize}
+    \subitem {Storage}, \hyperpage{63}
+
+  \indexspace
+
+  \item {Name}
+    \subitem {InfoPreset}, \hyperpage{37}
+    \subitem {Item}, \hyperpage{45}
+    \subitem {Storage}, \hyperpage{63}
+  \item {name}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+  \item {ne}
+    \subitem {gtest\_lite}, \hyperpage{10}
+  \item {nestr}
+    \subitem {gtest\_lite}, \hyperpage{11}
+  \item {null}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+  \item {Num}
+    \subitem {InfoPreset}, \hyperpage{37}
+
+  \indexspace
+
+  \item {operator()}
+    \subitem {AttributeCheck$<$ C $>$}, \hyperpage{16}
+  \item {operator+}
+    \subitem {String}, \hyperpage{66, 67}
+  \item {operator+=}
+    \subitem {String}, \hyperpage{67}
+  \item {operator=}
+    \subitem {String}, \hyperpage{67}
+  \item {operator[]}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{32}
+    \subitem {Storage}, \hyperpage{61, 62}
+
+  \indexspace
+
+  \item {Player}, \hyperpage{46}
+    \subitem {$\sim$Player}, \hyperpage{48}
+    \subitem {attackEnemy}, \hyperpage{49}
+    \subitem {getGold}, \hyperpage{50}
+    \subitem {getInfoEntity}, \hyperpage{50}
+    \subitem {getStorageType}, \hyperpage{51}
+    \subitem {Heal}, \hyperpage{52}
+    \subitem {Player}, \hyperpage{48}
+  \item {Pre}
+    \subitem {InfoPreset}, \hyperpage{37}
+
+  \indexspace
+
+  \item {remove}
+    \subitem {GenericArray$<$ C $>$}, \hyperpage{32}
+    \subitem {Storage}, \hyperpage{62}
+
+  \indexspace
+
+  \item {setHP}
+    \subitem {Entity}, \hyperpage{28}
+  \item {setMaxSize}
+    \subitem {Storage}, \hyperpage{62}
+  \item {status}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+  \item {Storage}, \hyperpage{52}
+    \subitem {$\sim$Storage}, \hyperpage{55}
+    \subitem {add}, \hyperpage{55}
+    \subitem {clear}, \hyperpage{56}
+    \subitem {Desc}, \hyperpage{63}
+    \subitem {getDescription}, \hyperpage{56}
+    \subitem {getInfo}, \hyperpage{57}
+    \subitem {getInfoItems}, \hyperpage{57, 58}
+    \subitem {getInfoItemsAll}, \hyperpage{58}
+    \subitem {getInfoItemsUse}, \hyperpage{59}
+    \subitem {getItems}, \hyperpage{60}
+    \subitem {getMaxSize}, \hyperpage{60}
+    \subitem {getName}, \hyperpage{60}
+    \subitem {getSize}, \hyperpage{61}
+    \subitem {InfoPreset}, \hyperpage{37}
+    \subitem {isThereUpgrade}, \hyperpage{61}
+    \subitem {Items}, \hyperpage{63}
+    \subitem {MaxSize}, \hyperpage{63}
+    \subitem {Name}, \hyperpage{63}
+    \subitem {operator[]}, \hyperpage{61, 62}
+    \subitem {remove}, \hyperpage{62}
+    \subitem {setMaxSize}, \hyperpage{62}
+    \subitem {Storage}, \hyperpage{55}
+  \item {String}, \hyperpage{64}
+    \subitem {$\sim$String}, \hyperpage{65}
+    \subitem {getSize}, \hyperpage{66}
+    \subitem {getStr}, \hyperpage{66}
+    \subitem {operator+}, \hyperpage{66, 67}
+    \subitem {operator+=}, \hyperpage{67}
+    \subitem {operator=}, \hyperpage{67}
+    \subitem {String}, \hyperpage{65}
+  \item {sum}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+
+  \indexspace
+
+  \item {tmp}
+    \subitem {gtest\_lite::Test}, \hyperpage{71}
+  \item {Type}
+    \subitem {Item}, \hyperpage{45}
+
+  \indexspace
+
+  \item {useItem}
+    \subitem {Item}, \hyperpage{44}
+
+\end{theindex}

@@ -1,0 +1,123 @@
+\hypertarget{class_enemy}{}\doxysection{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+
+
+\mbox{\hyperlink{class_enemy}{Enemy}} can attack a \mbox{\hyperlink{class_player}{Player}} without the \mbox{\hyperlink{class_player}{Player}} damaging it, every \mbox{\hyperlink{class_enemy}{Enemy}} will have a Level, and will have a chance to drop an \mbox{\hyperlink{class_item}{Item}} if it dies according to its Level.  
+
+
+
+
+{\ttfamily \#include $<$Enemy.\+h$>$}
+
+
+
+Inheritance diagram for Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_enemy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_enemy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_enemy_adad43d4a0ebebce8596095db9bedaec2}{Enemy}} (const char $\ast$Name, double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_enemy_aea245acd71989d5f5ad3226fd692903c}{Enemy}} (double HP=100, double Max\+HP=100, double Base\+D\+MG=5, double Base\+D\+EF=5)
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_enemy_ac0eec4755e28c02688065f9657150ac3}{$\sim$\+Enemy}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemy_a558ca434ca4938c167580db520d2a7d1}{attack\+Player}} (\mbox{\hyperlink{class_player}{Player}} \&P\+L\+YR, \mbox{\hyperlink{class_item}{Item}} WS=\mbox{\hyperlink{class_item}{Item}}())
+\begin{DoxyCompactList}\small\item\em Attack \mbox{\hyperlink{class_player}{Player}} without taking Damage from it. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_enemy_a5e801697dc4608bc549ad08f3c584127}{get\+Info\+Entity}} (\mbox{\hyperlink{class_info_preset}{Info\+Preset}} Preset=\mbox{\hyperlink{class_info_preset}{Info\+Preset}}(), std\+::ostream \&os=std\+::cout)
+\begin{DoxyCompactList}\small\item\em Displays the info of an \mbox{\hyperlink{class_enemy}{Enemy}}, dynamically controlable with an \mbox{\hyperlink{class_info_preset}{Info\+Preset}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_enemy}{Enemy}} can attack a \mbox{\hyperlink{class_player}{Player}} without the \mbox{\hyperlink{class_player}{Player}} damaging it, every \mbox{\hyperlink{class_enemy}{Enemy}} will have a Level, and will have a chance to drop an \mbox{\hyperlink{class_item}{Item}} if it dies according to its Level. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_enemy_adad43d4a0ebebce8596095db9bedaec2}\label{class_enemy_adad43d4a0ebebce8596095db9bedaec2}} 
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Name,  }\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+\mbox{\Hypertarget{class_enemy_aea245acd71989d5f5ad3226fd692903c}\label{class_enemy_aea245acd71989d5f5ad3226fd692903c}} 
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{double}]{HP = {\ttfamily 100},  }\item[{double}]{Max\+HP = {\ttfamily 100},  }\item[{double}]{Base\+D\+MG = {\ttfamily 5},  }\item[{double}]{Base\+D\+EF = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_enemy_ac0eec4755e28c02688065f9657150ac3}\label{class_enemy_ac0eec4755e28c02688065f9657150ac3}} 
+\index{Enemy@{Enemy}!````~Enemy@{$\sim$Enemy}}
+\index{````~Enemy@{$\sim$Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{$\sim$Enemy()}{~Enemy()}}
+{\footnotesize\ttfamily Enemy\+::$\sim$\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_a558ca434ca4938c167580db520d2a7d1}\label{class_enemy_a558ca434ca4938c167580db520d2a7d1}} 
+\index{Enemy@{Enemy}!attackPlayer@{attackPlayer}}
+\index{attackPlayer@{attackPlayer}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{attackPlayer()}{attackPlayer()}}
+{\footnotesize\ttfamily void Enemy\+::attack\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{P\+L\+YR,  }\item[{\mbox{\hyperlink{class_item}{Item}}}]{WS = {\ttfamily \mbox{\hyperlink{class_item}{Item}}()} }\end{DoxyParamCaption})}
+
+
+
+Attack \mbox{\hyperlink{class_player}{Player}} without taking Damage from it. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a558ca434ca4938c167580db520d2a7d1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_a5e801697dc4608bc549ad08f3c584127}\label{class_enemy_a5e801697dc4608bc549ad08f3c584127}} 
+\index{Enemy@{Enemy}!getInfoEntity@{getInfoEntity}}
+\index{getInfoEntity@{getInfoEntity}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{getInfoEntity()}{getInfoEntity()}}
+{\footnotesize\ttfamily std\+::ostream \& Enemy\+::get\+Info\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_info_preset}{Info\+Preset}}}]{Preset = {\ttfamily \mbox{\hyperlink{class_info_preset}{Info\+Preset}}()},  }\item[{std\+::ostream \&}]{os = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Displays the info of an \mbox{\hyperlink{class_enemy}{Enemy}}, dynamically controlable with an \mbox{\hyperlink{class_info_preset}{Info\+Preset}}. 
+
+
+
+Implements \mbox{\hyperlink{class_entity_a671db0d3b9087d5dded740dece3f46d5}{Entity}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a5e801697dc4608bc549ad08f3c584127_cgraph}
+\end{center}
+\end{figure}

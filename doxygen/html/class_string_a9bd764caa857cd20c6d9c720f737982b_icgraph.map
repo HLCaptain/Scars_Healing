@@ -1,0 +1,14 @@
+<map id="String::getStr" name="String::getStr">
+<area shape="rect" id="node1" title="Return the content of the String." alt="" coords="404,157,503,184"/>
+<area shape="rect" id="node2" href="$class_item.html#a0c339e14321d3aaf6d651891d1a97c6d" title="Gets Description." alt="" coords="225,56,328,83"/>
+<area shape="rect" id="node3" href="$class_storage.html#a093724577dea913ff7a12c1fda138b4f" title="Gets Description." alt="" coords="197,107,356,133"/>
+<area shape="rect" id="node4" href="$class_entity.html#a915cd93caa3a2730a58c74c404e0df6d" title="Gets Entity&#39;s name." alt="" coords="219,157,335,184"/>
+<area shape="rect" id="node10" href="$class_item.html#a32fb1297deede82e47cf3f6409cdbf92" title="Gets Name." alt="" coords="223,259,330,285"/>
+<area shape="rect" id="node12" href="$class_storage.html#a3aa4b83a48ac183c3249ca0cbff8a33a" title="Gets Name." alt="" coords="213,208,340,235"/>
+<area shape="rect" id="node5" href="$class_player.html#ae30e579efad256523585a947932bcf7f" title="Attack an Enemy." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node6" href="$class_enemy.html#a558ca434ca4938c167580db520d2a7d1" title="Attack Player without taking Damage from it." alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node7" href="$class_player.html#a8eb7206d12e28c347a785530ab1ecf71" title="Writes out the Player&#39;s info to an output." alt="" coords="8,208,147,235"/>
+<area shape="rect" id="node8" href="$class_enemy.html#a5e801697dc4608bc549ad08f3c584127" title="Displays the info of an Enemy, dynamically controlable with an InfoPreset." alt="" coords="6,107,149,133"/>
+<area shape="rect" id="node9" href="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4" title="Healing with an Item." alt="" coords="31,157,124,184"/>
+<area shape="rect" id="node11" href="$class_player.html#a45b5020492d5e97efc1b5ff6bc2d1b26" title="Attack an Enemy with a Weapon/Shield." alt="" coords="5,259,149,285"/>
+</map>

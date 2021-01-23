@@ -1,0 +1,32 @@
+digraph "String::getStr"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="String::getStr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Return the content of the String."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Item::getDesc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item.html#a0c339e14321d3aaf6d651891d1a97c6d",tooltip="Gets Description."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Storage::getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#a093724577dea913ff7a12c1fda138b4f",tooltip="Gets Description."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Entity::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_entity.html#a915cd93caa3a2730a58c74c404e0df6d",tooltip="Gets Entity's name."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Player::attackEnemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#ae30e579efad256523585a947932bcf7f",tooltip="Attack an Enemy."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Enemy::attackPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_enemy.html#a558ca434ca4938c167580db520d2a7d1",tooltip="Attack Player without taking Damage from it."];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Player::getInfoEntity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#a8eb7206d12e28c347a785530ab1ecf71",tooltip="Writes out the Player's info to an output."];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Enemy::getInfoEntity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_enemy.html#a5e801697dc4608bc549ad08f3c584127",tooltip="Displays the info of an Enemy, dynamically controlable with an InfoPreset."];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Player::Heal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4",tooltip="Healing with an Item."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Item::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item.html#a32fb1297deede82e47cf3f6409cdbf92",tooltip="Gets Name."];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Player::attackEnemy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player.html#a45b5020492d5e97efc1b5ff6bc2d1b26",tooltip="Attack an Enemy with a Weapon/Shield."];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Storage::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_storage.html#a3aa4b83a48ac183c3249ca0cbff8a33a",tooltip="Gets Name."];
+  Node12 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

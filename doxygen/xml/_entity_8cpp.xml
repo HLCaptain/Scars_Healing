@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_entity_8cpp" kind="file" language="C++">
+    <compoundname>Entity.cpp</compoundname>
+    <includes refid="_entity_8h" local="yes">Entity.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp</label>
+        <link refid="_entity_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="6">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Entity.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" refkind="member"><highlight class="normal"><ref refid="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" kindref="member">Entity::Entity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>Name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF)<sp/>:<sp/>Name(Name),<sp/>HP((MaxHP<sp/>&lt;<sp/>HP)<sp/>?<sp/>MaxHP<sp/>:<sp/>HP),<sp/>MaxHP(MaxHP),<sp/>BaseDMG(BaseDMG),<sp/>BaseDEF(BaseDEF)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_entity_1a3aa9ae80607ca4a4f1506afc28ae0a5f" refkind="member"><highlight class="normal"><ref refid="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" kindref="member">Entity::Entity</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF)<sp/>:<sp/>Name(</highlight><highlight class="stringliteral">&quot;Player<sp/>Name&quot;</highlight><highlight class="normal">),<sp/>HP((MaxHP<sp/>&lt;<sp/>HP)<sp/>?<sp/>MaxHP<sp/>:<sp/>HP),<sp/>MaxHP(MaxHP),<sp/>BaseDMG(BaseDMG),<sp/>BaseDEF(BaseDEF)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" refkind="member"><highlight class="normal"><ref refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" kindref="member">Entity::~Entity</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" refkind="member"><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">Entity::getName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Name.<ref refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" kindref="member">getStr</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">Entity::getBaseDMG</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BaseDMG;<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">Entity::getBaseDEF</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BaseDEF;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">Entity::getHP</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>HP;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">Entity::getMaxHP</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MaxHP;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">Entity::setHP</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hp)<sp/>{<sp/>HP<sp/>=<sp/>hp;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp"/>
+  </compounddef>
+</doxygen>

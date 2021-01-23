@@ -1,0 +1,24 @@
+Sword Of Blaise
+This epic sword lets you change the world, but you have to let it guide your way.
+50
+1.5
+10
+1.2
+Winston's Blade
+This Blade may not be the best in dealing damage, but its compact size makes you soo mobile, that you suffer from much less damage.
+25
+1.6
+20
+1.5
+Suffering of The Past
+This Weapon has incredible devastating power in strong hands.
+100
+1
+10
+-2
+Shield of The Immortal Soul
+A shield, which defends you soul huh? Sounds nice, until you really get to know it.
+20
+1
+100
+0.5

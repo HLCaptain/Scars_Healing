@@ -1,0 +1,126 @@
+.TH "InfoPreset" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+InfoPreset \- A preset tool for displaying dynamic information about anything\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <InfoPreset\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBInfoPreset\fP (const char *cPre='', bool \fBName\fP=true, bool \fBHP\fP=true, bool \fBBaseDMG\fP=true, bool \fBBaseDEF\fP=true, bool \fBDisplayNum\fP=false, bool \fBGold\fP=true, bool \fBStorage\fP=true, bool \fBItems\fP=true, const size_t &dNum=0)"
+.br
+.RI "Constructor\&. "
+.ti -1c
+.RI "virtual \fB~InfoPreset\fP ()"
+.br
+.RI "Destructor\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBName\fP"
+.br
+.RI "Displays Name\&. "
+.ti -1c
+.RI "bool \fBHP\fP"
+.br
+.RI "Displays HP of an \fBEntity\fP or Healing for a Potion\&. "
+.ti -1c
+.RI "bool \fBBaseDMG\fP"
+.br
+.RI "Displays BonusDMG and BonusDMGM of a Weapon/Shield or BaseDMG for an \fBEntity\fP\&. "
+.ti -1c
+.RI "bool \fBBaseDEF\fP"
+.br
+.RI "Displays BonusDEF and BonusDEFM of a Weapon/Shield or BaseDEF for an \fBEntity\fP\&. "
+.ti -1c
+.RI "bool \fBDisplayNum\fP"
+.br
+.RI "Displays a given number, like the index of an \fBEnemy\fP before its Name\&. "
+.ti -1c
+.RI "\fBString\fP \fBPre\fP"
+.br
+.RI "A \fBString\fP, which is displayed before everything, it can give some context\&. "
+.ti -1c
+.RI "bool \fBGold\fP"
+.br
+.RI "Displays the \fBPlayer\fP's Gold\&. "
+.ti -1c
+.RI "bool \fBStorage\fP"
+.br
+.RI "Displays the \fBPlayer\fP's \fBStorage\fP\&. "
+.ti -1c
+.RI "bool \fBItems\fP"
+.br
+.RI "Displays the \fBPlayer\fP's \fBStorage\fP's Items\&. "
+.ti -1c
+.RI "size_t \fBNum\fP"
+.br
+.RI "If DisplayNum is TRUE, then it displays this Number\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A preset tool for displaying dynamic information about anything\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "InfoPreset::InfoPreset (const char * cPre = \fC''\fP, bool Name = \fCtrue\fP, bool HP = \fCtrue\fP, bool BaseDMG = \fCtrue\fP, bool BaseDEF = \fCtrue\fP, bool DisplayNum = \fCfalse\fP, bool Gold = \fCtrue\fP, bool Storage = \fCtrue\fP, bool Items = \fCtrue\fP, const size_t & dNum = \fC0\fP)\fC [inline]\fP"
+
+.PP
+Constructor\&. 
+.SS "virtual InfoPreset::~InfoPreset ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "bool InfoPreset::BaseDEF"
+
+.PP
+Displays BonusDEF and BonusDEFM of a Weapon/Shield or BaseDEF for an \fBEntity\fP\&. 
+.SS "bool InfoPreset::BaseDMG"
+
+.PP
+Displays BonusDMG and BonusDMGM of a Weapon/Shield or BaseDMG for an \fBEntity\fP\&. 
+.SS "bool InfoPreset::DisplayNum"
+
+.PP
+Displays a given number, like the index of an \fBEnemy\fP before its Name\&. 
+.SS "bool InfoPreset::Gold"
+
+.PP
+Displays the \fBPlayer\fP's Gold\&. 
+.SS "bool InfoPreset::HP"
+
+.PP
+Displays HP of an \fBEntity\fP or Healing for a Potion\&. 
+.SS "bool InfoPreset::Items"
+
+.PP
+Displays the \fBPlayer\fP's \fBStorage\fP's Items\&. 
+.SS "bool InfoPreset::Name"
+
+.PP
+Displays Name\&. 
+.SS "size_t InfoPreset::Num"
+
+.PP
+If DisplayNum is TRUE, then it displays this Number\&. 
+.SS "\fBString\fP InfoPreset::Pre"
+
+.PP
+A \fBString\fP, which is displayed before everything, it can give some context\&. 
+.SS "bool InfoPreset::Storage"
+
+.PP
+Displays the \fBPlayer\fP's \fBStorage\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_player_8cpp" kind="file" language="C++">
+    <compoundname>Player.cpp</compoundname>
+    <includes refid="_player_8h" local="yes">Player.h</includes>
+    <includes refid="_string_8h" local="yes">String.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="_enemy_8h" local="yes">Enemy.h</includes>
+    <incdepgraph>
+      <node id="11">
+        <label>Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.cpp</label>
+        <link refid="_player_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="7">
+        <label>Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+      <node id="6">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Player.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Enemy.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_player_1acaf77ea9f608f917ddecdde6d62bf00e" refkind="member"><highlight class="normal"><ref refid="class_player_1acaf77ea9f608f917ddecdde6d62bf00e" kindref="member">Player::Player</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>Name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Gold,<sp/><ref refid="class_storage" kindref="compound">Storage</ref><sp/>StorageType)<sp/>:<sp/><ref refid="class_entity" kindref="compound">Entity</ref>(Name,<sp/>HP,<sp/>MaxHP,<sp/>BaseDMG,<sp/>BaseDEF),<sp/>Gold(Gold),<sp/>StorageType(StorageType)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_player_1aedaca1bc7ae6603e24716a23a2f40eb6" refkind="member"><highlight class="normal"><ref refid="class_player_1acaf77ea9f608f917ddecdde6d62bf00e" kindref="member">Player::Player</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxHP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDMG,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BaseDEF,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Gold)<sp/>:<sp/><ref refid="class_entity" kindref="compound">Entity</ref>(HP,<sp/>MaxHP,<sp/>BaseDMG,<sp/>BaseDEF),<sp/>Gold(Gold)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_player_1a749d2c00e1fe0f5c2746f7505a58c062" refkind="member"><highlight class="normal"><ref refid="class_player_1a749d2c00e1fe0f5c2746f7505a58c062" kindref="member">Player::~Player</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" refkind="member"><highlight class="normal">std::ostream&amp;<sp/><ref refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" kindref="member">Player::getInfoEntity</ref>(<ref refid="class_info_preset" kindref="compound">InfoPreset</ref><sp/>Preset,<sp/>std::ostream&amp;<sp/>os)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1a8fdf619c93328c53745a4ccd7f4e597c" kindref="member">Name</ref>)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1ab2355ce2cff1842dc602a8d904ec1260" kindref="member">HP</ref>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tPlayer<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1a1a5007890be8e68407976f3663877467" kindref="member">BaseDEF</ref>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tBase<sp/>Defense:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1a025eabd8a82c08cf2205d4a0d33b786e" kindref="member">BaseDMG</ref>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tPlayer<sp/>Base<sp/>Damage:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1af45947fdce5a5c71067d0650b4bbd227" kindref="member">Gold</ref>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tPlayer<sp/>Gold:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_player_1ae75067ad3412686357d94ee1dd8d45b8" kindref="member">getGold</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1a2107bb800b5b099c4534e9de2f1dbef5" kindref="member">Storage</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tPlayer<sp/>Storage:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Preset.<ref refid="class_info_preset_1a1423f40f6d4922f7d349d4c102b060dc" kindref="member">Items</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\tPlayer<sp/>Items:&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().getSize()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>None<sp/>:(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/>std::endl<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" kindref="member">getInfoItemsAll</ref>(os);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_player_1ae75067ad3412686357d94ee1dd8d45b8" refkind="member"><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae75067ad3412686357d94ee1dd8d45b8" kindref="member">Player::getGold</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Gold;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_player_1af5869694206295777e8f6c104c9165cb" refkind="member"><highlight class="normal"><ref refid="class_storage" kindref="compound">Storage</ref>&amp;<sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">Player::getStorageType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StorageType;<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_player_1ae30e579efad256523585a947932bcf7f" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae30e579efad256523585a947932bcf7f" kindref="member">Player::attackEnemy</ref>(<ref refid="class_enemy" kindref="compound">Enemy</ref>&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EnemyAttackDMG<sp/>=<sp/>e.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>-<sp/>tanh((<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>())<sp/>/<sp/>(100))<sp/>*<sp/>e.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>-<sp/>EnemyAttackDMG);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>EnemyAttackDMG<sp/>*<sp/>(-1)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PlayerAttackDMG<sp/>=<sp/><ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>-<sp/>tanh(e.<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>()<sp/>/<sp/>(100))<sp/>*<sp/><ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>e.<ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>-<sp/>PlayerAttackDMG);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>PlayerAttackDMG<sp/>*<sp/>(-1)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP<sp/>by<sp/>Hand&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" kindref="member">Player::Heal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Index)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>OldHP<sp/>=<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>+<sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().getItems()[Index].getHeal()<sp/>&lt;<sp/><ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>())</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>+<sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().getItems()[Index].getHeal());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>(Healed<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()-OldHP<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;HP)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(getStorageType().getItems()[Index].getConsumable())<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" kindref="member">remove</ref>(Index);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1ae30e579efad256523585a947932bcf7f" kindref="member">Player::attackEnemy</ref>(<ref refid="class_enemy" kindref="compound">Enemy</ref>&amp;<sp/>e,<sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/>WS)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PlayerOldHP<sp/>=<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PlayerNewHP<sp/>=<sp/>(<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>-<sp/>e.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>+<sp/>tanh(((<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>()<sp/>+<sp/>WS.<ref refid="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" kindref="member">getBonusDEF</ref>())<sp/>*<sp/>WS.<ref refid="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" kindref="member">getBonusDEFM</ref>())<sp/>/<sp/>(100))<sp/>*<sp/>e.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>());</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(PlayerNewHP);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>PlayerNewHP<sp/>-<sp/>PlayerOldHP<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EnemyOldHP<sp/>=<sp/>e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EnemyNewHP<sp/>=<sp/>(e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>-<sp/>((<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>+<sp/>WS.<ref refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" kindref="member">getBonusDMG</ref>())<sp/>*<sp/>WS.<ref refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" kindref="member">getBonusDMGM</ref>())<sp/>+<sp/>tanh(e.<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>()<sp/>/<sp/>(100))<sp/>*<sp/>((<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>()<sp/>+<sp/>WS.<ref refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" kindref="member">getBonusDMG</ref>())<sp/>*<sp/>WS.<ref refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" kindref="member">getBonusDMGM</ref>()));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>e.<ref refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kindref="member">setHP</ref>(EnemyNewHP);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>e.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>EnemyNewHP<sp/>-<sp/>EnemyOldHP<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>HP<sp/>by<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>WS.<ref refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" kindref="member">getName</ref>()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.cpp"/>
+  </compounddef>
+</doxygen>

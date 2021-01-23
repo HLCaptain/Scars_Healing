@@ -1,0 +1,5 @@
+<map id="Storage" name="Storage">
+<area shape="rect" id="node1" title="A Storage is able to store Items, but to a limited extent (MaxSize). Also has a Name and a Descriptio..." alt="" coords="65,307,200,692"/>
+<area shape="rect" id="node2" href="$class_string.html" title="Seperate String class, because STL are not allowed..." alt="" coords="5,5,111,229"/>
+<area shape="rect" id="node3" href="$class_generic_array.html" title=" " alt="" coords="135,13,282,222"/>
+</map>

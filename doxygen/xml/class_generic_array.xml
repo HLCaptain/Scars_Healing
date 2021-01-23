@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_generic_array" kind="class" language="C++" prot="public">
+    <compoundname>GenericArray</compoundname>
+    <includes refid="_generic_array_8h" local="no">GenericArray.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class C</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_generic_array_1a89b62df47080bab064488611b7d0b235" prot="private" static="no" mutable="no">
+        <type>C *</type>
+        <definition>C* GenericArray&lt; C &gt;::Array</definition>
+        <argsstring></argsstring>
+        <name>Array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="9" column="3" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generic_array_1a8952c6ea7d81c6eef2b7f5b9a95f4570" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t GenericArray&lt; C &gt;::Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="10" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_generic_array_1a53770b7732d8baa2cac3b3822ae395d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GenericArray&lt; C &gt;::GenericArray</definition>
+        <argsstring>()</argsstring>
+        <name>GenericArray</name>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="10" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1ab08f40d9aff75eb4ad391ee2797266b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GenericArray&lt; C &gt;::GenericArray</definition>
+        <argsstring>(const GenericArray&lt; C &gt; &amp;GA)</argsstring>
+        <name>GenericArray</name>
+        <param>
+          <type>const <ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; C &gt; &amp;</type>
+          <declname>GA</declname>
+        </param>
+        <briefdescription>
+<para>Copy Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="10" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1a432924e68c2899107b2876a9e00adf12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual GenericArray&lt; C &gt;::~GenericArray</definition>
+        <argsstring>()</argsstring>
+        <name>~GenericArray</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="23" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericArray&lt; C &gt;::add</definition>
+        <argsstring>(const C &amp;Element)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const C &amp;</type>
+          <declname>Element</declname>
+        </param>
+        <briefdescription>
+<para>Adding an Element to the Array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="28" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="28" bodyend="36"/>
+        <referencedby refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" compoundref="_storage_8cpp" startline="119" endline="124">Storage::add</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1ac934ab0bd415faae866e173bde54c564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericArray&lt; C &gt;::remove</definition>
+        <argsstring>(const size_t &amp;Index)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Removes an Element from the Array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="39" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="39" bodyend="57"/>
+        <referencedby refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" compoundref="_storage_8cpp" startline="127" endline="132">Storage::remove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1ae4ae44086d5c63a9c88bf3b0a6c44069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GenericArray&lt; C &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>Clears (deletes and then reallocate) the Array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="60" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="60" bodyend="64"/>
+        <referencedby refid="class_storage_1a90311302b713775e503a253ab4aab3e8" compoundref="_storage_8cpp" startline="135" endline="135">Storage::clear</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1a2c4e7c47fca22e0f16a3f2bd0a41d0ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>C &amp;</type>
+        <definition>C&amp; GenericArray&lt; C &gt;::operator[]</definition>
+        <argsstring>(size_t Index) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Accessing Data as constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="67" column="3" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1abf74fbbcac3effd5667bf4eff9af775d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>C &amp;</type>
+        <definition>C&amp; GenericArray&lt; C &gt;::operator[]</definition>
+        <argsstring>(size_t Index)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Accessing Data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="70" column="3" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const size_t &amp;</type>
+        <definition>const size_t&amp; GenericArray&lt; C &gt;::getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+<para>Get Size of the Array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="73" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="73" bodyend="73"/>
+        <referencedby refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" compoundref="_storage_8cpp" startline="119" endline="124">Storage::add</referencedby>
+        <referencedby refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" compoundref="_storage_8cpp" startline="20" endline="26">Storage::getInfo</referencedby>
+        <referencedby refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" compoundref="_storage_8cpp" startline="29" endline="35">Storage::getInfoItems</referencedby>
+        <referencedby refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" compoundref="_storage_8cpp" startline="51" endline="57">Storage::getInfoItemsAll</referencedby>
+        <referencedby refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" compoundref="_storage_8cpp" startline="73" endline="79">Storage::getInfoItemsUse</referencedby>
+        <referencedby refid="class_generic_array_1a8b589d0f85f42ff2a0067fc463d3d7df" compoundref="_generic_array_8h" startline="77" endline="84">GenericArray&lt; Item &gt;::getPredNum</referencedby>
+        <referencedby refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" compoundref="_storage_8cpp" startline="17" endline="17">Storage::getSize</referencedby>
+        <referencedby refid="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" compoundref="_storage_8cpp" startline="110" endline="116">Storage::isThereUpgrade</referencedby>
+        <referencedby refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" compoundref="_storage_8cpp" startline="127" endline="132">Storage::remove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_generic_array_1a8b589d0f85f42ff2a0067fc463d3d7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Pred</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t GenericArray&lt; C &gt;::getPredNum</definition>
+        <argsstring>(Pred pred)</argsstring>
+        <name>getPredNum</name>
+        <param>
+          <type>Pred</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+<para>Get Number of specific Items in the Array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="77" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="77" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This <ref refid="class_generic_array" kindref="compound">GenericArray</ref> can store any type of things dynamically. Maybe I will do a static version as well. Or just implement it with a bool. Time will tell... </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GenericArray&lt; C &gt;</label>
+        <link refid="class_generic_array"/>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" line="8" column="19" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/GenericArray.h" bodystart="8" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>add</name></member>
+      <member refid="class_generic_array_1a89b62df47080bab064488611b7d0b235" prot="private" virt="non-virtual"><scope>GenericArray</scope><name>Array</name></member>
+      <member refid="class_generic_array_1ae4ae44086d5c63a9c88bf3b0a6c44069" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>clear</name></member>
+      <member refid="class_generic_array_1a53770b7732d8baa2cac3b3822ae395d6" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>GenericArray</name></member>
+      <member refid="class_generic_array_1ab08f40d9aff75eb4ad391ee2797266b8" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>GenericArray</name></member>
+      <member refid="class_generic_array_1a8b589d0f85f42ff2a0067fc463d3d7df" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>getPredNum</name></member>
+      <member refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>getSize</name></member>
+      <member refid="class_generic_array_1a2c4e7c47fca22e0f16a3f2bd0a41d0ec" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>operator[]</name></member>
+      <member refid="class_generic_array_1abf74fbbcac3effd5667bf4eff9af775d" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>operator[]</name></member>
+      <member refid="class_generic_array_1ac934ab0bd415faae866e173bde54c564" prot="public" virt="non-virtual"><scope>GenericArray</scope><name>remove</name></member>
+      <member refid="class_generic_array_1a8952c6ea7d81c6eef2b7f5b9a95f4570" prot="private" virt="non-virtual"><scope>GenericArray</scope><name>Size</name></member>
+      <member refid="class_generic_array_1a432924e68c2899107b2876a9e00adf12" prot="public" virt="virtual"><scope>GenericArray</scope><name>~GenericArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

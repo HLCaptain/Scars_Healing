@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_string" kind="class" language="C++" prot="public">
+    <compoundname>String</compoundname>
+    <includes refid="_string_8h" local="no">String.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_string_1abdb8b1fb25347f7046a27f0773392495" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* String::pData</definition>
+        <argsstring></argsstring>
+        <name>pData</name>
+        <briefdescription>
+<para>Data Pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="10" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_string_1a19c7dc3e73f362a699de38845b386296" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t String::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+<para>Length of the string. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="13" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_1ab3670848acd0e55af89fef90eb999515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>String::String</definition>
+        <argsstring>(String const &amp;str)</argsstring>
+        <name>String</name>
+        <param>
+          <type><ref refid="class_string" kindref="compound">String</ref> const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Copy Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="16" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="10" bodyend="15"/>
+        <referencedby refid="class_string_1abb187e5ab66fe29c42aed4845b55dd76" compoundref="_string_8h" startline="49" endline="49">operator+</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a512d598db6771bb7e68fd2202cce3759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>String::String</definition>
+        <argsstring>(const char *str=&quot;&quot;)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Default Constructor from const char*. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="19" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1ae1331c360e8986b4e7f0a511e8e32ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>String::String</definition>
+        <argsstring>(const char c)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Constructor from char. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="22" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1ac73850e459f183bdd3c172e506be2a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual String::~String</definition>
+        <argsstring>()</argsstring>
+        <name>~String</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="25" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a9bd764caa857cd20c6d9c720f737982b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* String::getStr</definition>
+        <argsstring>()</argsstring>
+        <name>getStr</name>
+        <briefdescription>
+<para>Return the content of the <ref refid="class_string" kindref="compound">String</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="28" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="28" bodyend="28"/>
+        <referencedby refid="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" compoundref="_item_8cpp" startline="15" endline="15">Item::getDesc</referencedby>
+        <referencedby refid="class_storage_1a093724577dea913ff7a12c1fda138b4f" compoundref="_storage_8cpp" startline="98" endline="98">Storage::getDescription</referencedby>
+        <referencedby refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" compoundref="_entity_8cpp" startline="13" endline="13">Entity::getName</referencedby>
+        <referencedby refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" compoundref="_item_8cpp" startline="12" endline="12">Item::getName</referencedby>
+        <referencedby refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" compoundref="_storage_8cpp" startline="95" endline="95">Storage::getName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a35af3e58b56420acea77f34d7bf54949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const size_t</type>
+        <definition>const size_t String::getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+<para>Return the length of the <ref refid="class_string" kindref="compound">String</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="31" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a803e6112834d4c0cdb0da6c6a4000e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String &amp; String::operator=</definition>
+        <argsstring>(const String &amp;rhs_s)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs_s</declname>
+        </param>
+        <briefdescription>
+<para>Assign the <ref refid="class_string" kindref="compound">String</ref>&apos;s data to the <ref refid="class_string" kindref="compound">String</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="34" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="41" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1ad17f4142f2b6d19ed5a9e6024bff53bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String &amp; String::operator=</definition>
+        <argsstring>(const char *rhs_s)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const char *</type>
+          <declname>rhs_s</declname>
+        </param>
+        <briefdescription>
+<para>Assign const char*&apos;s data to the <ref refid="class_string" kindref="compound">String</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="37" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="66" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1ac203e7c52e04bb86f62f9dd75527b361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String&amp; String::operator+=</definition>
+        <argsstring>(const String &amp;rhs_s)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs_s</declname>
+        </param>
+        <briefdescription>
+<para>Adding <ref refid="class_string" kindref="compound">String</ref> to the original. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="40" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a28a020f061e5f25317af47488bfb7de8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String String::operator+</definition>
+        <argsstring>(const String &amp;rhs_s) const</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs_s</declname>
+        </param>
+        <briefdescription>
+<para>Adding 2 Strings together (returns constant) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="46" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.cpp" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1abb187e5ab66fe29c42aed4845b55dd76" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String String::operator+</definition>
+        <argsstring>(char rhs_c) const</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>char</type>
+          <declname>rhs_c</declname>
+        </param>
+        <briefdescription>
+<para>Adding a char to the <ref refid="class_string" kindref="compound">String</ref> (returns constant) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="49" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="49" bodyend="49"/>
+        <references refid="class_string_1ab3670848acd0e55af89fef90eb999515" compoundref="_string_8cpp" startline="10" endline="15">String</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Seperate <ref refid="class_string" kindref="compound">String</ref> class, because STL are not allowed... </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>String</label>
+        <link refid="class_string"/>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" line="8" column="13" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/String.h" bodystart="8" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_string_1a35af3e58b56420acea77f34d7bf54949" prot="public" virt="non-virtual"><scope>String</scope><name>getSize</name></member>
+      <member refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" prot="public" virt="non-virtual"><scope>String</scope><name>getStr</name></member>
+      <member refid="class_string_1a19c7dc3e73f362a699de38845b386296" prot="private" virt="non-virtual"><scope>String</scope><name>len</name></member>
+      <member refid="class_string_1a28a020f061e5f25317af47488bfb7de8" prot="public" virt="non-virtual"><scope>String</scope><name>operator+</name></member>
+      <member refid="class_string_1abb187e5ab66fe29c42aed4845b55dd76" prot="public" virt="non-virtual"><scope>String</scope><name>operator+</name></member>
+      <member refid="class_string_1ac203e7c52e04bb86f62f9dd75527b361" prot="public" virt="non-virtual"><scope>String</scope><name>operator+=</name></member>
+      <member refid="class_string_1a803e6112834d4c0cdb0da6c6a4000e6e" prot="public" virt="non-virtual"><scope>String</scope><name>operator=</name></member>
+      <member refid="class_string_1ad17f4142f2b6d19ed5a9e6024bff53bd" prot="public" virt="non-virtual"><scope>String</scope><name>operator=</name></member>
+      <member refid="class_string_1abdb8b1fb25347f7046a27f0773392495" prot="private" virt="non-virtual"><scope>String</scope><name>pData</name></member>
+      <member refid="class_string_1ab3670848acd0e55af89fef90eb999515" prot="public" virt="non-virtual"><scope>String</scope><name>String</name></member>
+      <member refid="class_string_1a512d598db6771bb7e68fd2202cce3759" prot="public" virt="non-virtual"><scope>String</scope><name>String</name></member>
+      <member refid="class_string_1ae1331c360e8986b4e7f0a511e8e32ff0" prot="public" virt="non-virtual"><scope>String</scope><name>String</name></member>
+      <member refid="class_string_1ac73850e459f183bdd3c172e506be2a32" prot="public" virt="virtual"><scope>String</scope><name>~String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

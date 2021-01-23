@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_storage" kind="class" language="C++" prot="public">
+    <compoundname>Storage</compoundname>
+    <includes refid="_storage_8h" local="no">Storage.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" prot="public" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String Storage::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Name of the <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="12" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" compoundref="_storage_8cpp" startline="20" endline="26">getInfo</referencedby>
+        <referencedby refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" compoundref="_storage_8cpp" startline="95" endline="95">getName</referencedby>
+        <referencedby refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" compoundref="_storage_8cpp" startline="119" endline="124">add</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_storage_1ac0325f33b558b68c2cad576400af6123" prot="public" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String Storage::Desc</definition>
+        <argsstring></argsstring>
+        <name>Desc</name>
+        <briefdescription>
+<para>Description of the <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="15" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" compoundref="_storage_8cpp" startline="20" endline="26">getInfo</referencedby>
+        <referencedby refid="class_storage_1a093724577dea913ff7a12c1fda138b4f" compoundref="_storage_8cpp" startline="98" endline="98">getDescription</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Storage::MaxSize</definition>
+        <argsstring></argsstring>
+        <name>MaxSize</name>
+        <briefdescription>
+<para>Size of <ref refid="class_storage" kindref="compound">Storage</ref>, how many <ref refid="class_item" kindref="compound">Item</ref> it can hold. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="18" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" compoundref="_storage_8cpp" startline="20" endline="26">getInfo</referencedby>
+        <referencedby refid="class_storage_1a6801311f9f0065f834a4027cb2160fb5" compoundref="_storage_8cpp" startline="101" endline="101">getMaxSize</referencedby>
+        <referencedby refid="class_storage_1a07574bf9ed133033e1e46314369d0f2e" compoundref="_storage_8cpp" startline="104" endline="104">setMaxSize</referencedby>
+        <referencedby refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" compoundref="_storage_8cpp" startline="119" endline="124">add</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; <ref refid="class_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>GenericArray&lt;Item&gt; Storage::Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+<para>Items in the <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="21" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" compoundref="_storage_8cpp" startline="17" endline="17">getSize</referencedby>
+        <referencedby refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" compoundref="_storage_8cpp" startline="20" endline="26">getInfo</referencedby>
+        <referencedby refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" compoundref="_storage_8cpp" startline="29" endline="35">getInfoItems</referencedby>
+        <referencedby refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" compoundref="_storage_8cpp" startline="51" endline="57">getInfoItemsAll</referencedby>
+        <referencedby refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" compoundref="_storage_8cpp" startline="73" endline="79">getInfoItemsUse</referencedby>
+        <referencedby refid="class_storage_1a67dd2a43e056ef6532a280f5afb1ff98" compoundref="_storage_8cpp" startline="107" endline="107">getItems</referencedby>
+        <referencedby refid="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" compoundref="_storage_8cpp" startline="110" endline="116">isThereUpgrade</referencedby>
+        <referencedby refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" compoundref="_storage_8cpp" startline="119" endline="124">add</referencedby>
+        <referencedby refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" compoundref="_storage_8cpp" startline="127" endline="132">remove</referencedby>
+        <referencedby refid="class_storage_1a90311302b713775e503a253ab4aab3e8" compoundref="_storage_8cpp" startline="135" endline="135">clear</referencedby>
+        <referencedby refid="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" compoundref="_storage_8h" startline="84" endline="84">operator[]</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_storage_1aad9c6969ee1edca7354c1d8e76507d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Storage::Storage</definition>
+        <argsstring>(const char *Name=&quot;BakPak&quot;, const char *Desc=&quot;This is a BakPak.&quot;, size_t MaxSize=5)</argsstring>
+        <name>Storage</name>
+        <param>
+          <type>const char *</type>
+          <declname>Name</declname>
+          <defval>&quot;BakPak&quot;</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>Desc</declname>
+          <defval>&quot;This is a BakPak.&quot;</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>MaxSize</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="24" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1ab705a5ad6f3445ab7408ee453a4bb8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Storage::Storage</definition>
+        <argsstring>(const Storage &amp;S)</argsstring>
+        <name>Storage</name>
+        <param>
+          <type>const <ref refid="class_storage" kindref="compound">Storage</ref> &amp;</type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+<para>Copy Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="27" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a73cf30f0a34250396f9eabee7dc5c93d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Storage::~Storage</definition>
+        <argsstring>()</argsstring>
+        <name>~Storage</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="30" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfo</definition>
+        <argsstring>(std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfo</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out the <ref refid="class_storage" kindref="compound">Storage</ref>&apos;s info to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="33" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="20" bodyend="26"/>
+        <references refid="class_storage_1ac0325f33b558b68c2cad576400af6123" compoundref="_storage_8h" startline="15">Desc</references>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+        <references refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" compoundref="_storage_8h" startline="18">MaxSize</references>
+        <references refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" compoundref="_storage_8h" startline="12">Name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItems</definition>
+        <argsstring>(InfoPreset Preset=InfoPreset(), std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItems</name>
+        <param>
+          <type><ref refid="class_info_preset" kindref="compound">InfoPreset</ref></type>
+          <declname>Preset</declname>
+          <defval><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>()</defval>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out the <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="36" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="29" bodyend="35"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a93ea60aa174ac901a12d1fbe1303c504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItems</definition>
+        <argsstring>(const ItemType &amp;Type, InfoPreset Preset=InfoPreset(), std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItems</name>
+        <param>
+          <type>const ItemType &amp;</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_info_preset" kindref="compound">InfoPreset</ref></type>
+          <declname>Preset</declname>
+          <defval><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>()</defval>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out a specific <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="39" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="38" bodyend="48"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItemsAll</definition>
+        <argsstring>(std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItemsAll</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out the <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="42" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="51" bodyend="57"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a6c945ac28473df5be400f8678c78265c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItemsAll</definition>
+        <argsstring>(const ItemType &amp;Type, std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItemsAll</name>
+        <param>
+          <type>const ItemType &amp;</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out a specific <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="45" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="60" bodyend="70"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a1c4126bb115b13af833f66a49ca19c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItemsUse</definition>
+        <argsstring>(std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItemsUse</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out the <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="48" column="22" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="73" bodyend="79"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a70832690e89cdd9109f0e7f0c31affc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Storage::getInfoItemsUse</definition>
+        <argsstring>(const ItemType &amp;Type, std::ostream &amp;os=std::cout)</argsstring>
+        <name>getInfoItemsUse</name>
+        <param>
+          <type>const ItemType &amp;</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Writes out a specific <ref refid="class_item" kindref="compound">Item</ref>&apos;s infos in the <ref refid="class_storage" kindref="compound">Storage</ref> to the console. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="51" column="22" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="82" bodyend="92"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Storage::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Gets Name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="54" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="95" bodyend="95"/>
+        <references refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" compoundref="_string_8h" startline="28" endline="28">String::getStr</references>
+        <references refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" compoundref="_storage_8h" startline="12">Name</references>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a093724577dea913ff7a12c1fda138b4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Storage::getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+<para>Gets Description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="57" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="98" bodyend="98"/>
+        <references refid="class_storage_1ac0325f33b558b68c2cad576400af6123" compoundref="_storage_8h" startline="15">Desc</references>
+        <references refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" compoundref="_string_8h" startline="28" endline="28">String::getStr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a67dd2a43e056ef6532a280f5afb1ff98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; <ref refid="class_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>GenericArray&lt; Item &gt; Storage::getItems</definition>
+        <argsstring>() const</argsstring>
+        <name>getItems</name>
+        <briefdescription>
+<para>Gets the <ref refid="class_item" kindref="compound">Item</ref>&apos;s array, though cannot modify it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="60" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="107" bodyend="107"/>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Storage::add</definition>
+        <argsstring>(const Item &amp;Element)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const <ref refid="class_item" kindref="compound">Item</ref> &amp;</type>
+          <declname>Element</declname>
+        </param>
+        <briefdescription>
+<para>Adds an <ref refid="class_item" kindref="compound">Item</ref> to the <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="63" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="119" bodyend="124"/>
+        <references refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" compoundref="_generic_array_8h" startline="28" endline="36">GenericArray&lt; C &gt;::add</references>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+        <references refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" compoundref="_storage_8h" startline="18">MaxSize</references>
+        <references refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" compoundref="_storage_8h" startline="12">Name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a0210115c208c5cfd5d52e66423f3d723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Storage::remove</definition>
+        <argsstring>(const size_t &amp;Index)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Removes an <ref refid="class_item" kindref="compound">Item</ref> from the <ref refid="class_storage" kindref="compound">Storage</ref> according to its index. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="66" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="127" bodyend="132"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+        <references refid="class_generic_array_1ac934ab0bd415faae866e173bde54c564" compoundref="_generic_array_8h" startline="39" endline="57">GenericArray&lt; C &gt;::remove</references>
+        <referencedby refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" compoundref="_player_8cpp" startline="63" endline="73">Player::Heal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a90311302b713775e503a253ab4aab3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Storage::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>Clears the <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="69" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="135" bodyend="135"/>
+        <references refid="class_generic_array_1ae4ae44086d5c63a9c88bf3b0a6c44069" compoundref="_generic_array_8h" startline="60" endline="64">GenericArray&lt; C &gt;::clear</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a6801311f9f0065f834a4027cb2160fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Storage::getMaxSize</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxSize</name>
+        <briefdescription>
+<para>Gets size of <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="72" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="101" bodyend="101"/>
+        <references refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" compoundref="_storage_8h" startline="18">MaxSize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1aa035fcad7dee4519f3d2e33559723b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Storage::getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+<para>Gets number of Items in the of <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="75" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="17" bodyend="17"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a07574bf9ed133033e1e46314369d0f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Storage::setMaxSize</definition>
+        <argsstring>(const size_t &amp;SizeC)</argsstring>
+        <name>setMaxSize</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>SizeC</declname>
+        </param>
+        <briefdescription>
+<para>Sets size of <ref refid="class_storage" kindref="compound">Storage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="78" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="104" bodyend="104"/>
+        <references refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" compoundref="_storage_8h" startline="18">MaxSize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Storage::isThereUpgrade</definition>
+        <argsstring>()</argsstring>
+        <name>isThereUpgrade</name>
+        <briefdescription>
+<para>Returns if there are upgrades in the inventory. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="81" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.cpp" bodystart="110" bodyend="116"/>
+        <references refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" compoundref="_generic_array_8h" startline="73" endline="73">GenericArray&lt; C &gt;::getSize</references>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_item" kindref="compound">Item</ref> &amp;</type>
+        <definition>Item&amp; Storage::operator[]</definition>
+        <argsstring>(size_t Index) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Accessing an <ref refid="class_item" kindref="compound">Item</ref> as constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="84" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="84" bodyend="84"/>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a996ba6da437a448f325fa09064a4db2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_item" kindref="compound">Item</ref> &amp;</type>
+        <definition>Item&amp; Storage::operator[]</definition>
+        <argsstring>(size_t Index)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>Index</declname>
+        </param>
+        <briefdescription>
+<para>Accessing an <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="87" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="87" bodyend="87"/>
+        <references refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" compoundref="_storage_8h" startline="21">Items</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <ref refid="class_storage" kindref="compound">Storage</ref> is able to store Items, but to a limited extent (MaxSize). Also has a Name and a Description. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>String</label>
+        <link refid="class_string"/>
+      </node>
+      <node id="1">
+        <label>Storage</label>
+        <link refid="class_storage"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+Name</edgelabel>
+          <edgelabel>+Desc</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+Items</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GenericArray&lt; Item &gt;</label>
+        <link refid="class_generic_array"/>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" line="9" column="14" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h" bodystart="9" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" prot="public" virt="non-virtual"><scope>Storage</scope><name>add</name></member>
+      <member refid="class_storage_1a90311302b713775e503a253ab4aab3e8" prot="public" virt="non-virtual"><scope>Storage</scope><name>clear</name></member>
+      <member refid="class_storage_1ac0325f33b558b68c2cad576400af6123" prot="public" virt="non-virtual"><scope>Storage</scope><name>Desc</name></member>
+      <member refid="class_storage_1a093724577dea913ff7a12c1fda138b4f" prot="public" virt="non-virtual"><scope>Storage</scope><name>getDescription</name></member>
+      <member refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" prot="public" virt="non-virtual"><scope>Storage</scope><name>getInfo</name></member>
+      <member refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" prot="public" virt="non-virtual"><scope>Storage</scope><name>getInfoItems</name></member>
+      <member refid="class_storage_1a93ea60aa174ac901a12d1fbe1303c504" prot="public" virt="non-virtual"><scope>Storage</scope><name>getInfoItems</name></member>
+      <member refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" prot="public" virt="non-virtual"><scope>Storage</scope><name>getInfoItemsAll</name></member>
+      <member refid="class_storage_1a6c945ac28473df5be400f8678c78265c" prot="public" virt="non-virtual"><scope>Storage</scope><name>getInfoItemsAll</name></member>
+      <member refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" prot="public" virt="virtual"><scope>Storage</scope><name>getInfoItemsUse</name></member>
+      <member refid="class_storage_1a70832690e89cdd9109f0e7f0c31affc2" prot="public" virt="virtual"><scope>Storage</scope><name>getInfoItemsUse</name></member>
+      <member refid="class_storage_1a67dd2a43e056ef6532a280f5afb1ff98" prot="public" virt="non-virtual"><scope>Storage</scope><name>getItems</name></member>
+      <member refid="class_storage_1a6801311f9f0065f834a4027cb2160fb5" prot="public" virt="non-virtual"><scope>Storage</scope><name>getMaxSize</name></member>
+      <member refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" prot="public" virt="non-virtual"><scope>Storage</scope><name>getName</name></member>
+      <member refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" prot="public" virt="non-virtual"><scope>Storage</scope><name>getSize</name></member>
+      <member refid="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" prot="public" virt="non-virtual"><scope>Storage</scope><name>isThereUpgrade</name></member>
+      <member refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" prot="public" virt="non-virtual"><scope>Storage</scope><name>Items</name></member>
+      <member refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" prot="public" virt="non-virtual"><scope>Storage</scope><name>MaxSize</name></member>
+      <member refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" prot="public" virt="non-virtual"><scope>Storage</scope><name>Name</name></member>
+      <member refid="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" prot="public" virt="non-virtual"><scope>Storage</scope><name>operator[]</name></member>
+      <member refid="class_storage_1a996ba6da437a448f325fa09064a4db2c" prot="public" virt="non-virtual"><scope>Storage</scope><name>operator[]</name></member>
+      <member refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" prot="public" virt="non-virtual"><scope>Storage</scope><name>remove</name></member>
+      <member refid="class_storage_1a07574bf9ed133033e1e46314369d0f2e" prot="public" virt="non-virtual"><scope>Storage</scope><name>setMaxSize</name></member>
+      <member refid="class_storage_1aad9c6969ee1edca7354c1d8e76507d42" prot="public" virt="non-virtual"><scope>Storage</scope><name>Storage</name></member>
+      <member refid="class_storage_1ab705a5ad6f3445ab7408ee453a4bb8af" prot="public" virt="non-virtual"><scope>Storage</scope><name>Storage</name></member>
+      <member refid="class_storage_1a73cf30f0a34250396f9eabee7dc5c93d" prot="public" virt="virtual"><scope>Storage</scope><name>~Storage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

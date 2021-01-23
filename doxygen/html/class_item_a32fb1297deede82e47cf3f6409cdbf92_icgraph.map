@@ -1,0 +1,4 @@
+<map id="Item::getName" name="Item::getName">
+<area shape="rect" id="node1" title="Gets Name." alt="" coords="197,5,304,32"/>
+<area shape="rect" id="node2" href="$class_player.html#a45b5020492d5e97efc1b5ff6bc2d1b26" title="Attack an Enemy with a Weapon/Shield." alt="" coords="5,5,149,32"/>
+</map>

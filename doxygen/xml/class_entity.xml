@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_entity" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Entity</compoundname>
+    <derivedcompoundref refid="class_enemy" prot="public" virt="non-virtual">Enemy</derivedcompoundref>
+    <derivedcompoundref refid="class_player" prot="public" virt="non-virtual">Player</derivedcompoundref>
+    <includes refid="_entity_8h" local="no">Entity.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_entity_1aa3072cb06232b0765229a66f388c50ca" prot="private" static="no" mutable="no">
+        <type><ref refid="class_string" kindref="compound">String</ref></type>
+        <definition>String Entity::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para><ref refid="class_entity" kindref="compound">Entity</ref> Name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="10" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entity_1a944cf58fb6973c833d631562739dc0c2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Entity::HP</definition>
+        <argsstring></argsstring>
+        <name>HP</name>
+        <briefdescription>
+<para>Healthpoint of the entity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="13" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entity_1ad8842beaedc4857e52773f2ec53d86b2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Entity::MaxHP</definition>
+        <argsstring></argsstring>
+        <name>MaxHP</name>
+        <briefdescription>
+<para>Maximum Healthpoint of the entity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="16" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entity_1af0fb18e020dd8afb6c00a18ff1cc5cad" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Entity::BaseDMG</definition>
+        <argsstring></argsstring>
+        <name>BaseDMG</name>
+        <briefdescription>
+<para>Base Damage of the entity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="19" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entity_1a44ca4d07ff5b87194115cd39c0906642" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Entity::BaseDEF</definition>
+        <argsstring></argsstring>
+        <name>BaseDEF</name>
+        <briefdescription>
+<para>Base Defense of the entity. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="22" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Entity::Entity</definition>
+        <argsstring>(const char *Name, double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)</argsstring>
+        <name>Entity</name>
+        <param>
+          <type>const char *</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>HP</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxHP</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>BaseDMG</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>BaseDEF</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="25" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a3aa9ae80607ca4a4f1506afc28ae0a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Entity::Entity</definition>
+        <argsstring>(double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)</argsstring>
+        <name>Entity</name>
+        <param>
+          <type>double</type>
+          <declname>HP</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxHP</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>BaseDMG</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>BaseDEF</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="28" column="1" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Entity::~Entity</definition>
+        <argsstring>()</argsstring>
+        <name>~Entity</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="31" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Entity::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Gets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="34" column="12" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="13" bodyend="13"/>
+        <references refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" compoundref="_string_8h" startline="28" endline="28">String::getStr</references>
+        <referencedby refid="class_player_1ae30e579efad256523585a947932bcf7f" compoundref="_player_8cpp" startline="49" endline="60">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" compoundref="_player_8cpp" startline="63" endline="73">Player::Heal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1ae28f385cd28512190092c60f4ef03e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Entity::getBaseDMG</definition>
+        <argsstring>()</argsstring>
+        <name>getBaseDMG</name>
+        <briefdescription>
+<para>Gets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s Base Damage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="37" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="16" bodyend="16"/>
+        <referencedby refid="class_player_1ae30e579efad256523585a947932bcf7f" compoundref="_player_8cpp" startline="49" endline="60">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Entity::getBaseDEF</definition>
+        <argsstring>()</argsstring>
+        <name>getBaseDEF</name>
+        <briefdescription>
+<para>Gets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s Base Defense. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="40" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="19" bodyend="19"/>
+        <referencedby refid="class_player_1ae30e579efad256523585a947932bcf7f" compoundref="_player_8cpp" startline="49" endline="60">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Entity::getHP</definition>
+        <argsstring>()</argsstring>
+        <name>getHP</name>
+        <briefdescription>
+<para>Gets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s HP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="43" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_player_1ae30e579efad256523585a947932bcf7f" compoundref="_player_8cpp" startline="49" endline="60">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" compoundref="_player_8cpp" startline="63" endline="73">Player::Heal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a29a6b9846b3059a41c81858a744d6c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Entity::getMaxHP</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxHP</name>
+        <briefdescription>
+<para>Gets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s MaxHP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="46" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="25" bodyend="25"/>
+        <referencedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" compoundref="_player_8cpp" startline="16" endline="40">Player::getInfoEntity</referencedby>
+        <referencedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" compoundref="_enemy_8cpp" startline="23" endline="36">Enemy::getInfoEntity</referencedby>
+        <referencedby refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" compoundref="_player_8cpp" startline="63" endline="73">Player::Heal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entity::setHP</definition>
+        <argsstring>(const double hp)</argsstring>
+        <name>setHP</name>
+        <param>
+          <type>const double</type>
+          <declname>hp</declname>
+        </param>
+        <briefdescription>
+<para>Sets <ref refid="class_entity" kindref="compound">Entity</ref>&apos;s HP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="49" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.cpp" bodystart="28" bodyend="28"/>
+        <referencedby refid="class_player_1ae30e579efad256523585a947932bcf7f" compoundref="_player_8cpp" startline="49" endline="60">Player::attackEnemy</referencedby>
+        <referencedby refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" compoundref="_enemy_8cpp" startline="15" endline="20">Enemy::attackPlayer</referencedby>
+        <referencedby refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" compoundref="_player_8cpp" startline="63" endline="73">Player::Heal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_entity_1a671db0d3b9087d5dded740dece3f46d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>virtual std::ostream&amp; Entity::getInfoEntity</definition>
+        <argsstring>(InfoPreset Preset=InfoPreset(), std::ostream &amp;os=std::cout)=0</argsstring>
+        <name>getInfoEntity</name>
+        <reimplementedby refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71">getInfoEntity</reimplementedby>
+        <reimplementedby refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127">getInfoEntity</reimplementedby>
+        <param>
+          <type><ref refid="class_info_preset" kindref="compound">InfoPreset</ref></type>
+          <declname>Preset</declname>
+          <defval><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>()</defval>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+          <defval>std::cout</defval>
+        </param>
+        <briefdescription>
+<para>Displays the info of an <ref refid="class_entity" kindref="compound">Entity</ref>, dynamically controlable with an <ref refid="class_info_preset" kindref="compound">InfoPreset</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="52" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An alive <ref refid="class_entity" kindref="compound">Entity</ref> can be a <ref refid="class_player" kindref="compound">Player</ref> or an <ref refid="class_enemy" kindref="compound">Enemy</ref> (for now). It has HP, a Name and basic attributes, like BaseDMG and BaseDEF. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="class_entity"/>
+      </node>
+      <node id="2">
+        <label>Enemy</label>
+        <link refid="class_enemy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Entity</label>
+        <link refid="class_entity"/>
+      </node>
+    </collaborationgraph>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" line="8" column="13" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Entity.h" bodystart="8" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_entity_1a44ca4d07ff5b87194115cd39c0906642" prot="private" virt="non-virtual"><scope>Entity</scope><name>BaseDEF</name></member>
+      <member refid="class_entity_1af0fb18e020dd8afb6c00a18ff1cc5cad" prot="private" virt="non-virtual"><scope>Entity</scope><name>BaseDMG</name></member>
+      <member refid="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" prot="public" virt="non-virtual"><scope>Entity</scope><name>Entity</name></member>
+      <member refid="class_entity_1a3aa9ae80607ca4a4f1506afc28ae0a5f" prot="public" virt="non-virtual"><scope>Entity</scope><name>Entity</name></member>
+      <member refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" prot="public" virt="non-virtual"><scope>Entity</scope><name>getBaseDEF</name></member>
+      <member refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" prot="public" virt="non-virtual"><scope>Entity</scope><name>getBaseDMG</name></member>
+      <member refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" prot="public" virt="non-virtual"><scope>Entity</scope><name>getHP</name></member>
+      <member refid="class_entity_1a671db0d3b9087d5dded740dece3f46d5" prot="public" virt="pure-virtual"><scope>Entity</scope><name>getInfoEntity</name></member>
+      <member refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" prot="public" virt="non-virtual"><scope>Entity</scope><name>getMaxHP</name></member>
+      <member refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" prot="public" virt="non-virtual"><scope>Entity</scope><name>getName</name></member>
+      <member refid="class_entity_1a944cf58fb6973c833d631562739dc0c2" prot="private" virt="non-virtual"><scope>Entity</scope><name>HP</name></member>
+      <member refid="class_entity_1ad8842beaedc4857e52773f2ec53d86b2" prot="private" virt="non-virtual"><scope>Entity</scope><name>MaxHP</name></member>
+      <member refid="class_entity_1aa3072cb06232b0765229a66f388c50ca" prot="private" virt="non-virtual"><scope>Entity</scope><name>Name</name></member>
+      <member refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" prot="public" virt="non-virtual"><scope>Entity</scope><name>setHP</name></member>
+      <member refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" prot="public" virt="virtual"><scope>Entity</scope><name>~Entity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

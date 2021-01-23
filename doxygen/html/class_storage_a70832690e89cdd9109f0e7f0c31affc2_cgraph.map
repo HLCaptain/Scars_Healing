@@ -1,0 +1,4 @@
+<map id="Storage::getInfoItemsUse" name="Storage::getInfoItemsUse">
+<area shape="rect" id="node1" title="Writes out a specific Item&#39;s infos in the Storage to the console." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$class_generic_array.html#a5dbfcd8d8b33fe3806650d7aa3e1ca88" title="Get Size of the Array." alt="" coords="221,5,372,32"/>
+</map>

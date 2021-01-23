@@ -1,0 +1,280 @@
+\indexentry{gtest\_lite@{gtest\_lite}|hyperpage}{7}
+\indexentry{gtest\_lite@{gtest\_lite}!almostEQ@{almostEQ}|hyperpage}{8}
+\indexentry{almostEQ@{almostEQ}!gtest\_lite@{gtest\_lite}|hyperpage}{8}
+\indexentry{gtest\_lite@{gtest\_lite}!eq@{eq}|hyperpage}{8}
+\indexentry{eq@{eq}!gtest\_lite@{gtest\_lite}|hyperpage}{8}
+\indexentry{gtest\_lite@{gtest\_lite}!eqstr@{eqstr}|hyperpage}{8}
+\indexentry{eqstr@{eqstr}!gtest\_lite@{gtest\_lite}|hyperpage}{8}
+\indexentry{gtest\_lite@{gtest\_lite}!EXPECT\_@{EXPECT\_}|hyperpage}{8}
+\indexentry{EXPECT\_@{EXPECT\_}!gtest\_lite@{gtest\_lite}|hyperpage}{8}
+\indexentry{gtest\_lite@{gtest\_lite}!EXPECT\_@{EXPECT\_}|hyperpage}{9}
+\indexentry{EXPECT\_@{EXPECT\_}!gtest\_lite@{gtest\_lite}|hyperpage}{9}
+\indexentry{gtest\_lite@{gtest\_lite}!EXPECTSTR@{EXPECTSTR}|hyperpage}{9}
+\indexentry{EXPECTSTR@{EXPECTSTR}!gtest\_lite@{gtest\_lite}|hyperpage}{9}
+\indexentry{gtest\_lite@{gtest\_lite}!ge@{ge}|hyperpage}{10}
+\indexentry{ge@{ge}!gtest\_lite@{gtest\_lite}|hyperpage}{10}
+\indexentry{gtest\_lite@{gtest\_lite}!gt@{gt}|hyperpage}{10}
+\indexentry{gt@{gt}!gtest\_lite@{gtest\_lite}|hyperpage}{10}
+\indexentry{gtest\_lite@{gtest\_lite}!le@{le}|hyperpage}{10}
+\indexentry{le@{le}!gtest\_lite@{gtest\_lite}|hyperpage}{10}
+\indexentry{gtest\_lite@{gtest\_lite}!lt@{lt}|hyperpage}{10}
+\indexentry{lt@{lt}!gtest\_lite@{gtest\_lite}|hyperpage}{10}
+\indexentry{gtest\_lite@{gtest\_lite}!ne@{ne}|hyperpage}{10}
+\indexentry{ne@{ne}!gtest\_lite@{gtest\_lite}|hyperpage}{10}
+\indexentry{gtest\_lite@{gtest\_lite}!nestr@{nestr}|hyperpage}{11}
+\indexentry{nestr@{nestr}!gtest\_lite@{gtest\_lite}|hyperpage}{11}
+\indexentry{\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}|hyperpage}{13}
+\indexentry{\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}!f@{f}|hyperpage}{14}
+\indexentry{f@{f}!\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}|hyperpage}{14}
+\indexentry{\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}!f@{f}|hyperpage}{14}
+\indexentry{f@{f}!\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}|hyperpage}{14}
+\indexentry{\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}!convertable@{convertable}|hyperpage}{14}
+\indexentry{convertable@{convertable}!\_Is\_Types$<$ F, T $>$@{\_Is\_Types$<$ F, T $>$}|hyperpage}{14}
+\indexentry{AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}|hyperpage}{15}
+\indexentry{AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}!AttributeCheck@{AttributeCheck}|hyperpage}{15}
+\indexentry{AttributeCheck@{AttributeCheck}!AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}|hyperpage}{15}
+\indexentry{AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}!operator()@{operator()}|hyperpage}{16}
+\indexentry{operator()@{operator()}!AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}|hyperpage}{16}
+\indexentry{AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}!operator()@{operator()}|hyperpage}{16}
+\indexentry{operator()@{operator()}!AttributeCheck$<$ C $>$@{AttributeCheck$<$ C $>$}|hyperpage}{16}
+\indexentry{Enemy@{Enemy}|hyperpage}{16}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!````~Enemy@{$\sim$Enemy}|hyperpage}{19}
+\indexentry{````~Enemy@{$\sim$Enemy}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!attackPlayer@{attackPlayer}|hyperpage}{19}
+\indexentry{attackPlayer@{attackPlayer}!Enemy@{Enemy}|hyperpage}{19}
+\indexentry{Enemy@{Enemy}!getInfoEntity@{getInfoEntity}|hyperpage}{20}
+\indexentry{getInfoEntity@{getInfoEntity}!Enemy@{Enemy}|hyperpage}{20}
+\indexentry{Entity@{Entity}|hyperpage}{21}
+\indexentry{Entity@{Entity}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!````~Entity@{$\sim$Entity}|hyperpage}{24}
+\indexentry{````~Entity@{$\sim$Entity}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!getBaseDEF@{getBaseDEF}|hyperpage}{24}
+\indexentry{getBaseDEF@{getBaseDEF}!Entity@{Entity}|hyperpage}{24}
+\indexentry{Entity@{Entity}!getBaseDMG@{getBaseDMG}|hyperpage}{25}
+\indexentry{getBaseDMG@{getBaseDMG}!Entity@{Entity}|hyperpage}{25}
+\indexentry{Entity@{Entity}!getHP@{getHP}|hyperpage}{25}
+\indexentry{getHP@{getHP}!Entity@{Entity}|hyperpage}{25}
+\indexentry{Entity@{Entity}!getInfoEntity@{getInfoEntity}|hyperpage}{26}
+\indexentry{getInfoEntity@{getInfoEntity}!Entity@{Entity}|hyperpage}{26}
+\indexentry{Entity@{Entity}!getMaxHP@{getMaxHP}|hyperpage}{26}
+\indexentry{getMaxHP@{getMaxHP}!Entity@{Entity}|hyperpage}{26}
+\indexentry{Entity@{Entity}!getName@{getName}|hyperpage}{27}
+\indexentry{getName@{getName}!Entity@{Entity}|hyperpage}{27}
+\indexentry{Entity@{Entity}!setHP@{setHP}|hyperpage}{28}
+\indexentry{setHP@{setHP}!Entity@{Entity}|hyperpage}{28}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{29}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!GenericArray@{GenericArray}|hyperpage}{30}
+\indexentry{GenericArray@{GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{30}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!GenericArray@{GenericArray}|hyperpage}{30}
+\indexentry{GenericArray@{GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{30}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!````~GenericArray@{$\sim$GenericArray}|hyperpage}{30}
+\indexentry{````~GenericArray@{$\sim$GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{30}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!add@{add}|hyperpage}{30}
+\indexentry{add@{add}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{30}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!clear@{clear}|hyperpage}{31}
+\indexentry{clear@{clear}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{31}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!getPredNum@{getPredNum}|hyperpage}{31}
+\indexentry{getPredNum@{getPredNum}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{31}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!getSize@{getSize}|hyperpage}{31}
+\indexentry{getSize@{getSize}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{31}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{32}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{32}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{32}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{32}
+\indexentry{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!remove@{remove}|hyperpage}{32}
+\indexentry{remove@{remove}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}|hyperpage}{32}
+\indexentry{InfoPreset@{InfoPreset}|hyperpage}{33}
+\indexentry{InfoPreset@{InfoPreset}!InfoPreset@{InfoPreset}|hyperpage}{35}
+\indexentry{InfoPreset@{InfoPreset}!InfoPreset@{InfoPreset}|hyperpage}{35}
+\indexentry{InfoPreset@{InfoPreset}!````~InfoPreset@{$\sim$InfoPreset}|hyperpage}{35}
+\indexentry{````~InfoPreset@{$\sim$InfoPreset}!InfoPreset@{InfoPreset}|hyperpage}{35}
+\indexentry{InfoPreset@{InfoPreset}!BaseDEF@{BaseDEF}|hyperpage}{36}
+\indexentry{BaseDEF@{BaseDEF}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!BaseDMG@{BaseDMG}|hyperpage}{36}
+\indexentry{BaseDMG@{BaseDMG}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!DisplayNum@{DisplayNum}|hyperpage}{36}
+\indexentry{DisplayNum@{DisplayNum}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!Gold@{Gold}|hyperpage}{36}
+\indexentry{Gold@{Gold}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!HP@{HP}|hyperpage}{36}
+\indexentry{HP@{HP}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!Items@{Items}|hyperpage}{36}
+\indexentry{Items@{Items}!InfoPreset@{InfoPreset}|hyperpage}{36}
+\indexentry{InfoPreset@{InfoPreset}!Name@{Name}|hyperpage}{37}
+\indexentry{Name@{Name}!InfoPreset@{InfoPreset}|hyperpage}{37}
+\indexentry{InfoPreset@{InfoPreset}!Num@{Num}|hyperpage}{37}
+\indexentry{Num@{Num}!InfoPreset@{InfoPreset}|hyperpage}{37}
+\indexentry{InfoPreset@{InfoPreset}!Pre@{Pre}|hyperpage}{37}
+\indexentry{Pre@{Pre}!InfoPreset@{InfoPreset}|hyperpage}{37}
+\indexentry{InfoPreset@{InfoPreset}!Storage@{Storage}|hyperpage}{37}
+\indexentry{Storage@{Storage}!InfoPreset@{InfoPreset}|hyperpage}{37}
+\indexentry{Item@{Item}|hyperpage}{38}
+\indexentry{Item@{Item}!Item@{Item}|hyperpage}{40}
+\indexentry{Item@{Item}!Item@{Item}|hyperpage}{40}
+\indexentry{Item@{Item}!````~Item@{$\sim$Item}|hyperpage}{40}
+\indexentry{````~Item@{$\sim$Item}!Item@{Item}|hyperpage}{40}
+\indexentry{Item@{Item}!getBonusDEF@{getBonusDEF}|hyperpage}{40}
+\indexentry{getBonusDEF@{getBonusDEF}!Item@{Item}|hyperpage}{40}
+\indexentry{Item@{Item}!getBonusDEFM@{getBonusDEFM}|hyperpage}{40}
+\indexentry{getBonusDEFM@{getBonusDEFM}!Item@{Item}|hyperpage}{40}
+\indexentry{Item@{Item}!getBonusDMG@{getBonusDMG}|hyperpage}{41}
+\indexentry{getBonusDMG@{getBonusDMG}!Item@{Item}|hyperpage}{41}
+\indexentry{Item@{Item}!getBonusDMGM@{getBonusDMGM}|hyperpage}{41}
+\indexentry{getBonusDMGM@{getBonusDMGM}!Item@{Item}|hyperpage}{41}
+\indexentry{Item@{Item}!getDesc@{getDesc}|hyperpage}{42}
+\indexentry{getDesc@{getDesc}!Item@{Item}|hyperpage}{42}
+\indexentry{Item@{Item}!getHeal@{getHeal}|hyperpage}{42}
+\indexentry{getHeal@{getHeal}!Item@{Item}|hyperpage}{42}
+\indexentry{Item@{Item}!getInfoItems@{getInfoItems}|hyperpage}{42}
+\indexentry{getInfoItems@{getInfoItems}!Item@{Item}|hyperpage}{42}
+\indexentry{Item@{Item}!getName@{getName}|hyperpage}{43}
+\indexentry{getName@{getName}!Item@{Item}|hyperpage}{43}
+\indexentry{Item@{Item}!getType@{getType}|hyperpage}{43}
+\indexentry{getType@{getType}!Item@{Item}|hyperpage}{43}
+\indexentry{Item@{Item}!useItem@{useItem}|hyperpage}{44}
+\indexentry{useItem@{useItem}!Item@{Item}|hyperpage}{44}
+\indexentry{Item@{Item}!BonusDEF@{BonusDEF}|hyperpage}{44}
+\indexentry{BonusDEF@{BonusDEF}!Item@{Item}|hyperpage}{44}
+\indexentry{Item@{Item}!BonusDEFM@{BonusDEFM}|hyperpage}{44}
+\indexentry{BonusDEFM@{BonusDEFM}!Item@{Item}|hyperpage}{44}
+\indexentry{Item@{Item}!BonusDMG@{BonusDMG}|hyperpage}{44}
+\indexentry{BonusDMG@{BonusDMG}!Item@{Item}|hyperpage}{44}
+\indexentry{Item@{Item}!BonusDMGM@{BonusDMGM}|hyperpage}{44}
+\indexentry{BonusDMGM@{BonusDMGM}!Item@{Item}|hyperpage}{44}
+\indexentry{Item@{Item}!Desc@{Desc}|hyperpage}{45}
+\indexentry{Desc@{Desc}!Item@{Item}|hyperpage}{45}
+\indexentry{Item@{Item}!Heal@{Heal}|hyperpage}{45}
+\indexentry{Heal@{Heal}!Item@{Item}|hyperpage}{45}
+\indexentry{Item@{Item}!Name@{Name}|hyperpage}{45}
+\indexentry{Name@{Name}!Item@{Item}|hyperpage}{45}
+\indexentry{Item@{Item}!Type@{Type}|hyperpage}{45}
+\indexentry{Type@{Type}!Item@{Item}|hyperpage}{45}
+\indexentry{Player@{Player}|hyperpage}{46}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{48}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{48}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{48}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{48}
+\indexentry{Player@{Player}!````~Player@{$\sim$Player}|hyperpage}{48}
+\indexentry{````~Player@{$\sim$Player}!Player@{Player}|hyperpage}{48}
+\indexentry{Player@{Player}!attackEnemy@{attackEnemy}|hyperpage}{49}
+\indexentry{attackEnemy@{attackEnemy}!Player@{Player}|hyperpage}{49}
+\indexentry{Player@{Player}!attackEnemy@{attackEnemy}|hyperpage}{49}
+\indexentry{attackEnemy@{attackEnemy}!Player@{Player}|hyperpage}{49}
+\indexentry{Player@{Player}!getGold@{getGold}|hyperpage}{50}
+\indexentry{getGold@{getGold}!Player@{Player}|hyperpage}{50}
+\indexentry{Player@{Player}!getInfoEntity@{getInfoEntity}|hyperpage}{50}
+\indexentry{getInfoEntity@{getInfoEntity}!Player@{Player}|hyperpage}{50}
+\indexentry{Player@{Player}!getStorageType@{getStorageType}|hyperpage}{51}
+\indexentry{getStorageType@{getStorageType}!Player@{Player}|hyperpage}{51}
+\indexentry{Player@{Player}!Heal@{Heal}|hyperpage}{52}
+\indexentry{Heal@{Heal}!Player@{Player}|hyperpage}{52}
+\indexentry{Storage@{Storage}|hyperpage}{52}
+\indexentry{Storage@{Storage}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!````~Storage@{$\sim$Storage}|hyperpage}{55}
+\indexentry{````~Storage@{$\sim$Storage}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!add@{add}|hyperpage}{55}
+\indexentry{add@{add}!Storage@{Storage}|hyperpage}{55}
+\indexentry{Storage@{Storage}!clear@{clear}|hyperpage}{56}
+\indexentry{clear@{clear}!Storage@{Storage}|hyperpage}{56}
+\indexentry{Storage@{Storage}!getDescription@{getDescription}|hyperpage}{56}
+\indexentry{getDescription@{getDescription}!Storage@{Storage}|hyperpage}{56}
+\indexentry{Storage@{Storage}!getInfo@{getInfo}|hyperpage}{57}
+\indexentry{getInfo@{getInfo}!Storage@{Storage}|hyperpage}{57}
+\indexentry{Storage@{Storage}!getInfoItems@{getInfoItems}|hyperpage}{57}
+\indexentry{getInfoItems@{getInfoItems}!Storage@{Storage}|hyperpage}{57}
+\indexentry{Storage@{Storage}!getInfoItems@{getInfoItems}|hyperpage}{58}
+\indexentry{getInfoItems@{getInfoItems}!Storage@{Storage}|hyperpage}{58}
+\indexentry{Storage@{Storage}!getInfoItemsAll@{getInfoItemsAll}|hyperpage}{58}
+\indexentry{getInfoItemsAll@{getInfoItemsAll}!Storage@{Storage}|hyperpage}{58}
+\indexentry{Storage@{Storage}!getInfoItemsAll@{getInfoItemsAll}|hyperpage}{58}
+\indexentry{getInfoItemsAll@{getInfoItemsAll}!Storage@{Storage}|hyperpage}{58}
+\indexentry{Storage@{Storage}!getInfoItemsUse@{getInfoItemsUse}|hyperpage}{59}
+\indexentry{getInfoItemsUse@{getInfoItemsUse}!Storage@{Storage}|hyperpage}{59}
+\indexentry{Storage@{Storage}!getInfoItemsUse@{getInfoItemsUse}|hyperpage}{59}
+\indexentry{getInfoItemsUse@{getInfoItemsUse}!Storage@{Storage}|hyperpage}{59}
+\indexentry{Storage@{Storage}!getItems@{getItems}|hyperpage}{60}
+\indexentry{getItems@{getItems}!Storage@{Storage}|hyperpage}{60}
+\indexentry{Storage@{Storage}!getMaxSize@{getMaxSize}|hyperpage}{60}
+\indexentry{getMaxSize@{getMaxSize}!Storage@{Storage}|hyperpage}{60}
+\indexentry{Storage@{Storage}!getName@{getName}|hyperpage}{60}
+\indexentry{getName@{getName}!Storage@{Storage}|hyperpage}{60}
+\indexentry{Storage@{Storage}!getSize@{getSize}|hyperpage}{61}
+\indexentry{getSize@{getSize}!Storage@{Storage}|hyperpage}{61}
+\indexentry{Storage@{Storage}!isThereUpgrade@{isThereUpgrade}|hyperpage}{61}
+\indexentry{isThereUpgrade@{isThereUpgrade}!Storage@{Storage}|hyperpage}{61}
+\indexentry{Storage@{Storage}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{61}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!Storage@{Storage}|hyperpage}{61}
+\indexentry{Storage@{Storage}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{62}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!Storage@{Storage}|hyperpage}{62}
+\indexentry{Storage@{Storage}!remove@{remove}|hyperpage}{62}
+\indexentry{remove@{remove}!Storage@{Storage}|hyperpage}{62}
+\indexentry{Storage@{Storage}!setMaxSize@{setMaxSize}|hyperpage}{62}
+\indexentry{setMaxSize@{setMaxSize}!Storage@{Storage}|hyperpage}{62}
+\indexentry{Storage@{Storage}!Desc@{Desc}|hyperpage}{63}
+\indexentry{Desc@{Desc}!Storage@{Storage}|hyperpage}{63}
+\indexentry{Storage@{Storage}!Items@{Items}|hyperpage}{63}
+\indexentry{Items@{Items}!Storage@{Storage}|hyperpage}{63}
+\indexentry{Storage@{Storage}!MaxSize@{MaxSize}|hyperpage}{63}
+\indexentry{MaxSize@{MaxSize}!Storage@{Storage}|hyperpage}{63}
+\indexentry{Storage@{Storage}!Name@{Name}|hyperpage}{63}
+\indexentry{Name@{Name}!Storage@{Storage}|hyperpage}{63}
+\indexentry{String@{String}|hyperpage}{64}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!````~String@{$\sim$String}|hyperpage}{65}
+\indexentry{````~String@{$\sim$String}!String@{String}|hyperpage}{65}
+\indexentry{String@{String}!getSize@{getSize}|hyperpage}{66}
+\indexentry{getSize@{getSize}!String@{String}|hyperpage}{66}
+\indexentry{String@{String}!getStr@{getStr}|hyperpage}{66}
+\indexentry{getStr@{getStr}!String@{String}|hyperpage}{66}
+\indexentry{String@{String}!operator+@{operator+}|hyperpage}{66}
+\indexentry{operator+@{operator+}!String@{String}|hyperpage}{66}
+\indexentry{String@{String}!operator+@{operator+}|hyperpage}{67}
+\indexentry{operator+@{operator+}!String@{String}|hyperpage}{67}
+\indexentry{String@{String}!operator+=@{operator+=}|hyperpage}{67}
+\indexentry{operator+=@{operator+=}!String@{String}|hyperpage}{67}
+\indexentry{String@{String}!operator=@{operator=}|hyperpage}{67}
+\indexentry{operator=@{operator=}!String@{String}|hyperpage}{67}
+\indexentry{String@{String}!operator=@{operator=}|hyperpage}{67}
+\indexentry{operator=@{operator=}!String@{String}|hyperpage}{67}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{68}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!````~Test@{$\sim$Test}|hyperpage}{69}
+\indexentry{````~Test@{$\sim$Test}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{69}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!begin@{begin}|hyperpage}{69}
+\indexentry{begin@{begin}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{69}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!end@{end}|hyperpage}{69}
+\indexentry{end@{end}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{69}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!expect@{expect}|hyperpage}{70}
+\indexentry{expect@{expect}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{70}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!fail@{fail}|hyperpage}{70}
+\indexentry{fail@{fail}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{70}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!getTest@{getTest}|hyperpage}{70}
+\indexentry{getTest@{getTest}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{70}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!ablocks@{ablocks}|hyperpage}{71}
+\indexentry{ablocks@{ablocks}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!failed@{failed}|hyperpage}{71}
+\indexentry{failed@{failed}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!name@{name}|hyperpage}{71}
+\indexentry{name@{name}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!null@{null}|hyperpage}{71}
+\indexentry{null@{null}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!status@{status}|hyperpage}{71}
+\indexentry{status@{status}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!sum@{sum}|hyperpage}{71}
+\indexentry{sum@{sum}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}
+\indexentry{gtest\_lite::Test@{gtest\_lite::Test}!tmp@{tmp}|hyperpage}{71}
+\indexentry{tmp@{tmp}!gtest\_lite::Test@{gtest\_lite::Test}|hyperpage}{71}

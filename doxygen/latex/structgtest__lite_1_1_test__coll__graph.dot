@@ -1,0 +1,8 @@
+digraph "gtest_lite::Test"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gtest_lite::Test\n|+ sum\l+ failed\l+ ablocks\l+ status\l+ tmp\l+ name\l+ null\l|+ begin()\l+ end()\l+ fail()\l+ expect()\l+ ~Test()\l+ getTest()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "String::operator+"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="String::operator+",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Adding a char to the String (returns constant)"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="String::String",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_string.html#ab3670848acd0e55af89fef90eb999515",tooltip="Copy Constructor."];
+}

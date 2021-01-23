@@ -1,0 +1,102 @@
+.TH "Player" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Player \- \fBPlayer\fP has Gold and a \fBStorage\fP in which it can hold some \fBItem\fP\&. The \fBPlayer\fP will be able to spend Gold in the Shop\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Player\&.h>\fP
+.PP
+Inherits \fBEntity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayer\fP (const char *Name, double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5, size_t Gold=0, \fBStorage\fP StorageType=\fBStorage\fP())"
+.br
+.RI "Constructor\&. "
+.ti -1c
+.RI "\fBPlayer\fP (double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5, size_t Gold=0)"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "virtual \fB~Player\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "std::ostream & \fBgetInfoEntity\fP (\fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBPlayer\fP's info to an output\&. "
+.ti -1c
+.RI "size_t \fBgetGold\fP ()"
+.br
+.RI "Gets \fBPlayer\fP's amount of Gold\&. "
+.ti -1c
+.RI "\fBStorage\fP & \fBgetStorageType\fP ()"
+.br
+.RI "Gets \fBPlayer\fP's type of \fBStorage\fP\&. "
+.ti -1c
+.RI "void \fBattackEnemy\fP (\fBEnemy\fP &e)"
+.br
+.RI "Attack an \fBEnemy\fP\&. "
+.ti -1c
+.RI "void \fBattackEnemy\fP (\fBEnemy\fP &e, \fBItem\fP &WS)"
+.br
+.RI "Attack an \fBEnemy\fP with a Weapon/Shield\&. "
+.ti -1c
+.RI "void \fBHeal\fP (const size_t Index)"
+.br
+.RI "Healing with an \fBItem\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBPlayer\fP has Gold and a \fBStorage\fP in which it can hold some \fBItem\fP\&. The \fBPlayer\fP will be able to spend Gold in the Shop\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Player::Player (const char * Name, double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP, size_t Gold = \fC0\fP, \fBStorage\fP StorageType = \fC\fBStorage\fP()\fP)"
+
+.PP
+Constructor\&. 
+.SS "Player::Player (double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP, size_t Gold = \fC0\fP)"
+
+.PP
+Default Constructor\&. 
+.SS "Player::~Player ()\fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Player::attackEnemy (\fBEnemy\fP & e)"
+
+.PP
+Attack an \fBEnemy\fP\&. 
+.SS "void Player::attackEnemy (\fBEnemy\fP & e, \fBItem\fP & WS)"
+
+.PP
+Attack an \fBEnemy\fP with a Weapon/Shield\&. 
+.SS "size_t Player::getGold ()"
+
+.PP
+Gets \fBPlayer\fP's amount of Gold\&. 
+.SS "std::ostream & Player::getInfoEntity (\fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)\fC [virtual]\fP"
+
+.PP
+Writes out the \fBPlayer\fP's info to an output\&. 
+.PP
+Implements \fBEntity\fP\&.
+.SS "\fBStorage\fP & Player::getStorageType ()"
+
+.PP
+Gets \fBPlayer\fP's type of \fBStorage\fP\&. 
+.SS "void Player::Heal (const size_t Index)"
+
+.PP
+Healing with an \fBItem\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

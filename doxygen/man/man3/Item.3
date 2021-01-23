@@ -1,0 +1,194 @@
+.TH "Item" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Item \- An \fBItem\fP can be stored in a storage and also has a type\&. Depending on the type, an \fBItem\fP can heal the player or damage an enemy, etc\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Item\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBItem\fP (const ItemType \fBType\fP=ItemType::WeaponShield, const char *\fBName\fP='DisItem', const char *\fBDesc\fP='This is an Item\&.', const double &\fBBonusDMG\fP=0, const double &\fBBonusDMGM\fP=1, const double &\fBBonusDEF\fP=0, const double &\fBBonusDEFM\fP=1, const double &\fBHeal\fP=0)"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "virtual \fB~Item\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "virtual std::ostream & \fBgetInfoItems\fP (\fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)"
+.br
+.RI "Writes out the \fBItem\fP's info to an output\&. "
+.ti -1c
+.RI "const char * \fBgetName\fP ()"
+.br
+.RI "Gets Name\&. "
+.ti -1c
+.RI "const char * \fBgetDesc\fP ()"
+.br
+.RI "Gets Description\&. "
+.ti -1c
+.RI "double \fBgetBonusDMG\fP ()"
+.br
+.RI "Gets Additive Bonus Damage of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBgetBonusDMGM\fP ()"
+.br
+.RI "Gets Multiplied Bonus Damage of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBgetBonusDEF\fP ()"
+.br
+.RI "Gets Additive Bonus Defense of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBgetBonusDEFM\fP ()"
+.br
+.RI "Gets Multiplied Bonus Defense of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBgetHeal\fP ()"
+.br
+.RI "Gets Healing of \fBItem\fP\&. "
+.ti -1c
+.RI "ItemType \fBgetType\fP () const"
+.br
+.RI "Gets Type of \fBItem\fP\&. "
+.ti -1c
+.RI "UseCases \fBuseItem\fP ()"
+.br
+.RI "Use an \fBItem\fP\&. "
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "ItemType \fBType\fP"
+.br
+.RI "Type of the \fBItem\fP\&. "
+.ti -1c
+.RI "\fBString\fP \fBName\fP"
+.br
+.RI "Name of the \fBItem\fP\&. "
+.ti -1c
+.RI "\fBString\fP \fBDesc\fP"
+.br
+.RI "Description of the \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBBonusDMG\fP"
+.br
+.RI "Additive Bonus Damage of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBBonusDMGM\fP"
+.br
+.RI "Multiplied Bonus Damage of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBBonusDEF\fP"
+.br
+.RI "Additive Bonus Defense of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBBonusDEFM\fP"
+.br
+.RI "Multiplied Bonus Defense of \fBItem\fP\&. "
+.ti -1c
+.RI "double \fBHeal\fP"
+.br
+.RI "Healing of \fBItem\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+An \fBItem\fP can be stored in a storage and also has a type\&. Depending on the type, an \fBItem\fP can heal the player or damage an enemy, etc\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Item::Item (const ItemType Type = \fCItemType::WeaponShield\fP, const char * Name = \fC'DisItem'\fP, const char * Desc = \fC'This is an Item\&.'\fP, const double & BonusDMG = \fC0\fP, const double & BonusDMGM = \fC1\fP, const double & BonusDEF = \fC0\fP, const double & BonusDEFM = \fC1\fP, const double & Heal = \fC0\fP)"
+
+.PP
+Default Constructor\&. 
+.SS "Item::~Item ()\fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "double Item::getBonusDEF ()"
+
+.PP
+Gets Additive Bonus Defense of \fBItem\fP\&. 
+.SS "double Item::getBonusDEFM ()"
+
+.PP
+Gets Multiplied Bonus Defense of \fBItem\fP\&. 
+.SS "double Item::getBonusDMG ()"
+
+.PP
+Gets Additive Bonus Damage of \fBItem\fP\&. 
+.SS "double Item::getBonusDMGM ()"
+
+.PP
+Gets Multiplied Bonus Damage of \fBItem\fP\&. 
+.SS "const char * Item::getDesc ()"
+
+.PP
+Gets Description\&. 
+.SS "double Item::getHeal ()"
+
+.PP
+Gets Healing of \fBItem\fP\&. 
+.SS "std::ostream & Item::getInfoItems (\fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)\fC [virtual]\fP"
+
+.PP
+Writes out the \fBItem\fP's info to an output\&. 
+.SS "const char * Item::getName ()"
+
+.PP
+Gets Name\&. 
+.SS "ItemType Item::getType () const"
+
+.PP
+Gets Type of \fBItem\fP\&. 
+.SS "UseCases Item::useItem ()"
+
+.PP
+Use an \fBItem\fP\&. Use a Weapon/Shield
+.PP
+Use a Healing Potion
+.SH "Member Data Documentation"
+.PP 
+.SS "double Item::BonusDEF\fC [protected]\fP"
+
+.PP
+Additive Bonus Defense of \fBItem\fP\&. 
+.SS "double Item::BonusDEFM\fC [protected]\fP"
+
+.PP
+Multiplied Bonus Defense of \fBItem\fP\&. 
+.SS "double Item::BonusDMG\fC [protected]\fP"
+
+.PP
+Additive Bonus Damage of \fBItem\fP\&. 
+.SS "double Item::BonusDMGM\fC [protected]\fP"
+
+.PP
+Multiplied Bonus Damage of \fBItem\fP\&. 
+.SS "\fBString\fP Item::Desc\fC [protected]\fP"
+
+.PP
+Description of the \fBItem\fP\&. 
+.SS "double Item::Heal\fC [protected]\fP"
+
+.PP
+Healing of \fBItem\fP\&. 
+.SS "\fBString\fP Item::Name\fC [protected]\fP"
+
+.PP
+Name of the \fBItem\fP\&. 
+.SS "ItemType Item::Type\fC [protected]\fP"
+
+.PP
+Type of the \fBItem\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.

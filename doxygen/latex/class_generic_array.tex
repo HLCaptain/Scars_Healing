@@ -1,0 +1,199 @@
+\hypertarget{class_generic_array}{}\doxysection{Generic\+Array$<$ C $>$ Class Template Reference}
+\label{class_generic_array}\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+
+
+This \mbox{\hyperlink{class_generic_array}{Generic\+Array}} can store any type of things dynamically. Maybe I will do a static version as well. Or just implement it with a bool. Time will tell...  
+
+
+
+
+{\ttfamily \#include $<$Generic\+Array.\+h$>$}
+
+
+
+Collaboration diagram for Generic\+Array$<$ C $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{class_generic_array__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_generic_array_a53770b7732d8baa2cac3b3822ae395d6}{Generic\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_generic_array_ab08f40d9aff75eb4ad391ee2797266b8}{Generic\+Array}} (const \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$ \&GA)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_generic_array_a432924e68c2899107b2876a9e00adf12}{$\sim$\+Generic\+Array}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generic_array_a6ba41303a7269590b84ec818b7be2b1f}{add}} (const C \&Element)
+\begin{DoxyCompactList}\small\item\em Adding an Element to the Array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generic_array_ac934ab0bd415faae866e173bde54c564}{remove}} (const size\+\_\+t \&Index)
+\begin{DoxyCompactList}\small\item\em Removes an Element from the Array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generic_array_ae4ae44086d5c63a9c88bf3b0a6c44069}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears (deletes and then reallocate) the Array. \end{DoxyCompactList}\item 
+C \& \mbox{\hyperlink{class_generic_array_a2c4e7c47fca22e0f16a3f2bd0a41d0ec}{operator\mbox{[}$\,$\mbox{]}}} (size\+\_\+t Index) const
+\begin{DoxyCompactList}\small\item\em Accessing Data as constant. \end{DoxyCompactList}\item 
+C \& \mbox{\hyperlink{class_generic_array_abf74fbbcac3effd5667bf4eff9af775d}{operator\mbox{[}$\,$\mbox{]}}} (size\+\_\+t Index)
+\begin{DoxyCompactList}\small\item\em Accessing Data. \end{DoxyCompactList}\item 
+const size\+\_\+t \& \mbox{\hyperlink{class_generic_array_a5dbfcd8d8b33fe3806650d7aa3e1ca88}{get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Get Size of the Array. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Pred $>$ }\\size\+\_\+t \mbox{\hyperlink{class_generic_array_a8b589d0f85f42ff2a0067fc463d3d7df}{get\+Pred\+Num}} (Pred pred)
+\begin{DoxyCompactList}\small\item\em Get Number of specific Items in the Array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class C$>$\newline
+class Generic\+Array$<$ C $>$}
+
+This \mbox{\hyperlink{class_generic_array}{Generic\+Array}} can store any type of things dynamically. Maybe I will do a static version as well. Or just implement it with a bool. Time will tell... 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_generic_array_a53770b7732d8baa2cac3b3822ae395d6}\label{class_generic_array_a53770b7732d8baa2cac3b3822ae395d6}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!GenericArray@{GenericArray}}
+\index{GenericArray@{GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{GenericArray()}{GenericArray()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+\mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::\mbox{\hyperlink{class_generic_array}{Generic\+Array}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default Constructor. 
+
+\mbox{\Hypertarget{class_generic_array_ab08f40d9aff75eb4ad391ee2797266b8}\label{class_generic_array_ab08f40d9aff75eb4ad391ee2797266b8}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!GenericArray@{GenericArray}}
+\index{GenericArray@{GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{GenericArray()}{GenericArray()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+\mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::\mbox{\hyperlink{class_generic_array}{Generic\+Array}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$ \&}]{GA }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copy Constructor. 
+
+\mbox{\Hypertarget{class_generic_array_a432924e68c2899107b2876a9e00adf12}\label{class_generic_array_a432924e68c2899107b2876a9e00adf12}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!````~GenericArray@{$\sim$GenericArray}}
+\index{````~GenericArray@{$\sim$GenericArray}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$GenericArray()}{~GenericArray()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+virtual \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::$\sim$\mbox{\hyperlink{class_generic_array}{Generic\+Array}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_generic_array_a6ba41303a7269590b84ec818b7be2b1f}\label{class_generic_array_a6ba41303a7269590b84ec818b7be2b1f}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!add@{add}}
+\index{add@{add}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+void \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::add (\begin{DoxyParamCaption}\item[{const C \&}]{Element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adding an Element to the Array. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{class_generic_array_a6ba41303a7269590b84ec818b7be2b1f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_array_ae4ae44086d5c63a9c88bf3b0a6c44069}\label{class_generic_array_ae4ae44086d5c63a9c88bf3b0a6c44069}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!clear@{clear}}
+\index{clear@{clear}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+void \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clears (deletes and then reallocate) the Array. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_generic_array_ae4ae44086d5c63a9c88bf3b0a6c44069_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_array_a8b589d0f85f42ff2a0067fc463d3d7df}\label{class_generic_array_a8b589d0f85f42ff2a0067fc463d3d7df}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!getPredNum@{getPredNum}}
+\index{getPredNum@{getPredNum}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{getPredNum()}{getPredNum()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+template$<$class Pred $>$ \\
+size\+\_\+t \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::get\+Pred\+Num (\begin{DoxyParamCaption}\item[{Pred}]{pred }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get Number of specific Items in the Array. 
+
+\mbox{\Hypertarget{class_generic_array_a5dbfcd8d8b33fe3806650d7aa3e1ca88}\label{class_generic_array_a5dbfcd8d8b33fe3806650d7aa3e1ca88}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!getSize@{getSize}}
+\index{getSize@{getSize}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+const size\+\_\+t\& \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get Size of the Array. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_array_a5dbfcd8d8b33fe3806650d7aa3e1ca88_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_generic_array_abf74fbbcac3effd5667bf4eff9af775d}\label{class_generic_array_abf74fbbcac3effd5667bf4eff9af775d}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+C\& \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Accessing Data. 
+
+\mbox{\Hypertarget{class_generic_array_a2c4e7c47fca22e0f16a3f2bd0a41d0ec}\label{class_generic_array_a2c4e7c47fca22e0f16a3f2bd0a41d0ec}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+C\& \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Accessing Data as constant. 
+
+\mbox{\Hypertarget{class_generic_array_ac934ab0bd415faae866e173bde54c564}\label{class_generic_array_ac934ab0bd415faae866e173bde54c564}} 
+\index{GenericArray$<$ C $>$@{GenericArray$<$ C $>$}!remove@{remove}}
+\index{remove@{remove}!GenericArray$<$ C $>$@{GenericArray$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily template$<$class C $>$ \\
+void \mbox{\hyperlink{class_generic_array}{Generic\+Array}}$<$ C $>$\+::remove (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Removes an Element from the Array. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generic_array_ac934ab0bd415faae866e173bde54c564_icgraph}
+\end{center}
+\end{figure}

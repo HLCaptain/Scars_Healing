@@ -1,0 +1,5 @@
+<map id="GenericArray::remove" name="GenericArray::remove">
+<area shape="rect" id="node1" title="Removes an Element from the Array." alt="" coords="311,5,457,32"/>
+<area shape="rect" id="node2" href="$class_storage.html#a0210115c208c5cfd5d52e66423f3d723" title="Removes an Item from the Storage according to its index." alt="" coords="147,5,263,32"/>
+<area shape="rect" id="node3" href="$class_player.html#abcb7d3223f85a71cc8c69dee6f87f3e4" title="Healing with an Item." alt="" coords="5,5,99,32"/>
+</map>

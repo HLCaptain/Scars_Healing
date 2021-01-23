@@ -1,0 +1,4 @@
+<map id="Item" name="Item">
+<area shape="rect" id="node1" title="An Item can be stored in a storage and also has a type. Depending on the type, an Item can heal the p..." alt="" coords="5,307,144,619"/>
+<area shape="rect" id="node2" href="$class_string.html" title="Seperate String class, because STL are not allowed..." alt="" coords="22,5,127,229"/>
+</map>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="struct___is___types" kind="struct"><name>_Is_Types</name>
+    <member refid="struct___is___types_1a7d5df7d5a498f0a5cdb97edabbaf70bf" kind="variable"><name>convertable</name></member>
+    <member refid="struct___is___types_1a56e08a2768c571caab81e9bc47d5acc6" kind="function"><name>f</name></member>
+    <member refid="struct___is___types_1a013da65c5a92e9bd02f5d361c10d376d" kind="function"><name>f</name></member>
+  </compound>
+  <compound refid="class_attribute_check" kind="class"><name>AttributeCheck</name>
+    <member refid="class_attribute_check_1a8c88a59515485bd8467379491b90ebdb" kind="variable"><name>Attribute</name></member>
+    <member refid="class_attribute_check_1ac0187a63fa11508f87c65ab63997ddc9" kind="function"><name>AttributeCheck</name></member>
+    <member refid="class_attribute_check_1a9d9a6ab53ff5e9690242b962e3389720" kind="function"><name>operator()</name></member>
+    <member refid="class_attribute_check_1a7c88051e4c2202b4a1c0147643cd7d13" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_enemy" kind="class"><name>Enemy</name>
+    <member refid="class_enemy_1adad43d4a0ebebce8596095db9bedaec2" kind="function"><name>Enemy</name></member>
+    <member refid="class_enemy_1aea245acd71989d5f5ad3226fd692903c" kind="function"><name>Enemy</name></member>
+    <member refid="class_enemy_1ac0eec4755e28c02688065f9657150ac3" kind="function"><name>~Enemy</name></member>
+    <member refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" kind="function"><name>attackPlayer</name></member>
+    <member refid="class_enemy_1a5e801697dc4608bc549ad08f3c584127" kind="function"><name>getInfoEntity</name></member>
+  </compound>
+  <compound refid="class_entity" kind="class"><name>Entity</name>
+    <member refid="class_entity_1aa3072cb06232b0765229a66f388c50ca" kind="variable"><name>Name</name></member>
+    <member refid="class_entity_1a944cf58fb6973c833d631562739dc0c2" kind="variable"><name>HP</name></member>
+    <member refid="class_entity_1ad8842beaedc4857e52773f2ec53d86b2" kind="variable"><name>MaxHP</name></member>
+    <member refid="class_entity_1af0fb18e020dd8afb6c00a18ff1cc5cad" kind="variable"><name>BaseDMG</name></member>
+    <member refid="class_entity_1a44ca4d07ff5b87194115cd39c0906642" kind="variable"><name>BaseDEF</name></member>
+    <member refid="class_entity_1a6d52a805244eb3cb2c8552298187bc8a" kind="function"><name>Entity</name></member>
+    <member refid="class_entity_1a3aa9ae80607ca4a4f1506afc28ae0a5f" kind="function"><name>Entity</name></member>
+    <member refid="class_entity_1adf6d3f7cb1b2ba029b6b048a395cc8ae" kind="function"><name>~Entity</name></member>
+    <member refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kind="function"><name>getName</name></member>
+    <member refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kind="function"><name>getBaseDMG</name></member>
+    <member refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kind="function"><name>getBaseDEF</name></member>
+    <member refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kind="function"><name>getHP</name></member>
+    <member refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kind="function"><name>getMaxHP</name></member>
+    <member refid="class_entity_1a3b040bb229db233ad6ce5a62b129d3ef" kind="function"><name>setHP</name></member>
+    <member refid="class_entity_1a671db0d3b9087d5dded740dece3f46d5" kind="function"><name>getInfoEntity</name></member>
+  </compound>
+  <compound refid="class_generic_array" kind="class"><name>GenericArray</name>
+    <member refid="class_generic_array_1a89b62df47080bab064488611b7d0b235" kind="variable"><name>Array</name></member>
+    <member refid="class_generic_array_1a8952c6ea7d81c6eef2b7f5b9a95f4570" kind="variable"><name>Size</name></member>
+    <member refid="class_generic_array_1a53770b7732d8baa2cac3b3822ae395d6" kind="function"><name>GenericArray</name></member>
+    <member refid="class_generic_array_1ab08f40d9aff75eb4ad391ee2797266b8" kind="function"><name>GenericArray</name></member>
+    <member refid="class_generic_array_1a432924e68c2899107b2876a9e00adf12" kind="function"><name>~GenericArray</name></member>
+    <member refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" kind="function"><name>add</name></member>
+    <member refid="class_generic_array_1ac934ab0bd415faae866e173bde54c564" kind="function"><name>remove</name></member>
+    <member refid="class_generic_array_1ae4ae44086d5c63a9c88bf3b0a6c44069" kind="function"><name>clear</name></member>
+    <member refid="class_generic_array_1a2c4e7c47fca22e0f16a3f2bd0a41d0ec" kind="function"><name>operator[]</name></member>
+    <member refid="class_generic_array_1abf74fbbcac3effd5667bf4eff9af775d" kind="function"><name>operator[]</name></member>
+    <member refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" kind="function"><name>getSize</name></member>
+    <member refid="class_generic_array_1a8b589d0f85f42ff2a0067fc463d3d7df" kind="function"><name>getPredNum</name></member>
+  </compound>
+  <compound refid="class_info_preset" kind="class"><name>InfoPreset</name>
+    <member refid="class_info_preset_1a8fdf619c93328c53745a4ccd7f4e597c" kind="variable"><name>Name</name></member>
+    <member refid="class_info_preset_1ab2355ce2cff1842dc602a8d904ec1260" kind="variable"><name>HP</name></member>
+    <member refid="class_info_preset_1a025eabd8a82c08cf2205d4a0d33b786e" kind="variable"><name>BaseDMG</name></member>
+    <member refid="class_info_preset_1a1a5007890be8e68407976f3663877467" kind="variable"><name>BaseDEF</name></member>
+    <member refid="class_info_preset_1af864623ebddc2a4f0f6d6f4261089a0b" kind="variable"><name>DisplayNum</name></member>
+    <member refid="class_info_preset_1a8f1c781b970aa96f382d7a5a270e92ef" kind="variable"><name>Pre</name></member>
+    <member refid="class_info_preset_1af45947fdce5a5c71067d0650b4bbd227" kind="variable"><name>Gold</name></member>
+    <member refid="class_info_preset_1a2107bb800b5b099c4534e9de2f1dbef5" kind="variable"><name>Storage</name></member>
+    <member refid="class_info_preset_1a1423f40f6d4922f7d349d4c102b060dc" kind="variable"><name>Items</name></member>
+    <member refid="class_info_preset_1a217ca1776e1a6ea23b9acc5ce49ecd13" kind="variable"><name>Num</name></member>
+    <member refid="class_info_preset_1a15661cde89177f3d34f3c1f593b454a3" kind="function"><name>InfoPreset</name></member>
+    <member refid="class_info_preset_1afd90ebdcdf221e067efb00e38b47c51f" kind="function"><name>~InfoPreset</name></member>
+  </compound>
+  <compound refid="class_item" kind="class"><name>Item</name>
+    <member refid="class_item_1a3edbb83631f06482d730c40274303cff" kind="variable"><name>Type</name></member>
+    <member refid="class_item_1a6e207ac9149f817300e4768364121a1a" kind="variable"><name>Name</name></member>
+    <member refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" kind="variable"><name>Desc</name></member>
+    <member refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" kind="variable"><name>BonusDMG</name></member>
+    <member refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" kind="variable"><name>BonusDMGM</name></member>
+    <member refid="class_item_1ad388c129ab403ade13ce29805b9681be" kind="variable"><name>BonusDEF</name></member>
+    <member refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" kind="variable"><name>BonusDEFM</name></member>
+    <member refid="class_item_1ada814105fc6f052430099c7360894677" kind="variable"><name>Heal</name></member>
+    <member refid="class_item_1a923f7c918c68bf7c3cb209ed36b27bf6" kind="function"><name>Item</name></member>
+    <member refid="class_item_1a11663c84075b78c3ae5e30fdfcd7c458" kind="function"><name>~Item</name></member>
+    <member refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" kind="function"><name>getInfoItems</name></member>
+    <member refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" kind="function"><name>getName</name></member>
+    <member refid="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" kind="function"><name>getDesc</name></member>
+    <member refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" kind="function"><name>getBonusDMG</name></member>
+    <member refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" kind="function"><name>getBonusDMGM</name></member>
+    <member refid="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" kind="function"><name>getBonusDEF</name></member>
+    <member refid="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" kind="function"><name>getBonusDEFM</name></member>
+    <member refid="class_item_1a6ef1028da0417aed6a81e050642b2a31" kind="function"><name>getHeal</name></member>
+    <member refid="class_item_1afaaef88ed00da21815eb04565994054b" kind="function"><name>getType</name></member>
+    <member refid="class_item_1a62464320466289a8fe2943ca5c68fa35" kind="function"><name>useItem</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1ac111d2dfab0883a94bd792eb994a0b81" kind="variable"><name>Gold</name></member>
+    <member refid="class_player_1a7c2b3df17644450e13b59e094e8e044a" kind="variable"><name>StorageType</name></member>
+    <member refid="class_player_1acaf77ea9f608f917ddecdde6d62bf00e" kind="function"><name>Player</name></member>
+    <member refid="class_player_1aedaca1bc7ae6603e24716a23a2f40eb6" kind="function"><name>Player</name></member>
+    <member refid="class_player_1a749d2c00e1fe0f5c2746f7505a58c062" kind="function"><name>~Player</name></member>
+    <member refid="class_player_1a8eb7206d12e28c347a785530ab1ecf71" kind="function"><name>getInfoEntity</name></member>
+    <member refid="class_player_1ae75067ad3412686357d94ee1dd8d45b8" kind="function"><name>getGold</name></member>
+    <member refid="class_player_1af5869694206295777e8f6c104c9165cb" kind="function"><name>getStorageType</name></member>
+    <member refid="class_player_1ae30e579efad256523585a947932bcf7f" kind="function"><name>attackEnemy</name></member>
+    <member refid="class_player_1a45b5020492d5e97efc1b5ff6bc2d1b26" kind="function"><name>attackEnemy</name></member>
+    <member refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" kind="function"><name>Heal</name></member>
+  </compound>
+  <compound refid="class_storage" kind="class"><name>Storage</name>
+    <member refid="class_storage_1adb5195a95fc11a1fddfe26caa55ce4ff" kind="variable"><name>Name</name></member>
+    <member refid="class_storage_1ac0325f33b558b68c2cad576400af6123" kind="variable"><name>Desc</name></member>
+    <member refid="class_storage_1a5400df0c34fc5f41fc05249ffdf963bb" kind="variable"><name>MaxSize</name></member>
+    <member refid="class_storage_1a7e1b096af8d1c2ceb09343c84b3a20fb" kind="variable"><name>Items</name></member>
+    <member refid="class_storage_1aad9c6969ee1edca7354c1d8e76507d42" kind="function"><name>Storage</name></member>
+    <member refid="class_storage_1ab705a5ad6f3445ab7408ee453a4bb8af" kind="function"><name>Storage</name></member>
+    <member refid="class_storage_1a73cf30f0a34250396f9eabee7dc5c93d" kind="function"><name>~Storage</name></member>
+    <member refid="class_storage_1aae68a74faf3e272b8ec8d036fe35f52a" kind="function"><name>getInfo</name></member>
+    <member refid="class_storage_1a296636efc5aad4d35a4ed26bf62a95f5" kind="function"><name>getInfoItems</name></member>
+    <member refid="class_storage_1a93ea60aa174ac901a12d1fbe1303c504" kind="function"><name>getInfoItems</name></member>
+    <member refid="class_storage_1ae1a84ea6d2f1d50e96c04a8c327fe8ab" kind="function"><name>getInfoItemsAll</name></member>
+    <member refid="class_storage_1a6c945ac28473df5be400f8678c78265c" kind="function"><name>getInfoItemsAll</name></member>
+    <member refid="class_storage_1a1c4126bb115b13af833f66a49ca19c67" kind="function"><name>getInfoItemsUse</name></member>
+    <member refid="class_storage_1a70832690e89cdd9109f0e7f0c31affc2" kind="function"><name>getInfoItemsUse</name></member>
+    <member refid="class_storage_1a3aa4b83a48ac183c3249ca0cbff8a33a" kind="function"><name>getName</name></member>
+    <member refid="class_storage_1a093724577dea913ff7a12c1fda138b4f" kind="function"><name>getDescription</name></member>
+    <member refid="class_storage_1a67dd2a43e056ef6532a280f5afb1ff98" kind="function"><name>getItems</name></member>
+    <member refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" kind="function"><name>add</name></member>
+    <member refid="class_storage_1a0210115c208c5cfd5d52e66423f3d723" kind="function"><name>remove</name></member>
+    <member refid="class_storage_1a90311302b713775e503a253ab4aab3e8" kind="function"><name>clear</name></member>
+    <member refid="class_storage_1a6801311f9f0065f834a4027cb2160fb5" kind="function"><name>getMaxSize</name></member>
+    <member refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" kind="function"><name>getSize</name></member>
+    <member refid="class_storage_1a07574bf9ed133033e1e46314369d0f2e" kind="function"><name>setMaxSize</name></member>
+    <member refid="class_storage_1add8650b4ab6b8e85d393a2f5a6e60b57" kind="function"><name>isThereUpgrade</name></member>
+    <member refid="class_storage_1a860d80caf14d9ad06412b5200ffa6f58" kind="function"><name>operator[]</name></member>
+    <member refid="class_storage_1a996ba6da437a448f325fa09064a4db2c" kind="function"><name>operator[]</name></member>
+  </compound>
+  <compound refid="class_string" kind="class"><name>String</name>
+    <member refid="class_string_1abdb8b1fb25347f7046a27f0773392495" kind="variable"><name>pData</name></member>
+    <member refid="class_string_1a19c7dc3e73f362a699de38845b386296" kind="variable"><name>len</name></member>
+    <member refid="class_string_1ab3670848acd0e55af89fef90eb999515" kind="function"><name>String</name></member>
+    <member refid="class_string_1a512d598db6771bb7e68fd2202cce3759" kind="function"><name>String</name></member>
+    <member refid="class_string_1ae1331c360e8986b4e7f0a511e8e32ff0" kind="function"><name>String</name></member>
+    <member refid="class_string_1ac73850e459f183bdd3c172e506be2a32" kind="function"><name>~String</name></member>
+    <member refid="class_string_1a9bd764caa857cd20c6d9c720f737982b" kind="function"><name>getStr</name></member>
+    <member refid="class_string_1a35af3e58b56420acea77f34d7bf54949" kind="function"><name>getSize</name></member>
+    <member refid="class_string_1a803e6112834d4c0cdb0da6c6a4000e6e" kind="function"><name>operator=</name></member>
+    <member refid="class_string_1ad17f4142f2b6d19ed5a9e6024bff53bd" kind="function"><name>operator=</name></member>
+    <member refid="class_string_1ac203e7c52e04bb86f62f9dd75527b361" kind="function"><name>operator+=</name></member>
+    <member refid="class_string_1a28a020f061e5f25317af47488bfb7de8" kind="function"><name>operator+</name></member>
+    <member refid="class_string_1abb187e5ab66fe29c42aed4845b55dd76" kind="function"><name>operator+</name></member>
+  </compound>
+  <compound refid="structgtest__lite_1_1_test" kind="struct"><name>gtest_lite::Test</name>
+    <member refid="structgtest__lite_1_1_test_1a6da678d43b72b9e2bff1c99e1d3c48f5" kind="variable"><name>sum</name></member>
+    <member refid="structgtest__lite_1_1_test_1a4fb6ee7bd903717d970e3f0504cdeeab" kind="variable"><name>failed</name></member>
+    <member refid="structgtest__lite_1_1_test_1a91d9c63794d2b9b49e0c48d897208560" kind="variable"><name>ablocks</name></member>
+    <member refid="structgtest__lite_1_1_test_1a59a9a7f0ef7867af604ce5678f7a2c13" kind="variable"><name>status</name></member>
+    <member refid="structgtest__lite_1_1_test_1a1145ceb335a60a808b7b4d5d1624b2a5" kind="variable"><name>tmp</name></member>
+    <member refid="structgtest__lite_1_1_test_1a8d495a42580e3ae337f9c4982136b700" kind="variable"><name>name</name></member>
+    <member refid="structgtest__lite_1_1_test_1af4784302d78bb004bcb20b7f75ec06c3" kind="variable"><name>null</name></member>
+    <member refid="structgtest__lite_1_1_test_1a532aa4c5e33e41ce8139b9c9098aa6f2" kind="function"><name>getTest</name></member>
+    <member refid="structgtest__lite_1_1_test_1a99fb3f2338e4e0512beb6e19c5409078" kind="function"><name>Test</name></member>
+    <member refid="structgtest__lite_1_1_test_1aad083ed9e389aeac2d526460ac301c7a" kind="function"><name>Test</name></member>
+    <member refid="structgtest__lite_1_1_test_1a35faf2d45ab88d096f0eb25ee5b80b13" kind="function"><name>operator=</name></member>
+    <member refid="structgtest__lite_1_1_test_1a2227b70fcc5dfb3c326bf117dd8f7e79" kind="function"><name>begin</name></member>
+    <member refid="structgtest__lite_1_1_test_1a658c1eee35f170294c354ebf4d3fc1ba" kind="function"><name>end</name></member>
+    <member refid="structgtest__lite_1_1_test_1aadbfd0f53c56d975f793602996631195" kind="function"><name>fail</name></member>
+    <member refid="structgtest__lite_1_1_test_1a0bca03315e5963f7fdfffd92d2daed6a" kind="function"><name>expect</name></member>
+    <member refid="structgtest__lite_1_1_test_1a5a879233c2aa110626668c06140f6e71" kind="function"><name>~Test</name></member>
+  </compound>
+  <compound refid="namespacegtest__lite" kind="namespace"><name>gtest_lite</name>
+    <member refid="namespacegtest__lite_1a819c9a4e5bf13b0f5d81734978336ca0" kind="variable"><name>test</name></member>
+    <member refid="namespacegtest__lite_1a73d2ede1d983327aea4fdd5b1d2709ce" kind="function"><name>EXPECT_</name></member>
+    <member refid="namespacegtest__lite_1a835d542f226b31cf5cd28033303aa7d7" kind="function"><name>EXPECT_</name></member>
+    <member refid="namespacegtest__lite_1aea477921e4c26d2a2806bc3011066270" kind="function"><name>EXPECTSTR</name></member>
+    <member refid="namespacegtest__lite_1a884f0c7c25d80d78a73c759a8fc43a3d" kind="function"><name>eq</name></member>
+    <member refid="namespacegtest__lite_1a34055f353dabbe4ed9063f1d36af6022" kind="function"><name>eqstr</name></member>
+    <member refid="namespacegtest__lite_1a2f36af995c570e62f68c148f7393eb54" kind="function"><name>ne</name></member>
+    <member refid="namespacegtest__lite_1a0a34b1bb0d55bc0c6a3e878ec2bcd49f" kind="function"><name>nestr</name></member>
+    <member refid="namespacegtest__lite_1a5cd2ce368021471b16b4814b179c9c34" kind="function"><name>le</name></member>
+    <member refid="namespacegtest__lite_1afb471377c0d2d30aeeaf8912db72f0ff" kind="function"><name>lt</name></member>
+    <member refid="namespacegtest__lite_1a77c1a7cf1d34c46c1d97ed39b9f06050" kind="function"><name>ge</name></member>
+    <member refid="namespacegtest__lite_1aa0100ec9e095a9403a7b70ad4a162fdd" kind="function"><name>gt</name></member>
+    <member refid="namespacegtest__lite_1affbf9748c4e4dec6db137f7c147fee61" kind="function"><name>almostEQ</name></member>
+  </compound>
+  <compound refid="_actions_8cpp" kind="file"><name>Actions.cpp</name>
+    <member refid="_actions_8cpp_1a24df235c2dbdd76e157580791dd4efc3" kind="variable"><name>EnemyAttackBasic</name></member>
+    <member refid="_actions_8cpp_1adb47438ff20ea998421b076d024faa5b" kind="variable"><name>EnemyAttack</name></member>
+    <member refid="_actions_8cpp_1a7af2dbb5027f6d8cfa2cb40254512dad" kind="variable"><name>World</name></member>
+    <member refid="_actions_8cpp_1a8e9bf099048fadcc567ca161af351115" kind="function"><name>getWSNum</name></member>
+    <member refid="_actions_8cpp_1a0c1dab37502fd39cdf9c472840bf9061" kind="function"><name>attackSeq</name></member>
+    <member refid="_actions_8cpp_1a7eb93e7bdb8fbb7d7e8d3565ec2d471b" kind="function"><name>decideSeq</name></member>
+    <member refid="_actions_8cpp_1a7ad6ac767e35fd6fa3a6e6d331b0969c" kind="function"><name>itemSeq</name></member>
+    <member refid="_actions_8cpp_1a105db9417214a7eb54a51fc63ee3082d" kind="function"><name>actionSeq</name></member>
+  </compound>
+  <compound refid="_actions_8h" kind="file"><name>Actions.h</name>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2" kind="enum"><name>ActionEnums</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a48a85c6e4ed770915789f3aaa30d3bf9" kind="enumvalue"><name>DecidePhase</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2ac5dd598b4961d46107c4eab4db2d3686" kind="enumvalue"><name>WeaponSelection</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a839728b9e43f02cb4cc40e8a470784be" kind="enumvalue"><name>EnemySelection</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2aca564ef98f97e5194dcc35517083c8ef" kind="enumvalue"><name>ItemSelection</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2ac86b54aa6def7c714d3a5a8843a530c5" kind="enumvalue"><name>PlayerDead</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a0d82790b0612935992bd564a17ce37d6" kind="enumvalue"><name>Quit</name></member>
+    <member refid="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a41f2d8b8a49fc6bb02d5c0f97b7a4548" kind="enumvalue"><name>EnemiesDead</name></member>
+    <member refid="_actions_8h_1a8e9bf099048fadcc567ca161af351115" kind="function"><name>getWSNum</name></member>
+    <member refid="_actions_8h_1a0c1dab37502fd39cdf9c472840bf9061" kind="function"><name>attackSeq</name></member>
+    <member refid="_actions_8h_1a7eb93e7bdb8fbb7d7e8d3565ec2d471b" kind="function"><name>decideSeq</name></member>
+    <member refid="_actions_8h_1a105db9417214a7eb54a51fc63ee3082d" kind="function"><name>actionSeq</name></member>
+  </compound>
+  <compound refid="_enemy_8cpp" kind="file"><name>Enemy.cpp</name>
+  </compound>
+  <compound refid="_enemy_8h" kind="file"><name>Enemy.h</name>
+  </compound>
+  <compound refid="_entity_8cpp" kind="file"><name>Entity.cpp</name>
+  </compound>
+  <compound refid="_entity_8h" kind="file"><name>Entity.h</name>
+  </compound>
+  <compound refid="_generic_array_8h" kind="file"><name>GenericArray.h</name>
+  </compound>
+  <compound refid="gtest__lite_8h" kind="file"><name>gtest_lite.h</name>
+    <member refid="gtest__lite_8h_1a379a7b57e74521cb2c8e99f0e2779a72" kind="define"><name>TEST</name></member>
+    <member refid="gtest__lite_8h_1a29fd18bed01c4d836c7ebfe73a125c3f" kind="define"><name>END</name></member>
+    <member refid="gtest__lite_8h_1acc9065c889d0797062317b30fd8767d4" kind="define"><name>ENDM</name></member>
+    <member refid="gtest__lite_8h_1ad2e2f10cb2a494ff7ae23938dfdfc41a" kind="define"><name>ENDMsg</name></member>
+    <member refid="gtest__lite_8h_1a75adcdf89f69b0b615e395daafc315af" kind="define"><name>SUCCEED</name></member>
+    <member refid="gtest__lite_8h_1a3e26a8d27caa386ed0ea7ce9d5b7c4ed" kind="define"><name>FAIL</name></member>
+    <member refid="gtest__lite_8h_1aff8385840165a184edc29446aa51936f" kind="define"><name>EXPECT_EQ</name></member>
+    <member refid="gtest__lite_8h_1adb8a724f2c5c63ead11073c21fd51198" kind="define"><name>EXPECT_NE</name></member>
+    <member refid="gtest__lite_8h_1ac680be4a2404c20cae831740779d11cd" kind="define"><name>EXPECT_LE</name></member>
+    <member refid="gtest__lite_8h_1a46603095284e7bcd2f114cfdc7c79b4f" kind="define"><name>EXPECT_LT</name></member>
+    <member refid="gtest__lite_8h_1aad891c6b36689d35ee54de65351ab224" kind="define"><name>EXPECT_GE</name></member>
+    <member refid="gtest__lite_8h_1ac2262f96c4664cf3e170d2edaaba6c44" kind="define"><name>EXPECT_GT</name></member>
+    <member refid="gtest__lite_8h_1ab400890edc9f419e40c28a224e8ed79f" kind="define"><name>EXPECT_TRUE</name></member>
+    <member refid="gtest__lite_8h_1a58cae60fff88d713c4850b50d3e592a6" kind="define"><name>EXPECT_FALSE</name></member>
+    <member refid="gtest__lite_8h_1a5ce7d58df8cb696aa05e77c2370de7a8" kind="define"><name>EXPECT_FLOAT_EQ</name></member>
+    <member refid="gtest__lite_8h_1a6e6277442d96cd18300619c321614397" kind="define"><name>EXPECT_DOUBLE_EQ</name></member>
+    <member refid="gtest__lite_8h_1a5b4b193a92c39b99d7b9404c49feef0b" kind="define"><name>EXPECT_STREQ</name></member>
+    <member refid="gtest__lite_8h_1aa511aad7b6a6a8e8d0279f16d925b094" kind="define"><name>EXPECT_STRNE</name></member>
+    <member refid="gtest__lite_8h_1a4b4fe697f312ef7d2618905a9bc12f04" kind="define"><name>EXPECT_THROW</name></member>
+    <member refid="gtest__lite_8h_1a9be43f44d148e8a8d6a89c864bf4e461" kind="define"><name>EXPECT_ANY_THROW</name></member>
+    <member refid="gtest__lite_8h_1a2743a1438137ad857aa3f9fec3ff67ec" kind="define"><name>EXPECT_NO_THROW</name></member>
+    <member refid="gtest__lite_8h_1a895c34d9b192cdc2ba46d2680623485d" kind="define"><name>ASSERT_NO_THROW</name></member>
+    <member refid="gtest__lite_8h_1a5129ea3a961fbd7fe71e6621452047bf" kind="define"><name>EXPECT_THROW_THROW</name></member>
+    <member refid="gtest__lite_8h_1a34bf9a881eb6b2800b0e6cb0abdbd319" kind="define"><name>CREATE_Has_</name></member>
+    <member refid="gtest__lite_8h_1a59f6c1f1654aa9d5adf5c143efd1a454" kind="define"><name>EXPECTTHROW</name></member>
+    <member refid="gtest__lite_8h_1a428e5e5ea2b7f67a0b68fbf57ea0faa7" kind="define"><name>GTINIT</name></member>
+    <member refid="gtest__lite_8h_1a20ba54bca307f985eb448f71e6896dd5" kind="define"><name>GTEND</name></member>
+    <member refid="gtest__lite_8h_1aa57e54fc7cbf742de576263d90ee1660" kind="function"><name>hasMember</name></member>
+  </compound>
+  <compound refid="_info_preset_8h" kind="file"><name>InfoPreset.h</name>
+  </compound>
+  <compound refid="_ini_game_8cpp" kind="file"><name>IniGame.cpp</name>
+    <member refid="_ini_game_8cpp_1a9ffa3c8ee57db8a63dc56bd15e7af462" kind="function"><name>iniWS</name></member>
+  </compound>
+  <compound refid="_ini_game_8h" kind="file"><name>IniGame.h</name>
+    <member refid="_ini_game_8h_1a612fe567ccb6bc7efe05e4f9db190c02" kind="function"><name>iniWS</name></member>
+  </compound>
+  <compound refid="_item_8cpp" kind="file"><name>Item.cpp</name>
+  </compound>
+  <compound refid="_item_8h" kind="file"><name>Item.h</name>
+    <member refid="_item_8h_1a443f647757dde85043b49343f5cbe66b" kind="enum"><name>ItemType</name></member>
+    <member refid="_item_8h_1a443f647757dde85043b49343f5cbe66badc37671057add13a72d492daab5cb991" kind="enumvalue"><name>WeaponShield</name></member>
+    <member refid="_item_8h_1a443f647757dde85043b49343f5cbe66ba19a03a20b6c19fe26454d3bbe02c4e7c" kind="enumvalue"><name>HealPotion</name></member>
+    <member refid="_item_8h_1a443f647757dde85043b49343f5cbe66ba513257773a92dc37c274268951232c57" kind="enumvalue"><name>Vanity</name></member>
+    <member refid="_item_8h_1a443f647757dde85043b49343f5cbe66ba4027ea0f4a500f00db86ab0babaed3a1" kind="enumvalue"><name>WSUpgrade</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069e" kind="enum"><name>UseCases</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaf683581d3e75f05f9d9215f9b4696cef" kind="enumvalue"><name>Upgrade</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea3e679cff5b3a6f6f8f32aead541a0a12" kind="enumvalue"><name>Drop</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaad8783089f828b927473fb61d51940ec" kind="enumvalue"><name>Use</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea0557fa923dcee4d0f86b1409f5c2167f" kind="enumvalue"><name>Back</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea0d82790b0612935992bd564a17ce37d6" kind="enumvalue"><name>Quit</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea4059b0251f66a18cb56f544728796875" kind="enumvalue"><name>Info</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea4ac740aa7097749d0a1cac65fd19fe67" kind="enumvalue"><name>InvalidAction</name></member>
+    <member refid="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaf357105e6becc3076a3da9b43465051a" kind="enumvalue"><name>Heal</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1aa90f3e89fc3fe477370afb9f81975081" kind="define"><name>MEMTRACE</name></member>
+    <member refid="main_8cpp_1ab946e2e7f7679350627acfded8e2658b" kind="define"><name>TEST</name></member>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="memtrace_8cpp" kind="file"><name>memtrace.cpp</name>
+  </compound>
+  <compound refid="memtrace_8h" kind="file"><name>memtrace.h</name>
+  </compound>
+  <compound refid="_player_8cpp" kind="file"><name>Player.cpp</name>
+  </compound>
+  <compound refid="_player_8h" kind="file"><name>Player.h</name>
+  </compound>
+  <compound refid="_storage_8cpp" kind="file"><name>Storage.cpp</name>
+    <member refid="_storage_8cpp_1a201ab4a64017c3d7e6ac1f051a379d6c" kind="variable"><name>AttackWithItem</name></member>
+    <member refid="_storage_8cpp_1a6bf3f3665753dc5f4cdff25cb24aa07c" kind="variable"><name>AllInfoItem</name></member>
+  </compound>
+  <compound refid="_storage_8h" kind="file"><name>Storage.h</name>
+  </compound>
+  <compound refid="_string_8cpp" kind="file"><name>String.cpp</name>
+    <member refid="_string_8cpp_1af08ec37a8c99d747fb60fa15bc28678b" kind="define"><name>_CRT_SECURE_NO_WARNINGS</name></member>
+    <member refid="_string_8cpp_1a508bb7af1f4acc4618a4a3094e33348f" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="_string_8cpp_1aea8ed420ad5e70828bc42b0fb9b49366" kind="function"><name>operator&gt;&gt;</name></member>
+  </compound>
+  <compound refid="_string_8h" kind="file"><name>String.h</name>
+    <member refid="_string_8h_1a508bb7af1f4acc4618a4a3094e33348f" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="_string_8h_1aea8ed420ad5e70828bc42b0fb9b49366" kind="function"><name>operator&gt;&gt;</name></member>
+  </compound>
+  <compound refid="test_8cpp" kind="file"><name>test.cpp</name>
+    <member refid="test_8cpp_1a68df6a1c0e7634ba32a66f9f01d4cb6f" kind="define"><name>TESTING</name></member>
+    <member refid="test_8cpp_1aa90f3e89fc3fe477370afb9f81975081" kind="define"><name>MEMTRACE</name></member>
+    <member refid="test_8cpp_1ae1a3968e7947464bee7714f6d43b7002" kind="function"><name>test</name></member>
+    <member refid="test_8cpp_1a69d459bf30a58e82c292110d54844118" kind="function"><name>iniWSTest</name></member>
+    <member refid="test_8cpp_1a182b99b0c667cd64f9eea697ac2a0428" kind="function"><name>iniTest</name></member>
+  </compound>
+  <compound refid="test_8h" kind="file"><name>test.h</name>
+    <member refid="test_8h_1ae1a3968e7947464bee7714f6d43b7002" kind="function"><name>test</name></member>
+    <member refid="test_8h_1a182b99b0c667cd64f9eea697ac2a0428" kind="function"><name>iniTest</name></member>
+    <member refid="test_8h_1a69d459bf30a58e82c292110d54844118" kind="function"><name>iniWSTest</name></member>
+  </compound>
+  <compound refid="_weapon_shield_8txt" kind="file"><name>WeaponShield.txt</name>
+    <member refid="_weapon_shield_8txt_1af5692382d97b90877260f9c0da34dad5" kind="variable"><name>world</name></member>
+    <member refid="_weapon_shield_8txt_1a6394fabedcfb564c42801ba2c231e209" kind="variable"><name>damage</name></member>
+    <member refid="_weapon_shield_8txt_1a5f497e92da2817ec5a4f147ca6beee09" kind="variable"><name>mobile</name></member>
+    <member refid="_weapon_shield_8txt_1a296b436c72bc99d0434e2f0a8533e49c" kind="variable"><name>shield</name></member>
+    <member refid="_weapon_shield_8txt_1a257108c11d6cd66d979d5cf36a655d7a" kind="variable"><name>nice</name></member>
+  </compound>
+</doxygenindex>

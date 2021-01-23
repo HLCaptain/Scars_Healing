@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="test_8cpp" kind="file" language="C++">
+    <compoundname>test.cpp</compoundname>
+    <includes refid="test_8h" local="yes">test.h</includes>
+    <includes refid="gtest__lite_8h" local="yes">gtest_lite.h</includes>
+    <includes refid="memtrace_8h" local="yes">memtrace.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>IniGame.h</label>
+        <link refid="_ini_game_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>limits</label>
+      </node>
+      <node id="2">
+        <label>test.h</label>
+        <link refid="test_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>fstream</label>
+      </node>
+      <node id="16">
+        <label>gtest_lite.h</label>
+        <link refid="gtest__lite_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp</label>
+        <link refid="test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Actions.h</label>
+        <link refid="_actions_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+      <node id="11">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="test_8cpp_1a68df6a1c0e7634ba32a66f9f01d4cb6f" prot="public" static="no">
+        <name>TESTING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" line="5" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="test_8cpp_1aa90f3e89fc3fe477370afb9f81975081" prot="public" static="no">
+        <name>MEMTRACE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" line="6" column="9" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="test_8cpp_1ae1a3968e7947464bee7714f6d43b7002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <briefdescription>
+<para>Basic Constructing tests. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Checking if initialized well</para>
+<para>Checking if initialized well</para>
+<para>Attacking the <ref refid="class_enemy" kindref="compound">Enemy</ref></para>
+<para>Attacking the <ref refid="class_player" kindref="compound">Player</ref></para>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" line="9" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" bodystart="9" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="test_8cpp_1a69d459bf30a58e82c292110d54844118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void iniWSTest</definition>
+        <argsstring>(GenericArray&lt; Item &gt; &amp;WSItems)</argsstring>
+        <name>iniWSTest</name>
+        <param>
+          <type><ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; <ref refid="class_item" kindref="compound">Item</ref> &gt; &amp;</type>
+          <declname>WSItems</declname>
+        </param>
+        <briefdescription>
+<para>Tests if iniWS worked properly. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" line="112" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="test_8cpp_1a182b99b0c667cd64f9eea697ac2a0428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void iniTest</definition>
+        <argsstring>()</argsstring>
+        <name>iniTest</name>
+        <briefdescription>
+<para>Initiates everything, then deletes it xd. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" line="120" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;test.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gtest_lite.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;memtrace.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TESTING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEMTRACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test()<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_storage" kindref="compound">Storage</ref><sp/>Test(</highlight><highlight class="stringliteral">&quot;Adventure<sp/>Backpack&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Classic<sp/>backpack<sp/>for<sp/>adventures,<sp/>light,<sp/>but<sp/>can<sp/>carry<sp/>some<sp/>items<sp/>as<sp/>well.&quot;</highlight><highlight class="normal">,<sp/>10);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//static<sp/>Storage<sp/>World(&quot;World&quot;,<sp/>&quot;World&quot;,<sp/>20);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>TESTING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;test<sp/>begin&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST(PlayerTest,<sp/>Sanity)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>RandomPlayer;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_STREQ(</highlight><highlight class="stringliteral">&quot;Player<sp/>Name&quot;</highlight><highlight class="normal">,<sp/>RandomPlayer.<ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(100,<sp/>RandomPlayer.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(100,<sp/>RandomPlayer.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(5,<sp/>RandomPlayer.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>());</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(5,<sp/>RandomPlayer.<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(0,<sp/>RandomPlayer.<ref refid="class_player_1ae75067ad3412686357d94ee1dd8d45b8" kindref="member">getGold</ref>());</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>ENDMsg(</highlight><highlight class="stringliteral">&quot;Bad<sp/>Player<sp/>Attributes\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST(EnemyTest,<sp/>Sanity)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>RandomEnemy;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_STREQ(</highlight><highlight class="stringliteral">&quot;Enemy<sp/>Name&quot;</highlight><highlight class="normal">,<sp/>RandomEnemy.<ref refid="class_entity_1a915cd93caa3a2730a58c74c404e0df6d" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(100,<sp/>RandomEnemy.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(100,<sp/>RandomEnemy.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(5,<sp/>RandomEnemy.<ref refid="class_entity_1ae28f385cd28512190092c60f4ef03e4b" kindref="member">getBaseDMG</ref>());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(5,<sp/>RandomEnemy.<ref refid="class_entity_1a181a9ed8c2f4b8cbf2c1799808840b98" kindref="member">getBaseDEF</ref>());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>ENDMsg(</highlight><highlight class="stringliteral">&quot;Bad<sp/>Enemy<sp/>Attributes\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST(PlayerTest,<sp/>AttackEnemy)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>RandomEnemy;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>RandomPlayer;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RandomPlayer.<ref refid="class_player_1ae30e579efad256523585a947932bcf7f" kindref="member">attackEnemy</ref>(RandomEnemy);<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_GT(RandomEnemy.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomEnemy.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_GT(RandomPlayer.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomPlayer.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>ENDMsg(</highlight><highlight class="stringliteral">&quot;Attack<sp/>of<sp/>Player<sp/>is<sp/>implemented<sp/>bad.\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST(PlayerTest,<sp/>AttackEnemy)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>RandomEnemy;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>RandomPlayer;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RandomEnemy.<ref refid="class_enemy_1a558ca434ca4938c167580db520d2a7d1" kindref="member">attackPlayer</ref>(RandomPlayer);<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(RandomEnemy.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomEnemy.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_GT(RandomPlayer.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomPlayer.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>ENDMsg(</highlight><highlight class="stringliteral">&quot;Attack<sp/>of<sp/>Enemy<sp/>is<sp/>implemented<sp/>bad.\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST(PlayerTest,<sp/>InventoryTests)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref><sp/>LevanderEssence(ItemType::HealPotion,<sp/></highlight><highlight class="stringliteral">&quot;Levander<sp/>Essence&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Extracted<sp/>serum<sp/>of<sp/>a<sp/>Levander,<sp/>grew<sp/>in<sp/>the<sp/>Alpine<sp/>Mountains.&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>50);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>RandomPlayer(</highlight><highlight class="stringliteral">&quot;Bruh&quot;</highlight><highlight class="normal">,<sp/>100,<sp/>150,<sp/>10,<sp/>10,<sp/>10);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref><sp/>RandomWeapon;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RandomPlayer.<ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1aa88b5b4b101807e0629c2b2af6476dcf" kindref="member">add</ref>(LevanderEssence);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_STREQ(</highlight><highlight class="stringliteral">&quot;Levander<sp/>Essence&quot;</highlight><highlight class="normal">,<sp/>LevanderEssence.getName());</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(50,<sp/>LevanderEssence.getHeal());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(1,<sp/>RandomPlayer.<ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" kindref="member">getSize</ref>());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_GT(RandomPlayer.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomPlayer.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RandomPlayer.<ref refid="class_player_1abcb7d3223f85a71cc8c69dee6f87f3e4" kindref="member">Heal</ref>(0);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(RandomPlayer.<ref refid="class_entity_1a29a6b9846b3059a41c81858a744d6c33" kindref="member">getMaxHP</ref>(),<sp/>RandomPlayer.<ref refid="class_entity_1a2e1e28a69df4f3e85056fd00425373c1" kindref="member">getHP</ref>());</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(0,<sp/>RandomPlayer.<ref refid="class_player_1af5869694206295777e8f6c104c9165cb" kindref="member">getStorageType</ref>().<ref refid="class_storage_1aa035fcad7dee4519f3d2e33559723b76" kindref="member">getSize</ref>());</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>ENDMsg(</highlight><highlight class="stringliteral">&quot;Inventory<sp/>system<sp/>is<sp/>implemented<sp/>bad.\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>HLCaptain(&quot;HLCaptain&quot;,<sp/>200,<sp/>200,<sp/>5,<sp/>5,<sp/>0,<sp/>Test);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>E1(&quot;Mastermind<sp/>aka<sp/>Will&quot;,<sp/>100000,<sp/>99,<sp/>50,<sp/>50);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>HLCaptain.getInfoEntity();<sp/></highlight><highlight class="comment">//writing<sp/>out<sp/>info<sp/>of<sp/>player</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>E1.getInfoEntity();<sp/></highlight><highlight class="comment">//writing<sp/>out<sp/>info<sp/>of<sp/>enemy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>HLCaptain.getStorageType().getInfo();<sp/></highlight><highlight class="comment">//writing<sp/>out<sp/>info<sp/>of<sp/>bakpak</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>HLCaptain.attackEnemy(E1);<sp/></highlight><highlight class="comment">//attacking<sp/>e1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>HLCaptain.getInfoEntity();<sp/></highlight><highlight class="comment">//writing<sp/>out<sp/>info<sp/>of<sp/>player,<sp/>hp<sp/>changed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>E1.getInfoEntity();<sp/></highlight><highlight class="comment">//writing<sp/>out<sp/>info<sp/>of<sp/>enemy,<sp/>hp<sp/>changed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/>PName,<sp/>EName;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Player<sp/>Name:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cin<sp/>&gt;&gt;<sp/>PName;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enemy<sp/>Name:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cin<sp/>&gt;&gt;<sp/>EName;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_player" kindref="compound">Player</ref><sp/>HLCaptain(PName.getStr(),<sp/>300,<sp/>300,<sp/>10,<sp/>10,<sp/>42,<sp/>Test);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_enemy" kindref="compound">Enemy</ref><sp/>E1(EName.getStr(),<sp/>100000,<sp/>99,<sp/>50,<sp/>50);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref><sp/>LevanderEssence(ItemType::HealPotion,<sp/></highlight><highlight class="stringliteral">&quot;Levander<sp/>Essence&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Extracted<sp/>serum<sp/>of<sp/>a<sp/>Levander,<sp/>grew<sp/>in<sp/>the<sp/>Alpine<sp/>Mountains.&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>50);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Adding<sp/>a<sp/>weapon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Item&gt;</ref><sp/>WSItems<sp/>=<sp/>iniWS();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>WSItems.<ref refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" kindref="member">add</ref>(LevanderEssence);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>TESTING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>WSItems.<ref refid="class_generic_array_1ae4ae44086d5c63a9c88bf3b0a6c44069" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref><sp/>WS(ItemType::WeaponShield,<sp/></highlight><highlight class="stringliteral">&quot;Sword<sp/>Of<sp/>Blaise&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>epic<sp/>sword<sp/>lets<sp/>you<sp/>change<sp/>the<sp/>world,<sp/>but<sp/>you<sp/>have<sp/>to<sp/>let<sp/>it<sp/>guide<sp/>your<sp/>way.&quot;</highlight><highlight class="normal">,<sp/>50,<sp/>1.2,<sp/>20,<sp/>1.2);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>WSItems.<ref refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" kindref="member">add</ref>(WS);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>iniWSTest(WSItems);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Enemy&gt;</ref><sp/>Enemies;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>Enemies.<ref refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" kindref="member">add</ref>(E1);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>Enemies.<ref refid="class_generic_array_1a6ba41303a7269590b84ec818b7be2b1f" kindref="member">add</ref>(E1);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>WSItems.<ref refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" kindref="member">getSize</ref>();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//World.add(WSItems[i]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HLCaptain.getStorageType().add(WSItems[i]);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>TESTING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>HLCaptain.getStorageType().getInfoItems();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>4;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HLCaptain.attackEnemy(E1,<sp/>WS);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item" kindref="compound">Item</ref>*<sp/>randomitem<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_item" kindref="compound">Item</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>actionSeq(HLCaptain,<sp/>Enemies);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>GTEND(std::cerr);<sp/></highlight><highlight class="comment">//<sp/>Need<sp/>for<sp/>JPorta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>iniWSTest(<ref refid="class_generic_array" kindref="compound">GenericArray&lt;Item&gt;</ref>&amp;<sp/>WSItems)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>WSItems.<ref refid="class_generic_array_1a5dbfcd8d8b33fe3806650d7aa3e1ca88" kindref="member">getSize</ref>();<sp/>i++)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WSItems[i].getInfoItems();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>iniTest()<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Initialization<sp/>test<sp/>on<sp/>Weapons/Shield<sp/>Items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//size_t<sp/>NumWS;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Item&gt;</ref><sp/>WSItems<sp/>=<sp/>iniWS();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>iniWSTest(WSItems);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.cpp"/>
+  </compounddef>
+</doxygen>

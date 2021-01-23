@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_item_8h" kind="file" language="C++">
+    <compoundname>Item.h</compoundname>
+    <includes refid="_string_8h" local="yes">String.h</includes>
+    <includes refid="_info_preset_8h" local="yes">InfoPreset.h</includes>
+    <includes refid="_generic_array_8h" local="yes">GenericArray.h</includes>
+    <includedby refid="_actions_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</includedby>
+    <includedby refid="_storage_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</includedby>
+    <includedby refid="_actions_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp</includedby>
+    <includedby refid="_ini_game_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/IniGame.h</includedby>
+    <includedby refid="_ini_game_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/IniGame.cpp</includedby>
+    <includedby refid="_item_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.cpp</includedby>
+    <includedby refid="test_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h</label>
+        <link refid="_item_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/IniGame.h</label>
+        <link refid="_ini_game_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</label>
+        <link refid="test_8h_source"/>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h</label>
+        <link refid="_item_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_item" prot="public">Item</innerclass>
+    <innerclass refid="class_attribute_check" prot="public">AttributeCheck</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_item_8h_1a443f647757dde85043b49343f5cbe66b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ItemType</name>
+        <enumvalue id="_item_8h_1a443f647757dde85043b49343f5cbe66badc37671057add13a72d492daab5cb991" prot="public">
+          <name>WeaponShield</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1a443f647757dde85043b49343f5cbe66ba19a03a20b6c19fe26454d3bbe02c4e7c" prot="public">
+          <name>HealPotion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1a443f647757dde85043b49343f5cbe66ba513257773a92dc37c274268951232c57" prot="public">
+          <name>Vanity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1a443f647757dde85043b49343f5cbe66ba4027ea0f4a500f00db86ab0babaed3a1" prot="public">
+          <name>WSUpgrade</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Types of an <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="9" column="20" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="enum" id="_item_8h_1aa599f300d0bf10bb54eba7138a53069e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>UseCases</name>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaf683581d3e75f05f9d9215f9b4696cef" prot="public">
+          <name>Upgrade</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea3e679cff5b3a6f6f8f32aead541a0a12" prot="public">
+          <name>Drop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaad8783089f828b927473fb61d51940ec" prot="public">
+          <name>Use</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea0557fa923dcee4d0f86b1409f5c2167f" prot="public">
+          <name>Back</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea0d82790b0612935992bd564a17ce37d6" prot="public">
+          <name>Quit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069ea4ac740aa7097749d0a1cac65fd19fe67" prot="public">
+          <name>InvalidAction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_item_8h_1aa599f300d0bf10bb54eba7138a53069eaf357105e6becc3076a3da9b43465051a" prot="public">
+          <name>Heal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Usecases of an <ref refid="class_item" kindref="compound">Item</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" line="12" column="20" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ITEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ITEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InfoPreset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GenericArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>ItemType<sp/>{<sp/>WeaponShield,<sp/>HealPotion,<sp/>Vanity,<sp/>WSUpgrade<sp/>};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>UseCases<sp/>{<sp/>Upgrade,<sp/>Drop,<sp/>Use,<sp/>Back,<sp/>Quit,<sp/>Info,<sp/>InvalidAction,<sp/>Heal<sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_item" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_item" kindref="compound">Item</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_item_1a3edbb83631f06482d730c40274303cff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ItemType<sp/><ref refid="class_item_1a3edbb83631f06482d730c40274303cff" kindref="member">Type</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_item_1a6e207ac9149f817300e4768364121a1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_item_1a6e207ac9149f817300e4768364121a1a" kindref="member">Name</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_string" kindref="compound">String</ref><sp/><ref refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" kindref="member">Desc</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" kindref="member">BonusDMG</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" kindref="member">BonusDMGM</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_item_1ad388c129ab403ade13ce29805b9681be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1ad388c129ab403ade13ce29805b9681be" kindref="member">BonusDEF</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" kindref="member">BonusDEFM</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="class_item_1ada814105fc6f052430099c7360894677" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1ada814105fc6f052430099c7360894677" kindref="member">Heal</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_item_1a923f7c918c68bf7c3cb209ed36b27bf6" kindref="member">Item</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ItemType<sp/><ref refid="class_item_1a3edbb83631f06482d730c40274303cff" kindref="member">Type</ref><sp/>=<sp/>ItemType::WeaponShield,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_item_1a6e207ac9149f817300e4768364121a1a" kindref="member">Name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DisItem&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_item_1a032f02ca3ec9363ef64bec0f30602a6b" kindref="member">Desc</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>is<sp/>an<sp/>Item.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="class_item_1ad1940a1ea5e360d5b33ee56b4a7dba5f" kindref="member">BonusDMG</ref><sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="class_item_1ac194138629f961fdd7bf0f29cf134ef5" kindref="member">BonusDMGM</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="class_item_1ad388c129ab403ade13ce29805b9681be" kindref="member">BonusDEF</ref><sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="class_item_1a06ae954fed310fd7c8f8c65949705c4f" kindref="member">BonusDEFM</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/><ref refid="class_item_1ada814105fc6f052430099c7360894677" kindref="member">Heal</ref><sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_item_1a11663c84075b78c3ae5e30fdfcd7c458" kindref="member">~Item</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::ostream&amp;<sp/><ref refid="class_item_1a4caaf2b256d1ad62f407e279681ccee9" kindref="member">getInfoItems</ref>(<ref refid="class_info_preset" kindref="compound">InfoPreset</ref><sp/>Preset<sp/>=<sp/><ref refid="class_info_preset" kindref="compound">InfoPreset</ref>(),<sp/>std::ostream&amp;<sp/>os<sp/>=<sp/>std::cout);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_item_1a32fb1297deede82e47cf3f6409cdbf92" kindref="member">getName</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="class_item_1a0c339e14321d3aaf6d651891d1a97c6d" kindref="member">getDesc</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a9ed44cf1cdb50cbc39ed41d081337729" kindref="member">getBonusDMG</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a6931ae5d9be963413fd6e4d018eb2138" kindref="member">getBonusDMGM</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a3f52d268bd88e1d81c1b85c5c6e105e6" kindref="member">getBonusDEF</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a08c71af1bcade0be8bb4b64d8b1617d0" kindref="member">getBonusDEFM</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_item_1a6ef1028da0417aed6a81e050642b2a31" kindref="member">getHeal</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>ItemType<sp/><ref refid="class_item_1afaaef88ed00da21815eb04565994054b" kindref="member">getType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>UseCases<sp/><ref refid="class_item_1a62464320466289a8fe2943ca5c68fa35" kindref="member">useItem</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>C&gt;</highlight></codeline>
+<codeline lineno="80" refid="class_attribute_check" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_attribute_check" kindref="compound">AttributeCheck</ref><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>C<sp/>Attribute;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="85" refid="class_attribute_check_1ac0187a63fa11508f87c65ab63997ddc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_attribute_check_1ac0187a63fa11508f87c65ab63997ddc9" kindref="member">AttributeCheck</ref>(C<sp/>Attribute)<sp/>:<sp/>Attribute(Attribute)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_attribute_check_1a9d9a6ab53ff5e9690242b962e3389720" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_attribute_check_1a9d9a6ab53ff5e9690242b962e3389720" kindref="member">operator()</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>C&amp;<sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c<sp/>==<sp/>Attribute;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="class_attribute_check_1a7c88051e4c2202b4a1c0147643cd7d13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_attribute_check_1a7c88051e4c2202b4a1c0147643cd7d13" kindref="member">operator()</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c.<ref refid="class_item_1afaaef88ed00da21815eb04565994054b" kindref="member">getType</ref>()<sp/>==<sp/>Attribute;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//ITEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Item.h"/>
+  </compounddef>
+</doxygen>

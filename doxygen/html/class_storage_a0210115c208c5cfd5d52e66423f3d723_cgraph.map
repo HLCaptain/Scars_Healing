@@ -1,0 +1,5 @@
+<map id="Storage::remove" name="Storage::remove">
+<area shape="rect" id="node1" title="Removes an Item from the Storage according to its index." alt="" coords="5,31,121,57"/>
+<area shape="rect" id="node2" href="$class_generic_array.html#a5dbfcd8d8b33fe3806650d7aa3e1ca88" title="Get Size of the Array." alt="" coords="169,5,320,32"/>
+<area shape="rect" id="node3" href="$class_generic_array.html#ac934ab0bd415faae866e173bde54c564" title="Removes an Element from the Array." alt="" coords="171,56,318,83"/>
+</map>

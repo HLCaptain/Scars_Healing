@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_actions_8h" kind="file" language="C++">
+    <compoundname>Actions.h</compoundname>
+    <includes refid="_item_8h" local="yes">Item.h</includes>
+    <includes refid="_player_8h" local="yes">Player.h</includes>
+    <includes refid="_enemy_8h" local="yes">Enemy.h</includes>
+    <includes refid="_generic_array_8h" local="yes">GenericArray.h</includes>
+    <includedby refid="_actions_8cpp" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp</includedby>
+    <includedby refid="test_8h" local="yes">Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>Entity.h</label>
+        <link refid="_entity_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GenericArray.h</label>
+        <link refid="_generic_array_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Item.h</label>
+        <link refid="_item_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Player.h</label>
+        <link refid="_player_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>Storage.h</label>
+        <link refid="_storage_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InfoPreset.h</label>
+        <link refid="_info_preset_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>String.h</label>
+        <link refid="_string_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memtrace.h</label>
+        <link refid="memtrace_8h_source"/>
+      </node>
+      <node id="9">
+        <label>Enemy.h</label>
+        <link refid="_enemy_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/test.h</label>
+        <link refid="test_8h_source"/>
+      </node>
+      <node id="1">
+        <label>Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h</label>
+        <link refid="_actions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ActionEnums</name>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a48a85c6e4ed770915789f3aaa30d3bf9" prot="public">
+          <name>DecidePhase</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2ac5dd598b4961d46107c4eab4db2d3686" prot="public">
+          <name>WeaponSelection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a839728b9e43f02cb4cc40e8a470784be" prot="public">
+          <name>EnemySelection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2aca564ef98f97e5194dcc35517083c8ef" prot="public">
+          <name>ItemSelection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2ac86b54aa6def7c714d3a5a8843a530c5" prot="public">
+          <name>PlayerDead</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a0d82790b0612935992bd564a17ce37d6" prot="public">
+          <name>Quit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_actions_8h_1a8b274fff586d82824a60f35064a9d6a2a41f2d8b8a49fc6bb02d5c0f97b7a4548" prot="public">
+          <name>EnemiesDead</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>States. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" line="10" column="23" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_actions_8h_1a8e9bf099048fadcc567ca161af351115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t getWSNum</definition>
+        <argsstring>(Player &amp;PLYR, ActionEnums &amp;ActionState)</argsstring>
+        <name>getWSNum</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>PLYR</declname>
+        </param>
+        <param>
+          <type>ActionEnums &amp;</type>
+          <declname>ActionState</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an element from an Array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the number of the <ref refid="class_item" kindref="compound">Item</ref>, the <ref refid="class_player" kindref="compound">Player</ref> has chosen</para>
+<para>Deletes an element from an Array. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" line="17" column="8" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp" bodystart="13" bodyend="38" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" declline="17" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_actions_8h_1a0c1dab37502fd39cdf9c472840bf9061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ActionEnums</type>
+        <definition>ActionEnums attackSeq</definition>
+        <argsstring>(Player &amp;PLYR, GenericArray&lt; Enemy &gt; &amp;Enemies, Item &amp;CWS)</argsstring>
+        <name>attackSeq</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>PLYR</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; <ref refid="class_enemy" kindref="compound">Enemy</ref> &gt; &amp;</type>
+          <declname>Enemies</declname>
+        </param>
+        <param>
+          <type><ref refid="class_item" kindref="compound">Item</ref> &amp;</type>
+          <declname>CWS</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_player" kindref="compound">Player</ref> Chooses an enemy to attack, <ref refid="class_enemy" kindref="compound">Enemy</ref> and <ref refid="class_player" kindref="compound">Player</ref> can die. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" line="20" column="13" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp" bodystart="41" bodyend="83" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" declline="20" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="_actions_8h_1a7eb93e7bdb8fbb7d7e8d3565ec2d471b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ActionEnums</type>
+        <definition>ActionEnums decideSeq</definition>
+        <argsstring>(Player &amp;PLYR, const size_t &amp;EnemyNum)</argsstring>
+        <name>decideSeq</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>PLYR</declname>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>EnemyNum</declname>
+        </param>
+        <briefdescription>
+<para>Decide the Action you want to make. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" line="23" column="13" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp" bodystart="86" bodyend="143" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" declline="23" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="_actions_8h_1a105db9417214a7eb54a51fc63ee3082d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void actionSeq</definition>
+        <argsstring>(Player &amp;PLYR, GenericArray&lt; Enemy &gt; &amp;Enemies)</argsstring>
+        <name>actionSeq</name>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref> &amp;</type>
+          <declname>PLYR</declname>
+        </param>
+        <param>
+          <type><ref refid="class_generic_array" kindref="compound">GenericArray</ref>&lt; <ref refid="class_enemy" kindref="compound">Enemy</ref> &gt; &amp;</type>
+          <declname>Enemies</declname>
+        </param>
+        <briefdescription>
+<para>Statemachine of an Action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" line="26" column="6" bodyfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.cpp" bodystart="200" bodyend="262" declfile="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ACTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ACTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Item.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Player.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Enemy.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GenericArray.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>ActionEnums<sp/>{<sp/>DecidePhase,<sp/>WeaponSelection,<sp/>EnemySelection,<sp/>ItemSelection,<sp/>PlayerDead,<sp/>Quit,<sp/>EnemiesDead<sp/>};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">//template&lt;typename<sp/>T&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>deleteElement(T*<sp/>Array,<sp/>size_t&amp;<sp/>ArraySize,<sp/>size_t<sp/>Index);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>getWSNum(<ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>PLYR,<sp/>ActionEnums&amp;<sp/>ActionState);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">ActionEnums<sp/>attackSeq(<ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>PLYR,<sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Enemy&gt;</ref>&amp;<sp/>Enemies,<sp/><ref refid="class_item" kindref="compound">Item</ref>&amp;<sp/>CWS);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">ActionEnums<sp/>decideSeq(<ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>PLYR,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>EnemyNum);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>actionSeq(<ref refid="class_player" kindref="compound">Player</ref>&amp;<sp/>PLYR,<sp/><ref refid="class_generic_array" kindref="compound">GenericArray&lt;Enemy&gt;</ref>&amp;<sp/>Enemies);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//ACTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Y:/OneDrive VAQR_8066/OneDrive - Kormányzati Informatikai Fejlesztési Ügynökség/Iskola/Prog2/NHF/Scars_Healing/Actions.h"/>
+  </compounddef>
+</doxygen>

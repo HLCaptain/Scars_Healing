@@ -1,0 +1,110 @@
+.TH "Entity" 3 "Tue May 5 2020" "Scars_Healing" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Entity \- An alive \fBEntity\fP can be a \fBPlayer\fP or an \fBEnemy\fP (for now)\&. It has HP, a Name and basic attributes, like BaseDMG and BaseDEF\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Entity\&.h>\fP
+.PP
+Inherited by \fBEnemy\fP, and \fBPlayer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEntity\fP (const char *Name, double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)"
+.br
+.RI "Constructor\&. "
+.ti -1c
+.RI "\fBEntity\fP (double HP=100, double MaxHP=100, double BaseDMG=5, double BaseDEF=5)"
+.br
+.RI "Default Constructor\&. "
+.ti -1c
+.RI "virtual \fB~Entity\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "const char * \fBgetName\fP ()"
+.br
+.RI "Gets \fBEntity\fP's name\&. "
+.ti -1c
+.RI "double \fBgetBaseDMG\fP ()"
+.br
+.RI "Gets \fBEntity\fP's Base Damage\&. "
+.ti -1c
+.RI "double \fBgetBaseDEF\fP ()"
+.br
+.RI "Gets \fBEntity\fP's Base Defense\&. "
+.ti -1c
+.RI "double \fBgetHP\fP ()"
+.br
+.RI "Gets \fBEntity\fP's HP\&. "
+.ti -1c
+.RI "double \fBgetMaxHP\fP ()"
+.br
+.RI "Gets \fBEntity\fP's MaxHP\&. "
+.ti -1c
+.RI "void \fBsetHP\fP (const double hp)"
+.br
+.RI "Sets \fBEntity\fP's HP\&. "
+.ti -1c
+.RI "virtual std::ostream & \fBgetInfoEntity\fP (\fBInfoPreset\fP Preset=\fBInfoPreset\fP(), std::ostream &os=std::cout)=0"
+.br
+.RI "Displays the info of an \fBEntity\fP, dynamically controlable with an \fBInfoPreset\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+An alive \fBEntity\fP can be a \fBPlayer\fP or an \fBEnemy\fP (for now)\&. It has HP, a Name and basic attributes, like BaseDMG and BaseDEF\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Entity::Entity (const char * Name, double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP)"
+
+.PP
+Constructor\&. 
+.SS "Entity::Entity (double HP = \fC100\fP, double MaxHP = \fC100\fP, double BaseDMG = \fC5\fP, double BaseDEF = \fC5\fP)"
+
+.PP
+Default Constructor\&. 
+.SS "Entity::~Entity ()\fC [virtual]\fP"
+
+.PP
+Destructor\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "double Entity::getBaseDEF ()"
+
+.PP
+Gets \fBEntity\fP's Base Defense\&. 
+.SS "double Entity::getBaseDMG ()"
+
+.PP
+Gets \fBEntity\fP's Base Damage\&. 
+.SS "double Entity::getHP ()"
+
+.PP
+Gets \fBEntity\fP's HP\&. 
+.SS "virtual std::ostream& Entity::getInfoEntity (\fBInfoPreset\fP Preset = \fC\fBInfoPreset\fP()\fP, std::ostream & os = \fCstd::cout\fP)\fC [pure virtual]\fP"
+
+.PP
+Displays the info of an \fBEntity\fP, dynamically controlable with an \fBInfoPreset\fP\&. 
+.PP
+Implemented in \fBEnemy\fP, and \fBPlayer\fP\&.
+.SS "double Entity::getMaxHP ()"
+
+.PP
+Gets \fBEntity\fP's MaxHP\&. 
+.SS "const char * Entity::getName ()"
+
+.PP
+Gets \fBEntity\fP's name\&. 
+.SS "void Entity::setHP (const double hp)"
+
+.PP
+Sets \fBEntity\fP's HP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Scars_Healing from the source code\&.
